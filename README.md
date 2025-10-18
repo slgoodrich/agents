@@ -21,7 +21,7 @@ This plugin suite provides comprehensive product management capabilities for Cla
 
 ## Key Features
 
-### 🎯 Complete PM Lifecycle Coverage
+### Complete PM Lifecycle Coverage
 
 **4 specialized plugins** covering strategy, discovery, growth, and execution:
 - **product-strategy**: Annual planning, competitive analysis, business modeling, OKRs
@@ -34,7 +34,7 @@ This plugin suite provides comprehensive product management capabilities for Cla
 - No dependencies between plugins - each works standalone
 - Seamless integration when plugins work together
 
-### ⚡ Hybrid Performance Architecture
+### Hybrid Performance Architecture
 
 **Strategic three-tier model approach** for optimal performance:
 
@@ -53,7 +53,7 @@ This plugin suite provides comprehensive product management capabilities for Cla
 - Deep expertise, nuanced decision-making, interactive conversations
 - Use for: Complex PM problems, strategic decisions, expert consultation
 
-### 🧩 Modular & Composable
+### Modular & Composable
 
 **Single responsibility** - Each plugin focuses on one PM domain:
 - Clear boundaries between strategy, discovery, growth, and execution
@@ -76,7 +76,7 @@ This plugin suite provides comprehensive product management capabilities for Cla
 - Parallel workflows (research + analysis simultaneously)
 - Iterative refinement (agent → command → agent)
 
-### 🎓 Built on Modern PM Best Practices
+### Built on Modern PM Best Practices
 
 **25 knowledge skills** covering frameworks from industry leaders:
 - **Prioritization**: RICE (Intercom), ICE (Sean Ellis), Kano, Value vs Effort, MoSCoW
@@ -160,7 +160,7 @@ This plugin suite provides comprehensive product management capabilities for Cla
 
 ## What's Included
 
-### 📋 product-strategy (26 items)
+### product-strategy (26 items)
 
 **Focus**: Strategic planning, competitive analysis, business modeling, roadmapping
 
@@ -174,7 +174,7 @@ This plugin suite provides comprehensive product management capabilities for Cla
 
 ---
 
-### 🔍 product-discovery (20 items)
+### product-discovery (20 items)
 
 **Focus**: Discovery, validation, research synthesis, assumption testing, PMF assessment
 
@@ -188,7 +188,7 @@ This plugin suite provides comprehensive product management capabilities for Cla
 
 ---
 
-### 📈 product-growth (21 items)
+### product-growth (21 items)
 
 **Focus**: Growth experiments, scaling, launches, ROI analysis
 
@@ -202,7 +202,7 @@ This plugin suite provides comprehensive product management capabilities for Cla
 
 ---
 
-### ⚙️ product-execution (40 items)
+### product-execution (40 items)
 
 **Focus**: Daily execution, shipping features, tactical PM work, process optimization
 
@@ -310,7 +310,7 @@ This approach delivers **30-40x cost efficiency** on routine tasks while maintai
 
 ---
 
-### ⚡ Tier 1: Haiku Tools (Fast Analysis)
+### Tier 1: Haiku Tools (Fast Analysis)
 
 **8 framework tools** using Claude Haiku 4 for speed and efficiency.
 
@@ -347,7 +347,7 @@ This approach delivers **30-40x cost efficiency** on routine tasks while maintai
 
 ---
 
-### 🎯 Tier 2: Sonnet Workflows (Complex Processes)
+### Tier 2: Sonnet Workflows (Complex Processes)
 
 **18 multi-step workflows** using Claude Sonnet 4.5 for orchestration.
 
@@ -402,7 +402,7 @@ This approach delivers **30-40x cost efficiency** on routine tasks while maintai
 
 ---
 
-### 🧠 Tier 3: Sonnet Agents (Expert Reasoning)
+### Tier 3: Sonnet Agents (Expert Reasoning)
 
 **18 specialized agents** using Claude Sonnet 4.5 for deep expertise.
 
@@ -655,7 +655,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
 ## Roadmap
 
-### Current (v1.0) ✅
+### Current (v1.0)
 -  **4 specialized plugins** (strategy, discovery, growth, execution)
 -  **107 total items**: 18 agents, 34 commands, 12 tools, 18 workflows, 25 skills
 -  **Hybrid performance**: Haiku tools (fast) + Sonnet workflows (strategic)
