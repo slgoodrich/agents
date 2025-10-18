@@ -635,29 +635,6 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
 ---
 
-## Roadmap
-
-### Current (v1.0)
--  **4 specialized plugins** (strategy, discovery, growth, execution)
--  **107 total items**: 18 agents, 34 commands, 12 tools, 18 workflows, 25 skills
--  **Hybrid performance**: Haiku tools (fast) + Sonnet workflows (strategic)
--  **64% token optimization** on framework tools
--  **Complete documentation**: Plugin READMEs, migration guides, architecture docs
-
-### Planned (v1.1)
--  Additional tools and workflows based on community feedback
--  Enhanced agent capabilities and specializations
--  Industry-specific plugins (B2B SaaS, consumer, marketplace, fintech)
--  Cross-plugin workflow orchestration examples
-
-### Future (v2.0+)
-- Templates library (PRD templates, OKR templates, research guides)
-- Integration plugins for PM tools (Jira, Linear, ProductBoard)
-- Metrics tracking and dashboards
-- Community-contributed plugins and extensions
-
----
-
 ## Examples & Templates
 
 ### Example Agents Usage
