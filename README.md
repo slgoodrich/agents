@@ -773,7 +773,6 @@ MIT License - See [LICENSE](LICENSE) for details
 ## Stay Connected
 
 - **Repository**: https://github.com/slgoodrich/agents
-- **Commands Repo**: https://github.com/slgoodrich/commands
 - **Issues**: Report bugs or request features
 - **Discussions**: Share use cases and ask questions
 
