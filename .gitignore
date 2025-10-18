@@ -24,6 +24,7 @@ Temporary Items
 
 # Claude Code local settings
 .claude/settings.local.json
+claude.md
 
 # Node
 node_modules/

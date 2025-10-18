@@ -11,9 +11,9 @@
   },
   "plugins": [
     {
-      "name": "product-management",
-      "source": "./plugins/product-management",
-      "description": "Complete PM toolkit with 18 specialized agents, 45 commands, and 25 framework skills covering strategy, discovery, delivery, and growth",
+      "name": "product-strategy",
+      "source": "./plugins/product-strategy",
+      "description": "Strategic planning, competitive analysis, business modeling, and roadmapping tools for product leaders",
       "version": "1.0.0",
       "author": {
         "name": "Steve Goodrich",
@@ -23,102 +23,237 @@
       "repository": "https://github.com/slgoodrich/agents",
       "license": "MIT",
       "keywords": [
-        "product-management",
-        "strategy",
+        "product-strategy",
         "roadmaps",
         "okr",
-        "user-research",
-        "prd",
-        "agile",
-        "scrum",
-        "prioritization",
-        "growth",
-        "gtm",
-        "product-ops",
-        "discovery",
-        "metrics",
-        "frameworks"
+        "competitive-analysis",
+        "swot",
+        "business-model",
+        "positioning",
+        "pricing",
+        "platform-strategy"
       ],
       "category": "product-management",
       "agents": [
-        "./agents/product-strategist.md",
-        "./agents/user-researcher.md",
-        "./agents/requirements-engineer.md",
-        "./agents/agile-coach.md",
-        "./agents/feature-prioritizer.md",
-        "./agents/gtm-planner.md",
-        "./agents/growth-pm.md",
-        "./agents/stakeholder-manager.md",
-        "./agents/technical-pm.md",
-        "./agents/data-scientist.md",
         "./agents/competitive-analyst.md",
-        "./agents/customer-insights.md",
-        "./agents/customer-success.md",
         "./agents/monetization-expert.md",
-        "./agents/api-product-manager.md",
         "./agents/platform-architect.md",
+        "./agents/product-strategist.md"
+      ],
+      "commands": [
+        "./commands/executive-summary.md",
+        "./commands/okr-framework.md",
+        "./commands/risk-assessment.md",
+        "./commands/roadmap-builder.md",
+        "./commands/scenario-planner.md",
+        "./commands/stakeholder-mapper.md"
+      ],
+      "tools": [
+        "./tools/business-model-canvas.md",
+        "./tools/competitive-positioning.md",
+        "./tools/market-sizing.md",
+        "./tools/swot-analysis.md",
+        "./tools/value-proposition-canvas.md"
+      ],
+      "workflows": [
+        "./workflows/annual-planning.md",
+        "./workflows/market-entry.md",
+        "./workflows/portfolio-optimization.md",
+        "./workflows/product-pivot.md",
+        "./workflows/quarterly-planning.md"
+      ],
+      "skills": [
+        "./skills/business-model-canvas/SKILL.md",
+        "./skills/platform-strategy/SKILL.md",
+        "./skills/pricing-packaging/SKILL.md",
+        "./skills/product-positioning/SKILL.md",
+        "./skills/product-strategy-frameworks/SKILL.md",
+        "./skills/vision-mission-strategy/SKILL.md"
+      ]
+    },
+    {
+      "name": "product-discovery",
+      "source": "./plugins/product-discovery",
+      "description": "Discovery, validation, research synthesis, and assumption testing for continuous product discovery",
+      "version": "1.0.0",
+      "author": {
+        "name": "Steve Goodrich",
+        "url": "https://github.com/slgoodrich"
+      },
+      "homepage": "https://github.com/slgoodrich/agents",
+      "repository": "https://github.com/slgoodrich/agents",
+      "license": "MIT",
+      "keywords": [
+        "product-discovery",
+        "user-research",
+        "validation",
+        "pmf",
+        "continuous-discovery",
+        "design-thinking",
+        "jobs-to-be-done",
+        "customer-insights"
+      ],
+      "category": "product-management",
+      "agents": [
+        "./agents/customer-insights.md",
         "./agents/discovery-facilitator.md",
-        "./agents/product-ops.md"
+        "./agents/user-researcher.md"
+      ],
+      "commands": [
+        "./commands/interview-guide.md",
+        "./commands/journey-mapper.md",
+        "./commands/mvp-scoper.md",
+        "./commands/persona-creator.md",
+        "./commands/research-synthesizer.md",
+        "./commands/survey-builder.md",
+        "./commands/usability-test-planner.md"
+      ],
+      "tools": [
+        "./tools/assumption-mapping.md",
+        "./tools/impact-mapping.md"
+      ],
+      "workflows": [
+        "./workflows/discovery-sprint.md",
+        "./workflows/pmf-assessment.md",
+        "./workflows/research-to-product.md",
+        "./workflows/solution-validation.md"
+      ],
+      "skills": [
+        "./skills/continuous-discovery/SKILL.md",
+        "./skills/design-thinking/SKILL.md",
+        "./skills/jobs-to-be-done/SKILL.md",
+        "./skills/user-research-techniques/SKILL.md"
+      ]
+    },
+    {
+      "name": "product-growth",
+      "source": "./plugins/product-growth",
+      "description": "Growth experiments, scaling playbooks, launches, and ROI analysis for accelerating product growth",
+      "version": "1.0.0",
+      "author": {
+        "name": "Steve Goodrich",
+        "url": "https://github.com/slgoodrich"
+      },
+      "homepage": "https://github.com/slgoodrich/agents",
+      "repository": "https://github.com/slgoodrich/agents",
+      "license": "MIT",
+      "keywords": [
+        "product-growth",
+        "growth-hacking",
+        "gtm",
+        "launches",
+        "experiments",
+        "roi",
+        "metrics",
+        "analytics",
+        "scaling"
+      ],
+      "category": "product-management",
+      "agents": [
+        "./agents/data-scientist.md",
+        "./agents/growth-pm.md",
+        "./agents/gtm-planner.md"
+      ],
+      "commands": [
+        "./commands/communication-plan.md",
+        "./commands/experiment-designer.md",
+        "./commands/impact-estimator.md",
+        "./commands/kpi-dashboard.md",
+        "./commands/release-planner.md"
+      ],
+      "tools": [
+        "./tools/cost-benefit-analysis.md",
+        "./tools/now-next-later-roadmap.md",
+        "./tools/roi-calculator.md"
+      ],
+      "workflows": [
+        "./workflows/beta-program.md",
+        "./workflows/growth-sprint.md",
+        "./workflows/product-launch.md",
+        "./workflows/scale-playbook.md"
+      ],
+      "skills": [
+        "./skills/experiment-design/SKILL.md",
+        "./skills/go-to-market-playbooks/SKILL.md",
+        "./skills/growth-frameworks/SKILL.md",
+        "./skills/metrics-frameworks/SKILL.md",
+        "./skills/product-analytics/SKILL.md",
+        "./skills/product-market-fit/SKILL.md"
+      ]
+    },
+    {
+      "name": "product-execution",
+      "source": "./plugins/product-execution",
+      "description": "Day-to-day execution, shipping features, process optimization, and tactical product management work",
+      "version": "1.0.0",
+      "author": {
+        "name": "Steve Goodrich",
+        "url": "https://github.com/slgoodrich"
+      },
+      "homepage": "https://github.com/slgoodrich/agents",
+      "repository": "https://github.com/slgoodrich/agents",
+      "license": "MIT",
+      "keywords": [
+        "product-execution",
+        "agile",
+        "scrum",
+        "delivery",
+        "backlog",
+        "sprint-planning",
+        "prd",
+        "user-stories",
+        "technical-debt"
+      ],
+      "category": "product-management",
+      "agents": [
+        "./agents/agile-coach.md",
+        "./agents/api-product-manager.md",
+        "./agents/customer-success.md",
+        "./agents/feature-prioritizer.md",
+        "./agents/product-ops.md",
+        "./agents/requirements-engineer.md",
+        "./agents/stakeholder-manager.md",
+        "./agents/technical-pm.md"
       ],
       "commands": [
         "./commands/alignment-session.md",
-        "./commands/api-documentation.md",
         "./commands/backlog-groomer.md",
         "./commands/capacity-planner.md",
         "./commands/decision-logger.md",
-        "./commands/dependency-mapper.md",
-        "./commands/design-handoff.md",
-        "./commands/edge-case-analyzer.md",
-        "./commands/executive-summary.md",
-        "./commands/experiment-designer.md",
-        "./commands/funnel-optimizer.md",
-        "./commands/impact-estimator.md",
-        "./commands/interview-guide.md",
-        "./commands/jtbd-framework.md",
-        "./commands/kpi-dashboard.md",
+        "./commands/doc-update.md",
         "./commands/meeting-agenda.md",
-        "./commands/mvp-scoper.md",
-        "./commands/okr-framework.md",
-        "./commands/one-pager.md",
-        "./commands/pi-planner.md",
+        "./commands/prd-generator.md",
+        "./commands/quick-answer.md",
+        "./commands/quick-prioritize.md",
         "./commands/release-notes.md",
-        "./commands/research-synthesizer.md",
-        "./commands/rfc-creator.md",
-        "./commands/risk-assessment.md",
-        "./commands/roadmap-builder.md",
+        "./commands/sprint-goal.md",
         "./commands/sprint-planner.md",
-        "./commands/stakeholder-mapper.md",
-        "./commands/survey-builder.md",
-        "./commands/timeline-builder.md",
-        "./commands/usability-test-planner.md",
+        "./commands/status-update.md",
+        "./commands/technical-spec-generator.md",
+        "./commands/ticket-review.md",
         "./commands/user-story-writer.md"
+      ],
+      "tools": [
+        "./tools/technical-debt-assessment.md",
+        "./tools/trade-off-analysis.md"
+      ],
+      "workflows": [
+        "./workflows/backlog-optimization.md",
+        "./workflows/crisis-management.md",
+        "./workflows/feature-lifecycle.md",
+        "./workflows/pm-process-audit.md",
+        "./workflows/sunset-product.md"
       ],
       "skills": [
         "./skills/agile-methodologies/SKILL.md",
         "./skills/api-product-management/SKILL.md",
-        "./skills/business-model-canvas/SKILL.md",
-        "./skills/continuous-discovery/SKILL.md",
-        "./skills/design-thinking/SKILL.md",
         "./skills/dual-track-agile/SKILL.md",
-        "./skills/experiment-design/SKILL.md",
-        "./skills/go-to-market-playbooks/SKILL.md",
-        "./skills/growth-frameworks/SKILL.md",
-        "./skills/jobs-to-be-done/SKILL.md",
         "./skills/lean-product-development/SKILL.md",
-        "./skills/metrics-frameworks/SKILL.md",
         "./skills/okr-methodology/SKILL.md",
-        "./skills/platform-strategy/SKILL.md",
-        "./skills/pricing-packaging/SKILL.md",
         "./skills/prioritization-methods/SKILL.md",
-        "./skills/product-analytics/SKILL.md",
-        "./skills/product-market-fit/SKILL.md",
-        "./skills/product-positioning/SKILL.md",
-        "./skills/product-strategy-frameworks/SKILL.md",
         "./skills/specification-techniques/SKILL.md",
         "./skills/story-mapping/SKILL.md",
-        "./skills/technical-debt-management/SKILL.md",
-        "./skills/user-research-techniques/SKILL.md",
-        "./skills/vision-mission-strategy/SKILL.md"
+        "./skills/technical-debt-management/SKILL.md"
       ]
     }
   ]
