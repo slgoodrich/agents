@@ -564,24 +564,6 @@ plugins/
 
 ---
 
-## Companion Repository
-
-For complex multi-agent workflows, check out [Commands Repository](https://github.com/slgoodrich/commands):
-
-**18 Multi-Agent Workflows** (1 week to 12 months):
-- Product strategy: Quarterly planning, annual planning, portfolio optimization
-- Discovery & research: Discovery sprints, solution validation, PMF assessment
-- Product development: Feature lifecycle, product launch, beta programs
-- Growth & scaling: Growth sprints, market entry, scaling playbooks
-- Strategic transformation: Product pivots, product sunset
-
-**12 Focused Tools** (minutes to hours):
-- Strategy tools: SWOT analysis, competitive positioning, business model canvas
-- Analysis tools: Market sizing, ROI calculator, cost-benefit analysis
-- Planning tools: Assumption mapping, impact mapping, roadmapping
-
----
-
 ## Philosophy
 
 ### Built for Modern PMs
