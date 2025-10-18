@@ -1,0 +1,18 @@
+{
+  "name": "Product Management Toolkit",
+  "version": "1.0.0",
+  "description": "Comprehensive product management plugin suite for full-stack PMs - strategy, discovery, planning, delivery, and growth",
+  "author": "slgoodrich",
+  "plugins": [
+    {
+      "id": "product-management",
+      "name": "Product Management",
+      "description": "Complete PM toolkit with 18 specialized agents, 45 commands, and 25 framework skills",
+      "category": "Product Management",
+      "path": "plugins/product-management",
+      "agents": 18,
+      "commands": 45,
+      "skills": 25
+    }
+  ]
+}
