@@ -756,17 +756,21 @@ MIT License - See [LICENSE](LICENSE) for details
 
 ---
 
-## Acknowledgments
+## Resources
 
-**Built with:**
-- Claude Code's plugin framework
-- Modern PM methodologies
-- Community feedback and contributions
+### Documentation
+- [Claude Code Documentation](https://docs.claude.com/en/docs/claude-code/overview)
+- [Plugins Guide](https://docs.claude.com/en/docs/claude-code/plugins)
+- [Subagents Guide](https://docs.claude.com/en/docs/claude-code/sub-agents)
+- [Agent Skills Guide](https://docs.claude.com/en/docs/agents-and-tools/agent-skills/overview)
+- [Slash Commands Reference](https://docs.claude.com/en/docs/claude-code/slash-commands)
 
-**Special thanks to:**
-- The Claude Code team at Anthropic
-- Product management thought leaders
-- Early adopters and contributors
+### This Repository
+- [Plugin Reference](docs/plugins.md)
+- [Agent Reference](docs/agents.md)
+- [Agent Skills Guide](docs/agent-skills.md)
+- [Usage Guide](docs/usage.md)
+- [Architecture](docs/architecture.md)
 
 ---
 
