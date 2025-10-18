@@ -778,12 +778,4 @@ MIT License - See [LICENSE](LICENSE) for details
 
 ---
 
-**Version**: 1.0.0
-**Status**: Production Ready
-**Release Date**: October 18, 2025
-**Total Items**: 107 (4 plugins, 18 agents, 34 commands, 12 tools, 18 workflows, 25 skills)
-**Maintainer**: [@slgoodrich](https://github.com/slgoodrich)
-
----
-
 *Empowering product managers to work at the speed of thought with 4 specialized plugins covering the complete PM lifecycle.*
