@@ -1,0 +1,294 @@
+{
+  "name": "product-management-toolkit",
+  "owner": {
+    "name": "Steve Goodrich",
+    "email": "slgoodrich@users.noreply.github.com",
+    "url": "https://github.com/slgoodrich"
+  },
+  "metadata": {
+    "description": "Comprehensive PM toolkit - 18 focused plugins",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "competitive-intelligence",
+      "source": "./plugins/competitive-intelligence",
+      "description": "Competitive analysis, market intelligence, positioning, and market sizing",
+      "version": "2.0.0",
+      "category": "product-management",
+      "agents": ["./agents/competitive-analyst.md"],
+      "commands": [
+        "./tools/competitive-positioning.md",
+        "./tools/market-sizing.md",
+        "./tools/swot-analysis.md",
+        "./tools/value-proposition-canvas.md",
+        "./workflows/market-entry.md"
+      ],
+      "skills": []
+    },
+    {
+      "name": "business-models",
+      "source": "./plugins/business-models",
+      "description": "Business model design, pricing strategy, and monetization optimization",
+      "version": "2.0.0",
+      "category": "product-management",
+      "agents": ["./agents/monetization-expert.md"],
+      "commands": ["./tools/business-model-canvas.md"],
+      "skills": [
+        "./skills/business-model-canvas/SKILL.md",
+        "./skills/pricing-packaging/SKILL.md"
+      ]
+    },
+    {
+      "name": "strategic-planning",
+      "source": "./plugins/strategic-planning",
+      "description": "Product strategy, vision, roadmaps, and OKR planning",
+      "version": "2.0.0",
+      "category": "product-management",
+      "agents": ["./agents/product-strategist.md"],
+      "commands": [
+        "./commands/executive-summary.md",
+        "./commands/okr-framework.md",
+        "./commands/risk-assessment.md",
+        "./commands/roadmap-builder.md",
+        "./commands/scenario-planner.md",
+        "./tools/now-next-later-roadmap.md",
+        "./workflows/annual-planning.md",
+        "./workflows/product-pivot.md",
+        "./workflows/quarterly-planning.md"
+      ],
+      "skills": [
+        "./skills/okr-methodology/SKILL.md",
+        "./skills/product-strategy-frameworks/SKILL.md",
+        "./skills/vision-mission-strategy/SKILL.md"
+      ]
+    },
+    {
+      "name": "platform-strategy",
+      "source": "./plugins/platform-strategy",
+      "description": "Platform strategy, ecosystems, multi-sided markets, and API products",
+      "version": "2.0.0",
+      "category": "product-management",
+      "agents": ["./agents/platform-architect.md"],
+      "commands": ["./workflows/portfolio-optimization.md"],
+      "skills": ["./skills/platform-strategy/SKILL.md"]
+    },
+    {
+      "name": "user-research",
+      "source": "./plugins/user-research",
+      "description": "User research, interviews, surveys, usability testing, and JTBD",
+      "version": "2.0.0",
+      "category": "product-management",
+      "agents": ["./agents/user-researcher.md"],
+      "commands": [
+        "./commands/interview-guide.md",
+        "./commands/research-synthesizer.md",
+        "./commands/survey-builder.md",
+        "./commands/usability-test-planner.md",
+        "./workflows/solution-validation.md"
+      ],
+      "skills": [
+        "./skills/jobs-to-be-done/SKILL.md",
+        "./skills/user-research-techniques/SKILL.md"
+      ]
+    },
+    {
+      "name": "continuous-discovery",
+      "source": "./plugins/continuous-discovery",
+      "description": "Continuous discovery, opportunity mapping, assumption testing, and design thinking",
+      "version": "2.0.0",
+      "category": "product-management",
+      "agents": ["./agents/discovery-facilitator.md"],
+      "commands": [
+        "./commands/mvp-scoper.md",
+        "./tools/assumption-mapping.md",
+        "./tools/impact-mapping.md",
+        "./workflows/discovery-sprint.md",
+        "./workflows/pmf-assessment.md"
+      ],
+      "skills": [
+        "./skills/continuous-discovery/SKILL.md",
+        "./skills/design-thinking/SKILL.md"
+      ]
+    },
+    {
+      "name": "customer-insights",
+      "source": "./plugins/customer-insights",
+      "description": "Customer feedback synthesis, insights generation, and voice of customer",
+      "version": "2.0.0",
+      "category": "product-management",
+      "agents": ["./agents/customer-insights.md"],
+      "commands": [
+        "./commands/journey-mapper.md",
+        "./commands/persona-creator.md",
+        "./workflows/research-to-product.md"
+      ],
+      "skills": []
+    },
+    {
+      "name": "growth-strategy",
+      "source": "./plugins/growth-strategy",
+      "description": "Growth strategy, growth loops, scaling playbooks, and PMF",
+      "version": "2.0.0",
+      "category": "product-management",
+      "agents": ["./agents/growth-pm.md"],
+      "commands": [
+        "./workflows/growth-sprint.md",
+        "./workflows/scale-playbook.md"
+      ],
+      "skills": [
+        "./skills/growth-frameworks/SKILL.md",
+        "./skills/product-market-fit/SKILL.md"
+      ]
+    },
+    {
+      "name": "product-analytics",
+      "source": "./plugins/product-analytics",
+      "description": "Product analytics, metrics, experiments, A/B testing, and data science",
+      "version": "2.0.0",
+      "category": "product-management",
+      "agents": ["./agents/data-scientist.md"],
+      "commands": [
+        "./commands/experiment-designer.md",
+        "./commands/impact-estimator.md",
+        "./commands/kpi-dashboard.md",
+        "./tools/cost-benefit-analysis.md",
+        "./tools/roi-calculator.md"
+      ],
+      "skills": [
+        "./skills/experiment-design/SKILL.md",
+        "./skills/metrics-frameworks/SKILL.md",
+        "./skills/product-analytics/SKILL.md"
+      ]
+    },
+    {
+      "name": "gtm-strategy",
+      "source": "./plugins/gtm-strategy",
+      "description": "Go-to-market planning, product launches, and launch management",
+      "version": "2.0.0",
+      "category": "product-management",
+      "agents": ["./agents/gtm-planner.md"],
+      "commands": [
+        "./commands/communication-plan.md",
+        "./commands/release-planner.md",
+        "./workflows/beta-program.md",
+        "./workflows/product-launch.md"
+      ],
+      "skills": ["./skills/go-to-market-playbooks/SKILL.md"]
+    },
+    {
+      "name": "agile-coaching",
+      "source": "./plugins/agile-coaching",
+      "description": "Agile coaching, Scrum, Kanban, sprint planning, and backlog management",
+      "version": "2.0.0",
+      "category": "product-management",
+      "agents": ["./agents/agile-coach.md"],
+      "commands": [
+        "./commands/backlog-groomer.md",
+        "./commands/capacity-planner.md",
+        "./commands/sprint-goal.md",
+        "./commands/sprint-planner.md",
+        "./commands/ticket-review.md"
+      ],
+      "skills": [
+        "./skills/agile-methodologies/SKILL.md",
+        "./skills/dual-track-agile/SKILL.md",
+        "./skills/lean-product-development/SKILL.md",
+        "./skills/story-mapping/SKILL.md"
+      ]
+    },
+    {
+      "name": "feature-prioritization",
+      "source": "./plugins/feature-prioritization",
+      "description": "Feature prioritization, RICE/ICE scoring, and trade-off analysis",
+      "version": "2.0.0",
+      "category": "product-management",
+      "agents": ["./agents/feature-prioritizer.md"],
+      "commands": [
+        "./commands/quick-prioritize.md",
+        "./tools/trade-off-analysis.md",
+        "./workflows/backlog-optimization.md"
+      ],
+      "skills": ["./skills/prioritization-methods/SKILL.md"]
+    },
+    {
+      "name": "requirements-engineering",
+      "source": "./plugins/requirements-engineering",
+      "description": "PRDs, technical specs, user stories, and requirements documentation",
+      "version": "2.0.0",
+      "category": "product-management",
+      "agents": ["./agents/requirements-engineer.md"],
+      "commands": [
+        "./commands/prd-generator.md",
+        "./commands/technical-spec-generator.md",
+        "./commands/user-story-writer.md",
+        "./workflows/feature-lifecycle.md"
+      ],
+      "skills": ["./skills/specification-techniques/SKILL.md"]
+    },
+    {
+      "name": "stakeholder-management",
+      "source": "./plugins/stakeholder-management",
+      "description": "Stakeholder alignment, communication, and decision-making",
+      "version": "2.0.0",
+      "category": "product-management",
+      "agents": ["./agents/stakeholder-manager.md"],
+      "commands": [
+        "./commands/alignment-session.md",
+        "./commands/decision-logger.md",
+        "./commands/stakeholder-mapper.md"
+      ],
+      "skills": []
+    },
+    {
+      "name": "api-product-management",
+      "source": "./plugins/api-product-management",
+      "description": "API products, developer experience, and API strategy",
+      "version": "2.0.0",
+      "category": "product-management",
+      "agents": ["./agents/api-product-manager.md"],
+      "commands": [],
+      "skills": ["./skills/api-product-management/SKILL.md"]
+    },
+    {
+      "name": "product-operations",
+      "source": "./plugins/product-operations",
+      "description": "PM process optimization, tools, templates, and operations",
+      "version": "2.0.0",
+      "category": "product-management",
+      "agents": ["./agents/product-ops.md"],
+      "commands": [
+        "./commands/doc-update.md",
+        "./commands/meeting-agenda.md",
+        "./commands/quick-answer.md",
+        "./commands/release-notes.md",
+        "./commands/status-update.md",
+        "./workflows/pm-process-audit.md"
+      ],
+      "skills": []
+    },
+    {
+      "name": "customer-success",
+      "source": "./plugins/customer-success",
+      "description": "Customer success, onboarding, retention, and expansion",
+      "version": "2.0.0",
+      "category": "product-management",
+      "agents": ["./agents/customer-success.md"],
+      "commands": ["./workflows/crisis-management.md"],
+      "skills": []
+    },
+    {
+      "name": "technical-pm",
+      "source": "./plugins/technical-pm",
+      "description": "Technical product management, architecture, and technical debt",
+      "version": "2.0.0",
+      "category": "product-management",
+      "agents": ["./agents/technical-pm.md"],
+      "commands": [
+        "./tools/technical-debt-assessment.md",
+        "./workflows/sunset-product.md"
+      ],
+      "skills": ["./skills/technical-debt-management/SKILL.md"]
+    }
+  ]
+}
