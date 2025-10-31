@@ -1,0 +1,358 @@
+# Customer Segments
+
+**Last Updated**: [YYYY-MM-DD]
+
+---
+
+## Ideal Customer Profile (ICP)
+
+**Our best-fit customer:**
+
+**Company Characteristics**:
+- **Industry/Vertical**: [e.g., B2B SaaS, E-commerce, Healthcare]
+- **Company Size**: [e.g., 50-500 employees]
+- **Revenue**: [e.g., $5M-$50M ARR]
+- **Geography**: [e.g., North America, English-speaking markets]
+- **Growth Stage**: [e.g., Series A-B, profitable growth]
+
+**Behavioral Indicators**:
+- [e.g., "Recently hired first marketing hire"]
+- [e.g., "Using multiple analytics tools"]
+- [e.g., "Experiencing data quality issues"]
+
+**Firmographic Signals**:
+- [e.g., "500+ monthly active users"]
+- [e.g., "Sending 100K+ emails per month"]
+- [e.g., "Multi-channel marketing campaigns"]
+
+**Why They're Ideal**:
+- Highest retention: [X]% vs [Y]% average
+- Fastest time to value: [X] days vs [Y] days average
+- Highest LTV: $[amount] vs $[amount] average
+- Best product-market fit: [Qualitative indicators]
+
+---
+
+## Customer Segments
+
+### Segment 1: [Segment Name]
+
+**Segment Size**:
+- % of customer base: [X]%
+- Number of customers: [Number]
+- % of revenue: [X]%
+
+**Segment Definition**:
+- [Key characteristic 1]
+- [Key characteristic 2]
+- [Key characteristic 3]
+
+**Demographics**:
+- Company size: [Range]
+- Industry: [Primary industries]
+- Geography: [Primary regions]
+
+**Psychographics**:
+- Tech sophistication: [High/Medium/Low]
+- Buying process: [PLG/Sales-led/Hybrid]
+- Decision speed: [Fast/Moderate/Slow]
+
+**Needs & Pain Points**:
+1. [Primary pain point they're solving]
+2. [Secondary pain point they're solving]
+3. [Third pain point they're solving]
+
+**Use Cases**:
+- [Primary use case]
+- [Secondary use case]
+
+**Success Metrics for This Segment**:
+- [What success looks like]
+- [How they measure value]
+
+**Revenue Potential**:
+- Avg ACV: $[amount]
+- Expansion potential: [High/Medium/Low]
+- Churn risk: [Low/Medium/High]
+
+---
+
+### Segment 2: [Segment Name]
+
+**Segment Size**:
+- % of customer base: [X]%
+- Number of customers: [Number]
+- % of revenue: [X]%
+
+**Segment Definition**:
+- [Key characteristic 1]
+- [Key characteristic 2]
+- [Key characteristic 3]
+
+**Demographics**:
+- Company size: [Range]
+- Industry: [Primary industries]
+- Geography: [Primary regions]
+
+**Psychographics**:
+- Tech sophistication: [High/Medium/Low]
+- Buying process: [PLG/Sales-led/Hybrid]
+- Decision speed: [Fast/Moderate/Slow]
+
+**Needs & Pain Points**:
+1. [Primary pain point they're solving]
+2. [Secondary pain point they're solving]
+
+**Use Cases**:
+- [Primary use case]
+- [Secondary use case]
+
+**Success Metrics for This Segment**:
+- [What success looks like]
+- [How they measure value]
+
+**Revenue Potential**:
+- Avg ACV: $[amount]
+- Expansion potential: [High/Medium/Low]
+- Churn risk: [Low/Medium/High]
+
+---
+
+### Segment 3: [Segment Name]
+
+[Repeat structure above]
+
+---
+
+## User Personas
+
+### Persona 1: [Persona Name]
+
+**Persona Summary**:
+[One sentence describing who they are]
+
+Example:
+> Mid-level marketing manager at a growing SaaS company, responsible for campaign performance but lacks technical skills.
+
+**Demographics**:
+- **Role/Title**: [e.g., Marketing Manager, Director of Marketing]
+- **Department**: [e.g., Marketing, Growth]
+- **Seniority**: [e.g., Mid-level, Senior, C-level]
+- **Reports To**: [e.g., VP Marketing, CMO]
+- **Team Size**: [e.g., Manages 2-3 people]
+
+**Background**:
+- **Experience**: [Years in role, previous roles]
+- **Education**: [Typical education level]
+- **Tech Savviness**: [High/Medium/Low - describe]
+
+**Goals & Motivations**:
+1. [Primary goal - what they're trying to achieve]
+2. [Secondary goal]
+3. [Personal motivation - what drives them]
+
+**Pain Points & Frustrations**:
+1. [Biggest pain point]
+2. [Second pain point]
+3. [Third pain point]
+
+**Daily Workflow**:
+- [Typical tasks and activities]
+- [Tools they use regularly]
+- [How they spend their time]
+
+**Decision Making**:
+- **Buying Authority**: [Economic buyer / Influencer / End user]
+- **Decision Criteria**: [What matters most in a solution]
+- **Evaluation Process**: [How they evaluate products]
+
+**How They Use Our Product**:
+- **Primary Use Cases**: [What they do most]
+- **Frequency**: [Daily / Weekly / Monthly]
+- **Key Features**: [What features they use]
+- **Success Metrics**: [How they measure value]
+
+**Quotes**:
+> "[Actual or representative quote about their pain]"
+>
+> "[Quote about what they value]"
+
+---
+
+### Persona 2: [Persona Name]
+
+**Persona Summary**:
+[One sentence describing who they are]
+
+**Demographics**:
+- **Role/Title**: [Role]
+- **Department**: [Department]
+- **Seniority**: [Seniority]
+- **Reports To**: [Reports to]
+- **Team Size**: [Team size]
+
+**Background**:
+- **Experience**: [Experience]
+- **Education**: [Education]
+- **Tech Savviness**: [Tech savviness]
+
+**Goals & Motivations**:
+1. [Primary goal]
+2. [Secondary goal]
+3. [Personal motivation]
+
+**Pain Points & Frustrations**:
+1. [Biggest pain point]
+2. [Second pain point]
+3. [Third pain point]
+
+**Daily Workflow**:
+- [Workflow description]
+
+**Decision Making**:
+- **Buying Authority**: [Authority level]
+- **Decision Criteria**: [Criteria]
+- **Evaluation Process**: [Process]
+
+**How They Use Our Product**:
+- **Primary Use Cases**: [Use cases]
+- **Frequency**: [Frequency]
+- **Key Features**: [Features]
+- **Success Metrics**: [Metrics]
+
+**Quotes**:
+> "[Representative quote]"
+
+---
+
+### Persona 3: [Persona Name]
+
+[Repeat structure above for 3-5 total personas]
+
+---
+
+## Buying Committee
+
+**Typical Buying Committee** (for B2B products):
+
+### Champion
+- **Role**: [Who typically champions the solution]
+- **Persona**: [Link to persona above]
+- **Motivation**: [Why they advocate for you]
+- **Needs**: [What they need to make their case]
+
+### Economic Buyer
+- **Role**: [Who has budget authority]
+- **Persona**: [Link to persona above]
+- **Decision Criteria**: [What matters most to them]
+- **Objections**: [Common concerns]
+
+### Technical Evaluator
+- **Role**: [Who evaluates technical fit]
+- **Persona**: [Link to persona above or new]
+- **Evaluation Criteria**: [What they assess]
+- **Concerns**: [Common technical concerns]
+
+### End Users
+- **Role**: [Who will use the product daily]
+- **Personas**: [Link to personas above]
+- **Adoption Drivers**: [What drives adoption]
+- **Resistance Points**: [What causes resistance]
+
+---
+
+## Jobs to Be Done
+
+**By Segment and Persona:**
+
+### Segment 1 / Persona 1
+**Job**: [When I... I want to... So I can...]
+
+Example:
+> When I launch a new campaign, I want to quickly set up tracking and reporting, so I can prove marketing's impact to my CEO without waiting on engineering.
+
+**Desired Outcomes**:
+- [Outcome 1]
+- [Outcome 2]
+- [Outcome 3]
+
+**Alternatives They're Hiring**:
+- [Alternative solution 1]
+- [Alternative solution 2]
+
+---
+
+### Segment 2 / Persona 2
+**Job**: [When I... I want to... So I can...]
+
+**Desired Outcomes**:
+- [Outcome 1]
+- [Outcome 2]
+
+**Alternatives They're Hiring**:
+- [Alternative solution 1]
+- [Alternative solution 2]
+
+---
+
+## Customer Journey
+
+**Typical Customer Journey:**
+
+### Awareness
+- **Trigger**: [What causes them to search for a solution]
+- **Questions**: [What they're asking]
+- **Channels**: [Where they search]
+
+### Consideration
+- **Evaluation Criteria**: [What they compare]
+- **Key Objections**: [What holds them back]
+- **Proof Points Needed**: [What convinces them]
+
+### Decision
+- **Decision Factors**: [What tips the scale]
+- **Timeline**: [Typical decision timeframe]
+- **Blockers**: [What can derail the sale]
+
+### Onboarding
+- **First 30 Days**: [Critical milestones]
+- **Time to Value**: [How long to see value]
+- **Activation Criteria**: [What defines activated]
+
+### Expansion
+- **Expansion Triggers**: [What drives upgrades]
+- **Expansion Path**: [Typical upgrade path]
+- **Timing**: [When expansion typically happens]
+
+---
+
+## Segment Priorities
+
+**Our Strategic Focus by Segment:**
+
+1. **[Segment Name]**: [Focus - Acquire/Retain/Expand/Optimize]
+   - **Why**: [Strategic rationale]
+   - **Investment**: [Resources allocated]
+   - **Success Metrics**: [How we measure]
+
+2. **[Segment Name]**: [Focus - Acquire/Retain/Expand/Optimize]
+   - **Why**: [Strategic rationale]
+   - **Investment**: [Resources allocated]
+   - **Success Metrics**: [How we measure]
+
+---
+
+## Usage Notes
+
+**Used By**: All agents
+
+**Update Frequency**:
+- **Quarterly**: Review segment performance, update personas
+- **Annually**: Major persona research and refinement
+- **As Needed**: When entering new markets or segments
+
+**Related Files**:
+- `research/personas/` - Detailed persona research
+- `.claude/product-context/product-info.md` - Target market overview
+- `research/interviews/` - User interview transcripts
+- `.claude/product-context/competitive-landscape.md` - Competitive positioning by segment

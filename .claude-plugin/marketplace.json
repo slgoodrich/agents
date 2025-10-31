@@ -1,0 +1,52 @@
+{
+  "name": "ai-pm-copilot",
+  "owner": {
+    "name": "Steve Goodrich",
+    "email": "slgoodrich@users.noreply.github.com",
+    "url": "https://github.com/slgoodrich"
+  },
+  "metadata": {
+    "description": "AI PM Copilot - Agent-first product management toolkit for solo developers and small teams",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "ai-pm-copilot",
+      "source": "./plugins/ai-pm-copilot",
+      "description": "Comprehensive PM toolkit with 1 orchestration agent, 7 specialist agents, 1 utility agent, 16 skills, and context-aware workflows for solo developers and small teams",
+      "category": "product-management",
+      "agents": [
+        "./agents/product-manager.md",
+        "./agents/market-analyst.md",
+        "./agents/research-ops.md",
+        "./agents/product-strategist.md",
+        "./agents/roadmap-builder.md",
+        "./agents/feature-prioritizer.md",
+        "./agents/requirements-engineer.md",
+        "./agents/launch-planner.md",
+        "./agents/context-scanner.md"
+      ],
+      "commands": [
+        "./commands/pm-setup.md"
+      ],
+      "skills": [
+        "./skills/user-research-techniques/SKILL.md",
+        "./skills/interview-frameworks/SKILL.md",
+        "./skills/synthesis-frameworks/SKILL.md",
+        "./skills/usability-frameworks/SKILL.md",
+        "./skills/validation-frameworks/SKILL.md",
+        "./skills/product-positioning/SKILL.md",
+        "./skills/competitive-analysis-templates/SKILL.md",
+        "./skills/market-sizing-frameworks/SKILL.md",
+        "./skills/product-market-fit/SKILL.md",
+        "./skills/roadmap-frameworks/SKILL.md",
+        "./skills/prioritization-methods/SKILL.md",
+        "./skills/specification-techniques/SKILL.md",
+        "./skills/prd-templates/SKILL.md",
+        "./skills/user-story-templates/SKILL.md",
+        "./skills/go-to-market-playbooks/SKILL.md",
+        "./skills/launch-planning-frameworks/SKILL.md"
+      ]
+    }
+  ]
+}

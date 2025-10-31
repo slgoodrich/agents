@@ -1,0 +1,21 @@
+{
+  "name": "ai-pm-copilot",
+  "version": "1.0.0",
+  "description": "Comprehensive PM toolkit with 1 orchestration agent, 7 specialist agents, 16 skills, and context-aware workflows for solo developers and small teams",
+  "author": {
+    "name": "Steve Goodrich",
+    "email": "slgoodrich@users.noreply.github.com",
+    "url": "https://github.com/slgoodrich"
+  },
+  "category": "product-management",
+  "keywords": [
+    "product-management",
+    "pm",
+    "strategy",
+    "roadmap",
+    "prioritization",
+    "user-research",
+    "requirements",
+    "go-to-market"
+  ]
+}

@@ -1,0 +1,315 @@
+# Tech Stack
+
+**Last Updated**: [YYYY-MM-DD]
+
+---
+
+## Architecture Overview
+
+**High-Level Architecture**:
+[Brief description of your system architecture]
+
+Example:
+> Modern three-tier SaaS architecture with React frontend, Node.js API layer, PostgreSQL database, deployed on AWS with microservices for analytics processing.
+
+**Architecture Diagram**:
+[Link to architecture diagram or reference to docs/architecture.md]
+
+---
+
+## Frontend
+
+**Platform(s)**:
+- [ ] Web Application
+- [ ] iOS Native
+- [ ] Android Native
+- [ ] Desktop (Electron/etc)
+- [ ] Mobile Web
+
+**Web Frontend Stack**:
+- **Framework**: [e.g., React 18, Vue 3, Angular, Svelte]
+- **Language**: [e.g., TypeScript, JavaScript]
+- **State Management**: [e.g., Redux, Zustand, Context API]
+- **Styling**: [e.g., Tailwind CSS, Styled Components, CSS Modules]
+- **Build Tool**: [e.g., Vite, Webpack, Next.js]
+
+**Mobile Stack** (if applicable):
+- **iOS**: [e.g., Swift/SwiftUI, React Native, Flutter]
+- **Android**: [e.g., Kotlin, React Native, Flutter]
+
+**Key Frontend Libraries**:
+- [Library name] - [Purpose]
+- [Library name] - [Purpose]
+- [Library name] - [Purpose]
+
+---
+
+## Backend
+
+**Architecture Pattern**:
+- [ ] Monolith
+- [ ] Microservices
+- [ ] Serverless
+- [ ] Hybrid
+
+**Primary Language(s)**:
+- [e.g., Node.js/TypeScript, Python, Ruby, Go, Java]
+
+**Framework(s)**:
+- [e.g., Express, Django, Rails, FastAPI, Spring Boot]
+
+**API Style**:
+- [ ] REST
+- [ ] GraphQL
+- [ ] gRPC
+- [ ] Hybrid
+
+**Key Backend Services**:
+1. **[Service Name]** (e.g., "API Server")
+   - Language/Framework
+   - Purpose
+   - Key endpoints
+
+2. **[Service Name]** (e.g., "Background Workers")
+   - Language/Framework
+   - Purpose
+   - Key jobs
+
+3. **[Service Name]** (e.g., "Analytics Engine")
+   - Language/Framework
+   - Purpose
+
+---
+
+## Database & Data Storage
+
+**Primary Database**:
+- **Type**: [e.g., PostgreSQL 15, MySQL 8, MongoDB]
+- **Hosting**: [e.g., AWS RDS, self-managed, Atlas]
+- **Size**: [e.g., 500GB, scaling pattern]
+
+**Caching Layer**:
+- **Technology**: [e.g., Redis, Memcached]
+- **Use Cases**: [What's cached]
+
+**Data Warehouse** (if applicable):
+- **Technology**: [e.g., Snowflake, BigQuery, Redshift]
+- **Purpose**: [Analytics, reporting, etc.]
+
+**Object Storage**:
+- **Technology**: [e.g., AWS S3, Google Cloud Storage]
+- **Use Cases**: [File uploads, backups, etc.]
+
+**Search Engine** (if applicable):
+- **Technology**: [e.g., Elasticsearch, Algolia, Typesense]
+- **Use Cases**: [What's searchable]
+
+---
+
+## Infrastructure & DevOps
+
+**Cloud Provider**:
+- Primary: [AWS / GCP / Azure / Other]
+- Regions: [e.g., us-east-1, eu-west-1]
+
+**Hosting/Compute**:
+- [ ] Kubernetes (EKS/GKE/AKS)
+- [ ] VMs (EC2/Compute Engine)
+- [ ] Serverless (Lambda/Cloud Functions)
+- [ ] PaaS (Heroku/Render/Railway)
+
+**CI/CD**:
+- **Platform**: [e.g., GitHub Actions, CircleCI, GitLab CI]
+- **Deployment Strategy**: [e.g., Blue/Green, Rolling, Canary]
+
+**Infrastructure as Code**:
+- **Tool**: [e.g., Terraform, CloudFormation, Pulumi]
+- **Repo**: [Link or path to IaC code]
+
+**Monitoring & Observability**:
+- **APM**: [e.g., New Relic, Datadog, AppDynamics]
+- **Logs**: [e.g., ELK Stack, CloudWatch, Datadog]
+- **Metrics**: [e.g., Prometheus, CloudWatch, Datadog]
+- **Errors**: [e.g., Sentry, Rollbar, Bugsnag]
+- **Uptime**: [e.g., Pingdom, UptimeRobot, StatusPage]
+
+---
+
+## Key Integrations & Third-Party Services
+
+**Authentication**:
+- [e.g., Auth0, Okta, Custom JWT]
+- SSO Providers: [List if applicable]
+
+**Payment Processing**:
+- [e.g., Stripe, PayPal, Braintree]
+
+**Email**:
+- Transactional: [e.g., SendGrid, Postmark, AWS SES]
+- Marketing: [e.g., Mailchimp, Customer.io, Braze]
+
+**Analytics**:
+- Product: [e.g., Mixpanel, Amplitude, Heap]
+- Web: [e.g., Google Analytics, Plausible]
+- Session Replay: [e.g., FullStory, LogRocket]
+
+**Customer Support**:
+- [e.g., Intercom, Zendesk, Help Scout]
+
+**Other Key Integrations**:
+- [Service name] - [Purpose]
+- [Service name] - [Purpose]
+- [Service name] - [Purpose]
+
+---
+
+## Development Environment
+
+**Required Tools**:
+- [e.g., Node.js 18+, Python 3.11+, Docker]
+- [Package manager: npm/yarn/pnpm]
+- [Local development tools]
+
+**Development Workflow**:
+- **Repo**: [GitHub/GitLab/Bitbucket]
+- **Branching**: [e.g., Git Flow, Trunk-based]
+- **Code Review**: [Required reviewers, tools]
+
+**Local Setup**:
+- **Setup Time**: [e.g., 30 minutes]
+- **Docker Compose**: [Yes/No - link to docker-compose.yml]
+- **Dependencies**: [What needs to be installed]
+
+**Development Documentation**:
+- Setup Guide: [Link or path]
+- Contributing Guide: [Link or path]
+- Architecture Docs: [Link or path]
+
+---
+
+## Technical Constraints
+
+**Performance Constraints**:
+- [e.g., "API response time must be < 200ms p95"]
+- [e.g., "Support 10,000 concurrent users"]
+
+**Scalability Constraints**:
+- [Current scaling limits]
+- [Scaling strategy]
+
+**Security Requirements**:
+- [ ] SOC 2 compliance
+- [ ] HIPAA compliance
+- [ ] GDPR compliance
+- [ ] PCI DSS compliance
+- [Other security requirements]
+
+**Browser Support**:
+- [e.g., "Last 2 versions of Chrome, Firefox, Safari, Edge"]
+
+**Mobile Support**:
+- [iOS version requirements]
+- [Android version requirements]
+
+---
+
+## Technical Debt
+
+**High-Priority Tech Debt**:
+
+1. **[Tech Debt Item]**
+   - **Impact**: [Performance/Reliability/Maintenance/Security]
+   - **Severity**: [High/Medium/Low]
+   - **Effort**: [Large/Medium/Small]
+   - **Status**: [Planned/Not Planned]
+
+2. **[Tech Debt Item]**
+   - **Impact**: [Performance/Reliability/Maintenance/Security]
+   - **Severity**: [High/Medium/Low]
+   - **Effort**: [Large/Medium/Small]
+   - **Status**: [Planned/Not Planned]
+
+3. **[Tech Debt Item]**
+   - **Impact**: [Performance/Reliability/Maintenance/Security]
+   - **Severity**: [High/Medium/Low]
+   - **Effort**: [Large/Medium/Small]
+   - **Status**: [Planned/Not Planned]
+
+**For detailed tech debt inventory, see**: `tech-debt/inventory.md`
+
+---
+
+## Deprecated Technologies
+
+**Recently Deprecated**:
+- **[Technology]**: Deprecated [Date], Replaced by [New Tech]
+  - Migration Status: [Complete/In Progress/Planned]
+  - Remaining Usage: [Where it's still used]
+
+---
+
+## Planned Technology Changes
+
+**Upcoming Changes**:
+
+1. **[Change Description]**
+   - **Timeline**: [When]
+   - **Reason**: [Why we're making this change]
+   - **Migration Plan**: [Brief overview or link]
+
+2. **[Change Description]**
+   - **Timeline**: [When]
+   - **Reason**: [Why we're making this change]
+   - **Migration Plan**: [Brief overview or link]
+
+---
+
+## Security & Compliance
+
+**Security Practices**:
+- [ ] Regular security audits
+- [ ] Penetration testing
+- [ ] Dependency scanning
+- [ ] SAST/DAST in CI/CD
+- [ ] Security training for engineers
+
+**Data Handling**:
+- **Data Encryption**: [At rest: Yes/No, In transit: Yes/No]
+- **Data Residency**: [Where data is stored]
+- **Data Retention**: [How long data is kept]
+- **Backup Strategy**: [Frequency, retention]
+
+**Compliance Certifications**:
+- [List certifications and renewal dates]
+
+---
+
+## Performance Benchmarks
+
+**Key Performance Metrics**:
+- **API Response Time**: [e.g., p50: 100ms, p95: 250ms, p99: 500ms]
+- **Page Load Time**: [e.g., 2.5s on desktop, 4s on mobile]
+- **Database Query Time**: [e.g., p95: 50ms]
+- **Uptime**: [e.g., 99.9% over last 90 days]
+
+**Load Testing Results**:
+- **Max Concurrent Users Tested**: [Number]
+- **Max Requests per Second**: [Number]
+- **Bottlenecks Identified**: [List]
+
+---
+
+## Usage Notes
+
+**Used By**: All agents
+
+**Update Frequency**:
+- **As Needed**: When tech stack changes
+- **Quarterly**: Review tech debt and planned changes
+- **After Major Migrations**: Update deprecated technologies
+
+**Related Files**:
+- `docs/architecture.md` - Detailed architecture documentation
+- `tech-debt/inventory.md` - Complete tech debt tracking
+- `.claude/product-context/product-info.md` - High-level tech overview
+- `CONTRIBUTING.md` - Developer setup guide

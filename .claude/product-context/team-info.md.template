@@ -1,0 +1,380 @@
+# Team Information
+
+**Last Updated**: [YYYY-MM-DD]
+
+---
+
+## Team Overview
+
+**Total Team Size**: [Number] people
+
+**Organizational Structure**:
+- Product: [Number] people
+- Engineering: [Number] people
+- Design: [Number] people
+- Data/Analytics: [Number] people
+- Other: [Number] people
+
+---
+
+## Product Development Team
+
+### Product Team
+
+**Team Size**: [Number] Product Managers
+
+**Roles**:
+- [Role] - [Name or "Open"] - [Focus Area]
+- [Role] - [Name or "Open"] - [Focus Area]
+
+**Product Responsibilities**:
+- [Responsibility 1]
+- [Responsibility 2]
+- [Responsibility 3]
+
+---
+
+### Engineering Team
+
+**Team Size**: [Number] Engineers
+
+**Structure**:
+- [ ] Single team
+- [ ] Multiple squads
+- [ ] Feature teams
+- [ ] Platform teams
+
+**Squad/Team Breakdown** (if applicable):
+
+**Squad 1: [Name]**
+- **Focus**: [What this squad builds]
+- **Team Size**: [Number] engineers
+- **Stack**: [Primary technologies]
+- **Seniority Mix**: [e.g., "2 senior, 3 mid, 1 junior"]
+
+**Squad 2: [Name]**
+- **Focus**: [What this squad builds]
+- **Team Size**: [Number] engineers
+- **Stack**: [Primary technologies]
+- **Seniority Mix**: [Seniority breakdown]
+
+**Engineering Roles**:
+- Frontend: [Number] engineers
+- Backend: [Number] engineers
+- Full-stack: [Number] engineers
+- DevOps/Infrastructure: [Number] engineers
+- Mobile: [Number] engineers (if applicable)
+
+**Engineering Seniority**:
+- Staff+: [Number]
+- Senior: [Number]
+- Mid-level: [Number]
+- Junior: [Number]
+
+---
+
+### Design Team
+
+**Team Size**: [Number] Designers
+
+**Roles**:
+- Product Designers: [Number]
+- UX Researchers: [Number]
+- Design Ops: [Number]
+
+**Design Responsibilities**:
+- [Responsibility 1]
+- [Responsibility 2]
+
+---
+
+### Data/Analytics Team
+
+**Team Size**: [Number] people
+
+**Roles**:
+- Data Scientists: [Number]
+- Data Analysts: [Number]
+- Analytics Engineers: [Number]
+
+**Data Responsibilities**:
+- [Responsibility 1]
+- [Responsibility 2]
+
+---
+
+## Sprint & Velocity Information
+
+**Sprint Methodology**:
+- [ ] Scrum (2-week sprints)
+- [ ] Kanban (continuous flow)
+- [ ] Scrumban (hybrid)
+- [ ] Shape Up (6-week cycles)
+- [ ] Other: [Describe]
+
+**Sprint Cadence**:
+- Sprint Length: [Duration]
+- Current Sprint: Sprint #[Number]
+- Sprint Dates: [Start Date] - [End Date]
+
+---
+
+## Velocity & Capacity
+
+**Historical Velocity** (last 6 sprints):
+
+| Sprint | Points Committed | Points Completed | Velocity | Notes |
+|--------|------------------|------------------|----------|-------|
+| Sprint [N] | [X] | [Y] | [Y pts] | [Any notes] |
+| Sprint [N-1] | [X] | [Y] | [Y pts] | [Any notes] |
+| Sprint [N-2] | [X] | [Y] | [Y pts] | [Any notes] |
+| Sprint [N-3] | [X] | [Y] | [Y pts] | [Any notes] |
+| Sprint [N-4] | [X] | [Y] | [Y pts] | [Any notes] |
+| Sprint [N-5] | [X] | [Y] | [Y pts] | [Any notes] |
+
+**Average Velocity**: [X] points per sprint
+
+**Velocity Trend**: [Increasing / Stable / Decreasing]
+
+---
+
+## Team Capacity
+
+**Current Sprint Capacity**:
+
+**Total Capacity**: [X] points
+- Total team: [Number] people × [Days] = [Person-days]
+- Minus PTO: [Days]
+- Minus meetings: [Days]
+- Minus support rotation: [Days]
+- **Effective capacity**: [Days] = [X] points
+
+**Capacity Breakdown by Squad/Team**:
+- Squad 1: [X] points
+- Squad 2: [Y] points
+- Platform/Infra: [Z] points
+
+**Current Capacity Utilization**:
+- Committed: [X] points ([Y]% of capacity)
+- Available: [Z] points
+
+---
+
+## Time Allocation
+
+**How Team Spends Time** (rough percentages):
+
+- Feature Development: [X]%
+- Bug Fixes: [X]%
+- Technical Debt: [X]%
+- Support/Operations: [X]%
+- Meetings/Ceremonies: [X]%
+- Research/Exploration: [X]%
+- Infrastructure/DevOps: [X]%
+
+**Support Rotation**:
+- [How support is handled]
+- [Typical time commitment]
+
+---
+
+## Team Constraints
+
+**Current Constraints**:
+
+1. **[Constraint Type]**: [Description]
+   - **Impact**: [How this affects capacity]
+   - **Duration**: [How long]
+   - **Mitigation**: [What we're doing about it]
+
+2. **[Constraint Type]**: [Description]
+   - **Impact**: [How this affects capacity]
+   - **Duration**: [How long]
+   - **Mitigation**: [What we're doing about it]
+
+**Upcoming PTO/Time Off**:
+- [Name/Role]: [Dates] - [Impact on capacity]
+- [Name/Role]: [Dates] - [Impact on capacity]
+
+**Other Commitments**:
+- [e.g., "Q2 goals require 30% team time on Platform initiative"]
+- [e.g., "Security audit requires dedicated eng time in March"]
+
+---
+
+## Team Skills & Expertise
+
+**Areas of Strength**:
+- [Technology or domain]: [Number of experts]
+- [Technology or domain]: [Number of experts]
+- [Technology or domain]: [Number of experts]
+
+**Areas of Growth Needed**:
+- [Technology or domain]: [Current capability, desired capability]
+- [Technology or domain]: [Current capability, desired capability]
+
+**Bus Factor** (risk areas):
+- [Critical knowledge held by 1 person]
+- [Critical knowledge held by 1 person]
+
+---
+
+## Dependencies & Blockers
+
+**External Dependencies**:
+
+1. **[Dependency]**
+   - **Team/Vendor**: [Who we depend on]
+   - **For What**: [What we need]
+   - **Timeline**: [When we need it]
+   - **Risk Level**: [Low/Medium/High]
+
+2. **[Dependency]**
+   - **Team/Vendor**: [Who we depend on]
+   - **For What**: [What we need]
+   - **Timeline**: [When we need it]
+   - **Risk Level**: [Low/Medium/High]
+
+**Current Blockers**:
+- [Blocker description and impact]
+- [Blocker description and impact]
+
+---
+
+## Team Rituals & Ceremonies
+
+**Regular Meetings**:
+
+**Daily**:
+- Daily Standup: [Time], [Duration]
+
+**Weekly**:
+- Sprint Planning: [Day/Time], [Duration]
+- Sprint Review/Demo: [Day/Time], [Duration]
+- Sprint Retrospective: [Day/Time], [Duration]
+- Backlog Refinement: [Day/Time], [Duration]
+
+**Monthly/Quarterly**:
+- All-Hands: [Cadence]
+- Roadmap Review: [Cadence]
+- Team Social: [Cadence]
+
+**Total Meeting Time**: [X hours per week]
+
+---
+
+## Collaboration & Communication
+
+**Team Location**:
+- [ ] Fully Remote
+- [ ] Hybrid (office days: [Days])
+- [ ] In-Person (location: [Office])
+
+**Time Zones**:
+- [Primary time zone]: [Number] people
+- [Secondary time zone]: [Number] people
+- **Overlap Hours**: [Hours of full team overlap]
+
+**Communication Tools**:
+- Chat: [e.g., Slack]
+- Video: [e.g., Zoom, Google Meet]
+- Project Management: [e.g., Jira, Linear, Asana]
+- Documentation: [e.g., Notion, Confluence, GitHub Wiki]
+- Design: [e.g., Figma, Sketch]
+
+**Working Agreement**:
+- Response time expectations: [e.g., "within 4 hours during work hours"]
+- Deep work time: [e.g., "no meetings before 10am"]
+- Meeting-free time: [e.g., "Fridays after 2pm"]
+
+---
+
+## Hiring & Growth
+
+**Open Roles**:
+- [Role Title]: [Status - open/interviewing/offer out]
+- [Role Title]: [Status - open/interviewing/offer out]
+
+**Hiring Timeline**:
+- [Role]: Expected start [Date]
+- [Role]: Expected start [Date]
+
+**Team Growth Plan**:
+- [Timeline]: [Planned additions]
+- [Timeline]: [Planned additions]
+
+**Impact on Capacity**:
+- [How new hires will affect velocity]
+- [Ramp-up time expectations]
+
+---
+
+## Team Performance & Health
+
+**Key Team Metrics**:
+
+**Delivery**:
+- Sprint completion rate: [X]% (last 6 sprints avg)
+- Predictability: [High/Medium/Low]
+- Cycle time: [X] days (lead time from start to deploy)
+
+**Quality**:
+- Escaped bugs: [Number] per sprint
+- Production incidents: [Number] per month
+- Code review turnaround: [X] hours
+
+**Team Health**:
+- Employee satisfaction: [Score or indicator]
+- Attrition rate: [X]% annually
+- Team morale: [Indicator from retros]
+
+**Improvement Goals**:
+1. [Goal from recent retrospective]
+2. [Goal from recent retrospective]
+3. [Goal from recent retrospective]
+
+---
+
+## Historical Context
+
+**Team Evolution**:
+- [Date]: Team size was [X], velocity was [Y]
+- [Date]: [Major change - e.g., "Split into 2 squads"]
+- [Date]: [Major change - e.g., "Migrated to 2-week sprints"]
+
+**Velocity Trends**:
+- Q4 2024: [X] avg points/sprint
+- Q3 2024: [Y] avg points/sprint
+- Q2 2024: [Z] avg points/sprint
+
+---
+
+## Links & Resources
+
+**Team Resources**:
+- Sprint Board: [URL]
+- Velocity Tracking: [URL or file path]
+- Team Docs: [URL or file path]
+- Retrospective Notes: [URL or file path]
+
+**Process Documentation**:
+- Sprint Process: [Link]
+- Definition of Done: [Link]
+- Engineering Standards: [Link]
+
+---
+
+## Usage Notes
+
+**Used By**: All agents
+
+**Update Frequency**:
+- **Weekly**: Sprint velocity, current capacity, blockers
+- **Monthly**: Team health metrics, hiring status
+- **Quarterly**: Skills assessment, team structure changes
+
+**Related Files**:
+- `sprints/velocity-data.md` - Detailed sprint history
+- `sprints/retrospectives/` - Sprint retrospective notes
+- `.claude/product-context/current-roadmap.md` - Roadmap considering team capacity
+- `processes/current-processes.md` - Detailed process documentation

@@ -1,0 +1,380 @@
+# Competitive Landscape
+
+**Last Updated**: [YYYY-MM-DD]
+
+---
+
+## Market Overview
+
+**Market Category**:
+[What market/category you compete in]
+
+Example:
+> Marketing analytics for SMBs, competing in the business intelligence and marketing automation intersection
+
+**Market Size**:
+- TAM (Total Addressable Market): $[amount]
+- SAM (Serviceable Addressable Market): $[amount]
+- SOM (Serviceable Obtainable Market): $[amount]
+
+**Market Growth**:
+- Growth Rate: [X]% CAGR
+- Market Maturity: [Early/Growth/Mature/Declining]
+
+**Market Dynamics**:
+- [Key trend 1 affecting the market]
+- [Key trend 2 affecting the market]
+- [Key trend 3 affecting the market]
+
+---
+
+## Our Position
+
+**Market Position**:
+- Estimated Market Share: [X]%
+- Position: [e.g., "#3 player in SMB segment", "Fast-growing challenger"]
+- Recognition: [e.g., "Recognized by Gartner in...", "G2 category leader"]
+
+**How We See Ourselves**:
+[One sentence positioning statement]
+
+Example:
+> The only marketing analytics platform built specifically for non-technical marketers at growing SaaS companies
+
+---
+
+## Competitive Set
+
+### Direct Competitors (3-5 companies)
+
+#### Competitor 1: [Company Name]
+
+**Overview**:
+- Founded: [Year]
+- Stage: [Startup/Growth/Public/Acquired]
+- Size: [Employees, estimated ARR if known]
+- Funding: [Most recent round and amount]
+
+**Target Market**:
+- Segment: [Who they target]
+- Geography: [Primary markets]
+- Price Point: [Pricing range]
+
+**Product Overview**:
+- [Key feature/capability 1]
+- [Key feature/capability 2]
+- [Key feature/capability 3]
+
+**Strengths** (from customer perspective):
+- [Strength 1 - what they do well]
+- [Strength 2 - what they do well]
+- [Strength 3 - what they do well]
+
+**Weaknesses** (from customer perspective):
+- [Weakness 1 - common complaints]
+- [Weakness 2 - common complaints]
+- [Weakness 3 - common complaints]
+
+**Pricing**:
+- Entry Point: $[amount]/month
+- Mid-Tier: $[amount]/month
+- Enterprise: $[amount or "Custom"]
+
+**Differentiation** (Us vs. Them):
+- **We win when**: [Scenario where we're the better choice]
+- **They win when**: [Scenario where they're the better choice]
+
+**Win/Loss Record**:
+- Wins against them: [Number or %]
+- Losses to them: [Number or %]
+- Win themes: [Why we win]
+- Loss themes: [Why we lose]
+
+**Recent Moves**:
+- [Date]: [Recent product launch, funding, acquisition, etc.]
+- [Date]: [Recent move]
+
+**Competitive Intelligence Sources**:
+- [Where you track them - G2 reviews, their blog, etc.]
+
+---
+
+#### Competitor 2: [Company Name]
+
+[Repeat structure above]
+
+---
+
+#### Competitor 3: [Company Name]
+
+[Repeat structure above]
+
+---
+
+### Indirect Competitors (2-3 alternatives)
+
+#### Alternative 1: [Type of Solution]
+
+**What It Is**:
+[Description of alternative approach]
+
+Example:
+> Internal BI tools built by engineering teams using tools like Metabase or Tableau
+
+**Who Chooses This**:
+- [Customer profile who picks this alternative]
+
+**Why Customers Choose This**:
+- [Reason 1]
+- [Reason 2]
+
+**How We Compete**:
+- [Our advantage 1]
+- [Our advantage 2]
+
+**When We Lose to This**:
+- [Scenario where customers pick this instead]
+
+---
+
+#### Alternative 2: [Type of Solution]
+
+[Repeat structure above]
+
+---
+
+## Competitive Matrix
+
+**Feature/Capability Comparison**:
+
+| Capability | Us | Competitor 1 | Competitor 2 | Competitor 3 |
+|------------|----|--------------| -------------|--------------|
+| [Key Feature 1] | ✅ Strong | ✅ Strong | ⚠️ Limited | ❌ None |
+| [Key Feature 2] | ✅ Strong | ⚠️ Limited | ✅ Strong | ✅ Strong |
+| [Key Feature 3] | ✅ Strong | ❌ None | ⚠️ Limited | ✅ Strong |
+| [Key Feature 4] | ⚠️ Limited | ✅ Strong | ✅ Strong | ⚠️ Limited |
+| [Key Feature 5] | ✅ Strong | ✅ Strong | ❌ None | ⚠️ Limited |
+| Pricing - Entry | $[X] | $[X] | $[X] | $[X] |
+| Pricing - Mid | $[X] | $[X] | $[X] | $[X] |
+| Target Market | [Segment] | [Segment] | [Segment] | [Segment] |
+
+Legend:
+- ✅ Strong = Market-leading capability
+- ⚠️ Limited = Basic capability, room for improvement
+- ❌ None = Not available
+
+---
+
+## Our Differentiation
+
+**Core Differentiation** (top 3):
+
+1. **[Differentiator 1]**
+   - **What It Is**: [Description]
+   - **Why It Matters**: [Customer value]
+   - **Proof Points**: [Evidence, metrics, testimonials]
+
+2. **[Differentiator 2]**
+   - **What It Is**: [Description]
+   - **Why It Matters**: [Customer value]
+   - **Proof Points**: [Evidence, metrics, testimonials]
+
+3. **[Differentiator 3]**
+   - **What It Is**: [Description]
+   - **Why It Matters**: [Customer value]
+   - **Proof Points**: [Evidence, metrics, testimonials]
+
+**What Makes Us Unique**:
+[One sentence that captures your unique position]
+
+Example:
+> The only platform that combines marketing analytics with automated insights, built specifically for marketers without SQL skills
+
+---
+
+## Competitive Advantages
+
+**Sustainable Advantages** (hard to replicate):
+- [Advantage 1 - e.g., "Network effects from X users"]
+- [Advantage 2 - e.g., "10 years of data science IP"]
+- [Advantage 3 - e.g., "Strategic partnerships with..."]
+
+**Temporary Advantages** (can be replicated):
+- [Advantage 1 - e.g., "Feature X launched 6 months before competitors"]
+- [Advantage 2 - e.g., "Better UI/UX"]
+
+---
+
+## Competitive Threats
+
+**High-Priority Threats**:
+
+1. **[Threat Description]**
+   - **From**: [Competitor or market trend]
+   - **Risk Level**: [High/Medium/Low]
+   - **Timeline**: [When this becomes a problem]
+   - **Mitigation**: [What we're doing about it]
+
+2. **[Threat Description]**
+   - **From**: [Competitor or market trend]
+   - **Risk Level**: [High/Medium/Low]
+   - **Timeline**: [When this becomes a problem]
+   - **Mitigation**: [What we're doing about it]
+
+**Emerging Competitors** (watch list):
+- [Company name]: [Why they're on our radar]
+- [Company name]: [Why they're on our radar]
+
+---
+
+## Market Trends
+
+**Macro Trends Affecting Our Market**:
+
+1. **[Trend Name]**
+   - **Description**: [What's happening]
+   - **Impact on Us**: [Opportunity/Threat]
+   - **Response**: [How we're positioning]
+
+2. **[Trend Name]**
+   - **Description**: [What's happening]
+   - **Impact on Us**: [Opportunity/Threat]
+   - **Response**: [How we're positioning]
+
+3. **[Trend Name]**
+   - **Description**: [What's happening]
+   - **Impact on Us**: [Opportunity/Threat]
+   - **Response**: [How we're positioning]
+
+---
+
+## Win/Loss Analysis
+
+**Overall Win Rate**: [X]% (last [N] opportunities)
+
+**Common Win Reasons**:
+1. [Reason 1] - [X]% of wins
+2. [Reason 2] - [X]% of wins
+3. [Reason 3] - [X]% of wins
+
+**Common Loss Reasons**:
+1. [Reason 1] - [X]% of losses
+2. [Reason 2] - [X]% of losses
+3. [Reason 3] - [X]% of losses
+
+**Lost to Competitor Breakdown**:
+- [Competitor 1]: [X]% of losses
+- [Competitor 2]: [X]% of losses
+- [Competitor 3]: [X]% of losses
+- Status Quo/No Decision: [X]%
+
+---
+
+## Sales Battle Cards
+
+**Quick Positioning Against Top Competitors**:
+
+### vs. [Competitor 1]
+
+**We Win When**:
+- [Scenario/customer profile]
+- [Scenario/customer profile]
+
+**Positioning**:
+- [Key message 1]
+- [Key message 2]
+
+**Handle Common Objections**:
+- **"They have [X feature]"** → [Response]
+- **"They're [cheaper/bigger/more established]"** → [Response]
+
+**Proof Points**:
+- [Testimonial, case study, or data point]
+
+---
+
+### vs. [Competitor 2]
+
+[Repeat structure above]
+
+---
+
+## Customer Switching Patterns
+
+**From Competitors to Us**:
+- Most common previous solution: [Competitor name]
+- Typical switching triggers:
+  - [Trigger 1 - e.g., "Outgrew their tier"]
+  - [Trigger 2 - e.g., "Needed better integrations"]
+  - [Trigger 3 - e.g., "Too complex for their team"]
+- Migration difficulty: [Easy/Moderate/Difficult]
+
+**From Us to Competitors**:
+- Most common churn destination: [Competitor name or "internal solution"]
+- Typical churn triggers:
+  - [Trigger 1]
+  - [Trigger 2]
+- Prevention strategy: [What we're doing]
+
+---
+
+## Competitive Intelligence
+
+**How We Track Competitors**:
+- [ ] G2/Capterra reviews monitoring
+- [ ] Their blog/product updates RSS
+- [ ] Customer feedback on competitors
+- [ ] Sales team competitive intelligence
+- [ ] Industry analyst reports
+- [ ] Social media monitoring
+
+**Recent Competitive Developments**:
+- **[Date]**: [Competitor] launched [Feature] - [Our response]
+- **[Date]**: [Competitor] raised [Amount] - [Our response]
+- **[Date]**: [Market change] - [Our response]
+
+**Intelligence Sources**:
+- Customer interviews: [Frequency]
+- Sales team debriefs: [Frequency]
+- Review site monitoring: [Tools used]
+- Analyst relationships: [Which analysts]
+
+---
+
+## Competitive Strategy
+
+**Our Strategic Response**:
+
+**Short-Term (0-6 months)**:
+- [Strategic move 1]
+- [Strategic move 2]
+
+**Medium-Term (6-12 months)**:
+- [Strategic move 1]
+- [Strategic move 2]
+
+**Long-Term (12+ months)**:
+- [Strategic move 1]
+- [Strategic move 2]
+
+**What We're NOT Competing On**:
+- [e.g., "Price - we're premium"]
+- [e.g., "Enterprise - we focus SMB"]
+- [e.g., "Features - we focus on simplicity"]
+
+---
+
+## Usage Notes
+
+**Used By**: All agents
+
+**Update Frequency**:
+- **Monthly**: Competitor pricing, feature updates, market moves
+- **Quarterly**: Comprehensive competitive analysis, battle card refresh
+- **After Major Events**: Competitor funding, product launches, market entries
+
+**Related Files**:
+- `.claude/product-context/strategic-goals.md` - How competitive position affects strategy
+- `market-research/competitor-analysis.md` - Detailed analysis documents
+- `sales/battle-cards/` - Detailed sales battle cards
+- `.claude/product-context/customer-segments.md` - How segments view competitors

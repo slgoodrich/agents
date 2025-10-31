@@ -1,0 +1,158 @@
+# Product Information
+
+**Last Updated**: [YYYY-MM-DD]
+
+---
+
+## Product Name
+
+[Your product name]
+
+---
+
+## Product Description
+
+[2-3 sentence description of what your product does and who it's for]
+
+Example:
+> Acme Analytics is a self-service business intelligence platform that helps marketing teams visualize campaign performance without technical skills. We provide drag-and-drop dashboards, automated reporting, and predictive insights for SMB marketing departments.
+
+---
+
+## Product Stage
+
+**Current Stage**: [Select one]
+- [ ] Idea - Validating concept, no product yet
+- [ ] MVP - First version with core features, testing with early users
+- [ ] PMF - Product-market fit achieved, validated value prop, growing user base
+- [ ] Growth - Scaling go-to-market, optimizing funnel, expanding features
+- [ ] Mature - Market leader, focus on retention/expansion, platform strategy
+
+**Notes on Stage**:
+[Any context about your stage - how long at this stage, what triggered transition, goals for next stage]
+
+---
+
+## Value Proposition
+
+**Core Value Proposition**:
+[One sentence: What unique value do you provide? Why should customers choose you?]
+
+Example:
+> We help marketing teams make data-driven decisions 10x faster than traditional BI tools, without needing SQL or data engineering support.
+
+**Key Benefits** (top 3):
+1. [Benefit 1 - specific outcome for users]
+2. [Benefit 2 - specific outcome for users]
+3. [Benefit 3 - specific outcome for users]
+
+---
+
+## Target Users and Market
+
+**Primary Target Market**:
+- Industry/Vertical: [e.g., B2B SaaS, Healthcare, E-commerce]
+- Company Size: [e.g., 50-500 employees, SMB, Enterprise]
+- Geography: [e.g., North America, Global, EMEA]
+
+**Primary User Personas** (top 2-3):
+1. **[Persona Name]** (e.g., Marketing Manager)
+   - Role/Title
+   - Key responsibilities
+   - Main pain points your product solves
+
+2. **[Persona Name]** (e.g., VP Marketing)
+   - Role/Title
+   - Key responsibilities
+   - Main pain points your product solves
+
+**Buyer Persona** (if different from users):
+- [Who makes purchase decisions? What do they care about?]
+
+---
+
+## Key Features and Capabilities
+
+**Core Features** (5-8 most important):
+1. [Feature name] - [Brief description of capability]
+2. [Feature name] - [Brief description of capability]
+3. [Feature name] - [Brief description of capability]
+4. [Feature name] - [Brief description of capability]
+5. [Feature name] - [Brief description of capability]
+
+**Differentiators** (what makes you unique):
+- [Differentiator 1]
+- [Differentiator 2]
+- [Differentiator 3]
+
+---
+
+## Technology Overview
+
+**Product Type**:
+- [ ] Web application (SaaS)
+- [ ] Mobile app (iOS/Android)
+- [ ] Desktop application
+- [ ] API/Platform
+- [ ] Embedded/Widget
+- [ ] Multi-platform
+
+**Deployment Model**:
+- [ ] Cloud (multi-tenant SaaS)
+- [ ] Cloud (single-tenant)
+- [ ] On-premise
+- [ ] Hybrid
+
+**Tech Stack Summary** (high-level):
+- Frontend: [e.g., React, Vue, Mobile native]
+- Backend: [e.g., Node.js, Python/Django, Ruby/Rails]
+- Database: [e.g., PostgreSQL, MongoDB, MySQL]
+- Infrastructure: [e.g., AWS, GCP, Azure]
+
+_For detailed technical information, see `.claude/product-context/tech-stack.md`_
+
+---
+
+## Product History
+
+**Founded/Started**: [Date]
+
+**Key Milestones**:
+- [Date]: [Milestone - e.g., "Launched MVP"]
+- [Date]: [Milestone - e.g., "Reached 100 customers"]
+- [Date]: [Milestone - e.g., "Series A funding"]
+- [Date]: [Milestone - e.g., "Launched v2.0 with [major feature]"]
+
+---
+
+## Links and Resources
+
+**Product Links**:
+- Website: [URL]
+- App: [URL]
+- Documentation: [URL]
+- Marketing Site: [URL]
+
+**Internal Resources**:
+- Product Docs: [Path or URL]
+- User Guides: [Path or URL]
+- Demo Environment: [URL]
+- Design System: [Path or URL]
+
+---
+
+## Usage Notes
+
+**Used By**: All agents
+
+**Update Frequency**: Update when:
+- Product stage changes
+- Major feature launches
+- Target market pivots
+- Value proposition evolves
+
+**Related Files**:
+- `.claude/product-context/business-metrics.md` - Current metrics and performance
+- `.claude/product-context/strategic-goals.md` - Strategic direction and goals
+- `.claude/product-context/tech-stack.md` - Detailed technical architecture
+- `.claude/product-context/customer-segments.md` - Detailed customer personas
