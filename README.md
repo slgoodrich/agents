@@ -63,11 +63,11 @@ Result: Expert RICE scoring in 2 minutes with explanation of why each feature ra
 
 ## What's Included
 
-**8 Expert PM Agents** - Available 24/7 for research, strategy, execution, and launch (1 orchestrator + 7 specialists)
-**1 Utility Agent** - Automated codebase context discovery (context-scanner)
-**16 Proven Frameworks** - RICE, JTBD, Lean Startup, Story Mapping, and more
-**100+ Templates & Assets** - PRD templates, roadmap frameworks, interview guides
-**Context-Aware Intelligence** - One-time setup, personalized outputs across all agents  
+**8 Expert PM Agents** - Available 24/7 for research, strategy, execution, and launch (1 orchestrator + 7 specialists)  
+**1 Utility Agent** - Automated codebase context discovery (context-scanner)  
+**16 Proven Frameworks** - RICE, JTBD, Lean Startup, Story Mapping, and more  
+**100+ Templates & Assets** - PRD templates, roadmap frameworks, interview guides  
+**Context-Aware Intelligence** - One-time setup, personalized outputs across all agents    
 
 Built on frameworks from Teresa Torres, Marty Cagan, April Dunford, Sean Ellis, Jeff Patton, and more. 
 
