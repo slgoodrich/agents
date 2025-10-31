@@ -1,0 +1,286 @@
+# Current Roadmap
+
+**Last Updated**: [YYYY-MM-DD]
+**Format**: Now-Next-Later
+
+---
+
+## Roadmap Philosophy
+
+**Our Approach**:
+[Brief description of how you think about roadmaps - outcome-focused, flexible, etc.]
+
+Example:
+> We use a Now-Next-Later roadmap to maintain flexibility while communicating direction. We commit to NOW, plan NEXT, and explore LATER. Priorities shift based on learnings and market feedback.
+
+---
+
+## NOW (0-3 months) - Active Work
+
+**What we're actively building and shipping**
+
+### [Theme/Initiative Name]
+
+**Strategic Alignment**: [Which strategic goal this supports]
+
+**Target Date**: [Month Year or Qtr Year]
+
+**Status**: [On Track / At Risk / Blocked]
+
+**Description**:
+[Brief description of what we're building and why]
+
+**Key Features/Deliverables**:
+- ✅ [Completed item]
+- 🔄 [In progress item] - [% complete]
+- ⏳ [Not started item]
+- 🚫 [Blocked item] - [Blocker description]
+
+**Success Metrics**:
+- [Metric 1]: Target [X], Current [Y]
+- [Metric 2]: Target [X], Current [Y]
+
+**Owner**: [Team/Person]
+
+---
+
+### [Theme/Initiative Name]
+
+**Strategic Alignment**: [Which strategic goal this supports]
+
+**Target Date**: [Month Year or Qtr Year]
+
+**Status**: [On Track / At Risk / Blocked]
+
+**Description**:
+[Brief description of what we're building and why]
+
+**Key Features/Deliverables**:
+- ✅ [Completed item]
+- 🔄 [In progress item]
+- ⏳ [Not started item]
+
+**Success Metrics**:
+- [Metric 1]: Target [X]
+- [Metric 2]: Target [X]
+
+**Owner**: [Team/Person]
+
+---
+
+## NEXT (3-6 months) - Planned Work
+
+**What we're planning next, contingent on NOW outcomes**
+
+### [Theme/Initiative Name]
+
+**Strategic Alignment**: [Which strategic goal this supports]
+
+**Estimated Timeline**: [Qtr Year]
+
+**Confidence**: [High / Medium / Low]
+
+**Description**:
+[Brief description of what we're planning and why]
+
+**Hypothesis**:
+[What we believe will happen if we build this]
+
+**Dependencies**:
+- [What must happen first]
+- [What we're waiting on]
+
+**Open Questions**:
+- [Question 1 we need to answer]
+- [Question 2 we need to answer]
+
+**Success Criteria**:
+- [How we'll know this was worth doing]
+
+---
+
+### [Theme/Initiative Name]
+
+**Strategic Alignment**: [Which strategic goal this supports]
+
+**Estimated Timeline**: [Qtr Year]
+
+**Confidence**: [High / Medium / Low]
+
+**Description**:
+[Brief description of what we're planning and why]
+
+**Hypothesis**:
+[What we believe will happen if we build this]
+
+**Dependencies**:
+- [What must happen first]
+
+**Open Questions**:
+- [Question we need to answer]
+
+**Success Criteria**:
+- [How we'll know this was worth doing]
+
+---
+
+## LATER (6+ months) - Exploration
+
+**What we're exploring for the future, not committed**
+
+### [Theme/Opportunity Area]
+
+**Strategic Alignment**: [Long-term strategic direction]
+
+**Why Interesting**:
+[What makes this compelling for the future]
+
+**Exploration Needed**:
+- [Research needed]
+- [Validation needed]
+- [Technical spike needed]
+
+**Potential Impact**:
+- [What could change if this works]
+
+**Risks/Unknowns**:
+- [Major unknown 1]
+- [Major unknown 2]
+
+---
+
+### [Theme/Opportunity Area]
+
+**Strategic Alignment**: [Long-term strategic direction]
+
+**Why Interesting**:
+[What makes this compelling for the future]
+
+**Exploration Needed**:
+- [Research needed]
+- [Validation needed]
+
+**Potential Impact**:
+- [What could change if this works]
+
+---
+
+## Strategic Themes
+
+**How initiatives map to strategic themes:**
+
+### Theme 1: [Theme Name from strategic-goals.md]
+- NOW: [Initiative names]
+- NEXT: [Initiative names]
+- LATER: [Opportunity areas]
+
+### Theme 2: [Theme Name from strategic-goals.md]
+- NOW: [Initiative names]
+- NEXT: [Initiative names]
+- LATER: [Opportunity areas]
+
+### Theme 3: [Theme Name from strategic-goals.md]
+- NOW: [Initiative names]
+- NEXT: [Initiative names]
+- LATER: [Opportunity areas]
+
+---
+
+## Not on Roadmap
+
+**What we've explicitly decided NOT to do (and why)**
+
+### [Feature/Request]
+- **Why Not**: [Reason for deprioritization]
+- **Requested By**: [Customer segment or stakeholder]
+- **Reconsidering If**: [What would need to change]
+
+### [Feature/Request]
+- **Why Not**: [Reason for deprioritization]
+- **Requested By**: [Customer segment or stakeholder]
+- **Reconsidering If**: [What would need to change]
+
+### [Feature/Request]
+- **Why Not**: [Reason for deprioritization]
+- **Requested By**: [Customer segment or stakeholder]
+- **Reconsidering If**: [What would need to change]
+
+---
+
+## Backlog Themes
+
+**Categorized backlog of potential future work**
+
+### Category: [Category Name, e.g., "Performance & Reliability"]
+- [Item 1] - [Brief description]
+- [Item 2] - [Brief description]
+- [Item 3] - [Brief description]
+
+### Category: [Category Name, e.g., "Enterprise Features"]
+- [Item 1] - [Brief description]
+- [Item 2] - [Brief description]
+
+### Category: [Category Name, e.g., "User Experience Improvements"]
+- [Item 1] - [Brief description]
+- [Item 2] - [Brief description]
+
+---
+
+## Roadmap Changes
+
+**Recent changes and why**
+
+**[Date]**: Moved [Item] from NEXT to NOW
+- **Reason**: [Why priority changed]
+- **Impact**: [What this means for other items]
+
+**[Date]**: Removed [Item] from roadmap
+- **Reason**: [Why deprioritized]
+- **Customer Impact**: [How this affects users]
+
+**[Date]**: Added [Item] to NOW
+- **Reason**: [New opportunity or urgent need]
+- **Trade-off**: [What we stopped to make room]
+
+---
+
+## Delivery Confidence
+
+**Our confidence in delivering NOW items**
+
+- [Initiative 1]: ⭐⭐⭐⭐⭐ (Very High - on track, no blockers)
+- [Initiative 2]: ⭐⭐⭐⭐ (High - on track, minor risks)
+- [Initiative 3]: ⭐⭐⭐ (Medium - at risk, managing blockers)
+- [Initiative 4]: ⭐⭐ (Low - blocked, need help)
+
+---
+
+## Customer Communication
+
+**Roadmap URL** (if publicly shared):
+[URL to public roadmap]
+
+**Last Customer Update**: [Date]
+
+**Next Scheduled Update**: [Date]
+
+**Customer Feedback Channels**:
+- [How customers can influence roadmap]
+- [How we communicate changes]
+
+---
+
+## Usage Notes
+
+**Used By**: All agents
+
+**Update Frequency**:
+- **Weekly**: Update status of NOW items
+- **Monthly**: Review and adjust NEXT items
+- **Quarterly**: Major roadmap review, shift NOW→NEXT→LATER
+
+**Related Files**:
+- `.claude/product-context/strategic-goals.md` - Goals that drive roadmap
+- `backlog.md` - Detailed feature backlog
+- `planning/quarterly-planning.md` - Detailed planning notes
+- `launches/previous-launches.md` - Launch history and learnings

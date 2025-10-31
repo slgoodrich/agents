@@ -1,0 +1,218 @@
+# Business Metrics
+
+**Last Updated**: [YYYY-MM-DD]
+**Baseline Date**: [Date these metrics are measured from]
+
+---
+
+## Revenue Metrics
+
+**Annual Recurring Revenue (ARR)**:
+- Current: $[amount] (as of [date])
+- Previous Quarter: $[amount] (as of [date])
+- Growth Rate: [X]% QoQ
+
+**Monthly Recurring Revenue (MRR)**:
+- Current: $[amount] (as of [date])
+- Previous Month: $[amount] (as of [date])
+- Growth Rate: [X]% MoM
+
+**Revenue Breakdown**:
+- New Business: [X]%
+- Expansion: [X]%
+- Renewal: [X]%
+- Total: 100%
+
+**Average Contract Value (ACV)**:
+- Overall: $[amount]
+- By Segment:
+  - SMB: $[amount]
+  - Mid-Market: $[amount]
+  - Enterprise: $[amount]
+
+---
+
+## User Metrics
+
+**Total Users/Customers**:
+- Total Paying Customers: [number] (as of [date])
+- Total Active Users: [number] (as of [date])
+- Growth Rate: [X]% MoM
+
+**User Segments**:
+- Free Tier: [number] users ([X]%)
+- Paid Tier: [number] users ([X]%)
+- Enterprise: [number] customers ([X]%)
+
+**Geographic Distribution**:
+- North America: [X]%
+- Europe: [X]%
+- APAC: [X]%
+- Other: [X]%
+
+---
+
+## Engagement Metrics
+
+**Daily Active Users (DAU)**:
+- Current: [number] (as of [date])
+- Previous Period: [number]
+- Trend: [Increasing/Stable/Decreasing]
+
+**Monthly Active Users (MAU)**:
+- Current: [number] (as of [date])
+- Previous Period: [number]
+- DAU/MAU Ratio: [X]% (stickiness)
+
+**Session Metrics**:
+- Avg Sessions per User per Week: [number]
+- Avg Session Duration: [X] minutes
+- Avg Time to Value: [X] minutes/hours/days
+
+---
+
+## Retention Metrics
+
+**User Retention**:
+- Day 1: [X]%
+- Day 7: [X]%
+- Day 30: [X]%
+- Day 90: [X]%
+
+**Revenue Retention**:
+- Net Revenue Retention (NRR): [X]% annually
+- Gross Revenue Retention (GRR): [X]% annually
+- Logo Retention: [X]% annually
+
+**Churn**:
+- User Churn Rate: [X]% monthly
+- Revenue Churn Rate: [X]% monthly
+- Churn by Segment:
+  - SMB: [X]%
+  - Mid-Market: [X]%
+  - Enterprise: [X]%
+
+**Top Churn Reasons**:
+1. [Reason] - [X]% of churned users
+2. [Reason] - [X]% of churned users
+3. [Reason] - [X]% of churned users
+
+---
+
+## Product Metrics
+
+**Activation Rate**:
+- % of signups who complete onboarding: [X]%
+- % of signups who reach "aha moment": [X]%
+- Avg time to activation: [X] days
+
+**Feature Adoption**:
+- [Key Feature 1]: [X]% of users
+- [Key Feature 2]: [X]% of users
+- [Key Feature 3]: [X]% of users
+
+**Conversion Funnel**:
+- Visitor → Signup: [X]%
+- Signup → Activated: [X]%
+- Activated → Paid: [X]%
+- Overall Visitor → Paid: [X]%
+
+---
+
+## Financial Metrics
+
+**Unit Economics**:
+- Customer Acquisition Cost (CAC): $[amount]
+- Lifetime Value (LTV): $[amount]
+- LTV:CAC Ratio: [X]:1
+- Payback Period: [X] months
+
+**Operating Metrics**:
+- Burn Rate: $[amount]/month
+- Runway: [X] months
+- Cash Balance: $[amount] (as of [date])
+
+**Pricing Tiers** (if applicable):
+- Tier 1: $[amount]/month - [number] customers
+- Tier 2: $[amount]/month - [number] customers
+- Tier 3: $[amount]/month - [number] customers
+- Enterprise: Custom - [number] customers
+
+---
+
+## Customer Satisfaction
+
+**Net Promoter Score (NPS)**:
+- Current: [score] (as of [date])
+- Previous Quarter: [score]
+- Trend: [Improving/Stable/Declining]
+
+**Customer Satisfaction (CSAT)**:
+- Overall: [X]% satisfied
+- By Touchpoint:
+  - Onboarding: [X]%
+  - Product: [X]%
+  - Support: [X]%
+
+**Customer Effort Score (CES)**:
+- Current: [score] (as of [date])
+- [Lower is better - measures ease of use]
+
+---
+
+## Market Metrics
+
+**Total Addressable Market (TAM)**:
+- TAM: $[amount]
+- Serviceable Addressable Market (SAM): $[amount]
+- Serviceable Obtainable Market (SOM): $[amount]
+
+**Market Share**:
+- Estimated market share: [X]%
+- Position: [e.g., "#3 player in SMB marketing analytics"]
+
+---
+
+## Growth Targets
+
+**Current Quarter Goals**:
+- ARR Target: $[amount] (current: $[amount], [X]% to goal)
+- Customer Target: [number] (current: [number], [X]% to goal)
+- NRR Target: [X]% (current: [X]%)
+
+**Annual Goals**:
+- ARR: $[amount]
+- Customers: [number]
+- Team Size: [number] people
+
+---
+
+## Metrics Dashboard Links
+
+**Analytics Platforms**:
+- Product Analytics: [URL to dashboard]
+- Revenue Metrics: [URL to dashboard]
+- User Engagement: [URL to dashboard]
+- Experiments: [URL to dashboard]
+
+**Export Date**: [When this data was last pulled]
+
+---
+
+## Usage Notes
+
+**Used By**: All agents
+
+**Update Frequency**:
+- Weekly: Active users, MRR, key conversion metrics
+- Monthly: Retention, churn, revenue breakdown
+- Quarterly: NRR, market metrics, financial metrics
+
+**Data Sources**:
+- [List your analytics tools: Mixpanel, Amplitude, ChartMogul, etc.]
+- [List your revenue tools: Stripe, Salesforce, etc.]
+
+**Related Files**:
+- `analytics/current-metrics.md` - Detailed analytics exports
+- `.claude/product-context/strategic-goals.md` - How metrics tie to goals
+- `analytics/experiments/history.md` - Experiment results
