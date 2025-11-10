@@ -180,12 +180,6 @@ The toolkit is optimized for **solo developers and small teams**:
 
 ## Performance & Testing
 
-### Test Coverage
-
-The plugin includes comprehensive automated testing:
-- **13/13 tests passing**: All automated tests passing
-- **125 files tested**: Complete coverage
-
 ### Quality Standards
 
 - All 9 agents have valid frontmatter and documentation

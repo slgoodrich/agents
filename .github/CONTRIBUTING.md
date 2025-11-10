@@ -12,7 +12,6 @@ Thank you for your interest in contributing! This guide will help you contribute
 - [Development Workflow](#development-workflow)
 - [Agent Contributions](#agent-contributions)
 - [Skill Contributions](#skill-contributions)
-- [Testing Requirements](#testing-requirements)
 - [Documentation Standards](#documentation-standards)
 - [Content Guidelines](#content-guidelines)
 - [Pull Request Process](#pull-request-process)
@@ -69,7 +68,6 @@ Found a bug? Please open an issue with:
 - Clear description of the issue
 - Steps to reproduce
 - Expected vs actual behavior
-- Test results (run TEST_PLAN.md if applicable)
 - Claude Code version
 
 ### 2. Feature Requests
@@ -104,14 +102,6 @@ Improve guides and references:
 - Create tutorials
 - Expand references
 
-### 6. Testing
-
-Expand test coverage:
-- Add new test cases to TEST_PLAN.md
-- Create integration tests
-- Test edge cases
-- Validate outputs
-
 ---
 
 ## Development Workflow
@@ -137,10 +127,6 @@ Follow the patterns and conventions in existing files.
 ### 3. Test Changes
 
 ```bash
-# Run automated test suite
-cd "/Library/Developer/src/Projects/Claude Code Plugins/Agents"
-bash test_runner.sh
-
 # Manual testing in Claude Code
 /plugin install /path/to/your/fork
 # Test your changes
@@ -400,63 +386,6 @@ Before submitting skill PR:
 
 ---
 
-## Testing Requirements
-
-### Automated Testing
-
-All contributions must pass automated tests:
-
-```bash
-# Run full test suite
-cd "/Library/Developer/src/Projects/Claude Code Plugins/Agents"
-
-# Run quick tests (10 tests)
-bash << 'EOF'
-# [quick test script from TEST_PLAN.md]
-EOF
-
-# Run detailed validation
-# [detailed tests from TEST_PLAN.md]
-```
-
-**Required passing tests:**
-- Configuration validation (plugin.json, marketplace.json)
-- Component counts (8 agents, 16 skills, 1 command)
-- Frontmatter validation (all agents and skills)
-- No stakeholder references
-- Skill usage (no orphaned skills)
-- Asset/reference integrity (all documented)
-
-### Manual Testing
-
-Test your changes in Claude Code:
-
-1. **Install locally:**
-   ```bash
-   /plugin install /path/to/your/fork
-   ```
-
-2. **Test agent/skill:**
-   - Invoke agent directly
-   - Verify skills load correctly
-   - Check output quality
-   - Test edge cases
-
-3. **Verify routing:**
-   - Test conversational requests
-   - Ensure product-manager routes correctly
-   - Verify context awareness
-
-### Test Documentation
-
-Update TEST_PLAN.md if you add new components:
-- Add test cases for new agents
-- Add validation for new skills
-- Update component counts
-- Document new test scenarios
-
----
-
 ## Documentation Standards
 
 ### Markdown Formatting
@@ -538,7 +467,6 @@ Update TEST_PLAN.md if you add new components:
 
 - Clear, descriptive title
 - Detailed description of changes
-- Link to related issues
 - Screenshots if applicable
 
 **PR template:**
@@ -556,19 +484,13 @@ Why is this change needed?
 - [ ] Testing
 
 ## Testing
-- [ ] Automated tests pass
 - [ ] Manual testing completed
-- [ ] Test results documented
 
 ## Checklist
 - [ ] Follows contribution guidelines
 - [ ] Documentation updated
 - [ ] No stakeholder references
 - [ ] Solo developer focused
-- [ ] Tests passing (13/13)
-
-## Related Issues
-Closes #123
 ```
 
 ### 2. Review Process
@@ -675,7 +597,6 @@ Your contribution determines version bump:
 - [Agents Guide](docs/agents.md) - Agent documentation
 - [Skills Reference](docs/agent-skills.md) - Skills catalog
 - [Usage Guide](docs/usage.md) - Usage patterns
-- [Test Plan](TEST_PLAN.md) - Testing guidelines
 
 ---
 

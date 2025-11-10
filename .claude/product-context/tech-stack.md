@@ -86,18 +86,6 @@ prds/                     # PRD storage (created by requirements-engineer)
 - YAML frontmatter for agent/skill metadata
 - Git for version control
 
-**Quality Assurance:**
-- TEST_PLAN.md: Comprehensive test suite (8 categories, 60+ tests)
-- Manual verification checklist for Claude Code integration
-- Bash-based validation scripts (JSON validation, component counting, content quality checks)
-
-**Testing Infrastructure:**
-- Configuration validation (jq for JSON parsing)
-- Component count verification (9 agents, 16 skills, 1 command)
-- Content quality tests (no stakeholder references, solo dev focus)
-- Frontmatter validation (required fields, model specifications)
-- Cross-reference validation (skills referenced by agents, no orphaned files)
-
 **Development Workflow:**
 - GitHub Issues with templates (bug reports, feature requests, agent proposals)
 - CODE_OF_CONDUCT.md and CONTRIBUTING.md for community standards
@@ -165,7 +153,6 @@ prds/                     # PRD storage (created by requirements-engineer)
 - Configuration analysis: .claude-plugin/plugin.json, .claude-plugin/marketplace.json
 - Component counting: 9 agents, 16 skills, 1 command
 - Directory structure scan: plugins/ai-pm-copilot/
-- Test infrastructure: TEST_PLAN.md with 60+ automated tests
 - GitHub integration: Issue templates, CODE_OF_CONDUCT.md, CONTRIBUTING.md
 
 **Auto-discovered:** 2025-10-30
