@@ -7,14 +7,27 @@
   },
   "metadata": {
     "description": "AI PM Copilot - Agent-first product management toolkit for solo developers and small teams",
-    "version": "1.0.0"
+    "version": "1.1.0"
   },
   "plugins": [
     {
       "name": "ai-pm-copilot",
       "source": "./plugins/ai-pm-copilot",
       "description": "Agent-first PM toolkit with 9 specialist agents, 16 skills, and context-aware workflows for solo developers and small teams",
-      "version": "1.0.0",
+      "version": "1.1.0",
+      "author": {
+        "name": "Steve Goodrich",
+        "email": "slgoodrich@users.noreply.github.com"
+      },
+      "homepage": "https://github.com/slgoodrich/agents",
+      "license": "PolyForm-Noncommercial-1.0.0",
+      "category": "product-management"
+    },
+    {
+      "name": "agent-teams",
+      "source": "./plugins/agent-teams",
+      "description": "Multi-agent team presets for idea validation, PRD stress testing, and competitive analysis using Claude Code Agent Teams",
+      "version": "1.1.0",
       "author": {
         "name": "Steve Goodrich",
         "email": "slgoodrich@users.noreply.github.com"

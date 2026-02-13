@@ -74,9 +74,9 @@ Returns scored features with detailed rationale
 
 ---
 
-## Available Skills (16 Total)
+## Available Skills (18 Total)
 
-The ai-pm-copilot plugin includes 16 specialized skills organized into four core PM domains. Each skill contains frameworks, templates, and best practices that agents load on-demand.
+The toolkit includes 18 skills across two plugins: 16 in ai-pm-copilot organized into four core PM domains, plus 2 in agent-teams for multi-agent coordination. Each skill contains frameworks, templates, and best practices that agents load on-demand.
 
 ### User Research & Discovery (5 skills)
 
@@ -143,6 +143,17 @@ The ai-pm-copilot plugin includes 16 specialized skills organized into four core
 
 16. **launch-planning-frameworks** - Launch tiers, messaging, coordination frameworks
     - Assets: Launch plans, timeline templates, readiness checklists
+
+### Agent Teams (2 skills)
+
+**Plugin**: agent-teams
+**Used by**: Team agents in validation-sprint, prd-stress-test, competitive-war-room commands
+
+17. **team-coordination** - Structured debate protocols, cross-examination patterns, consensus/dissent handling
+    - References: Team debate patterns (Dialectical Inquiry, Devil's Advocacy, Constructive Controversy)
+
+18. **team-deliverables** - Output templates and scoring rubrics for team workflows
+    - Assets: Validation verdict template, PRD review report template, competitive synthesis template
 
 ---
 
@@ -596,8 +607,8 @@ skills/
 
 ---
 
-**Available Skills**: 16 in ai-pm-copilot plugin
-**Categories**: User Research (5), Strategy (4), Execution (5), Launch (2)
+**Available Skills**: 18 across ai-pm-copilot (16) and agent-teams (2) plugins
+**Categories**: User Research (5), Strategy (4), Execution (5), Launch (2), Agent Teams (2)
 **Assets**: 63 templates, frameworks, and checklists
 **References**: 37 guides and best practices
 **Last Updated**: February 2026

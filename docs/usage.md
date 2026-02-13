@@ -394,6 +394,41 @@ For complex scenarios, chain multiple agents:
    → Returns detailed PRD
 ```
 
+### Workflow 8: Idea Validation (Agent Teams)
+
+Requires `CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS=1`.
+
+```
+/agent-teams:validation-sprint "AI-powered code review tool for solo developers"
+
+→ 3 agents investigate in parallel (researcher, market, skeptic)
+→ Cross-examination round (agents challenge each other)
+→ Verdict: BUILD / DON'T BUILD / NEEDS MORE EVIDENCE
+→ Scores: User Problem, Market Opportunity, Defensibility (1-10)
+```
+
+### Workflow 9: PRD Stress Test (Agent Teams)
+
+```
+/agent-teams:prd-stress-test prds/dark-mode.md
+
+→ 3 reviewers score independently (market-fit, feasibility, scope)
+→ Cross-reference round (flag conflicts between reviews)
+→ Verdict: READY TO BUILD / NEEDS REVISION / MAJOR REWORK
+→ Revision checklist with blocking issues
+```
+
+### Workflow 10: Competitive War Room (Agent Teams)
+
+```
+/agent-teams:competitive-war-room "Notion, Coda, Slite"
+
+→ 1 researcher per competitor (parallel deep-dives)
+→ Synthesis: positioning map, differentiation, threats
+→ Battle cards: one per competitor
+→ Option to save to .claude/product-context/
+```
+
 ---
 
 ## Best Practices
@@ -571,6 +606,6 @@ All agents read same context = consistent outputs across workflows
 
 ---
 
-**Components**: 9 agents, 1 command, 16 skills
+**Components**: 15 agents, 4 commands, 18 skills
 **Target Audience**: Solo developers and small teams
-**Last Updated**: October 2025
+**Last Updated**: February 2026

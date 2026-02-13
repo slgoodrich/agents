@@ -2,7 +2,7 @@
 
 ## Overview
 
-The Product Management Toolkit provides **9 AI agents** covering the complete PM lifecycle: 1 orchestrator, 7 PM specialists, and 1 utility agent. Most PM specialists use Claude Opus for deep strategic reasoning, with Sonnet for routing and structured output tasks, and Haiku for efficient utility operations.
+The Product Management Toolkit provides **15 AI agents** across two plugins. The core **ai-pm-copilot** plugin has 9 agents (1 orchestrator, 7 PM specialists, 1 utility). The **agent-teams** plugin adds 6 team agents for multi-agent debate workflows. Most PM specialists use Claude Opus for deep strategic reasoning, with Sonnet for routing and structured output tasks, and Haiku for efficient utility operations.
 
 **Agent-First Architecture:** Conversational PM through specialized agents instead of command memorization. The `product-manager` agent acts as an intelligent router, directing requests to appropriate specialists.
 
@@ -465,14 +465,16 @@ Round 5: roadmap-builder → Finalize timeline
 
 Agents use a tiered model strategy based on task complexity:
 
-**Claude Opus** (6 agents) - Deep strategic reasoning, nuanced judgment, creative synthesis:
-- market-analyst, research-ops, product-strategist, roadmap-builder, feature-prioritizer, launch-planner
+**Claude Opus** (10 agents) - Deep strategic reasoning, nuanced judgment, creative synthesis:
+- ai-pm-copilot: market-analyst, research-ops, product-strategist, roadmap-builder, feature-prioritizer, launch-planner
+- agent-teams: idea-researcher, market-researcher, idea-skeptic, market-fit-reviewer
 
-**Claude Sonnet** (2 agents) - Routing, pattern matching, structured output:
-- product-manager (orchestrator), requirements-engineer
+**Claude Sonnet** (4 agents) - Routing, pattern matching, structured output:
+- ai-pm-copilot: product-manager (orchestrator), requirements-engineer
+- agent-teams: feasibility-reviewer, scope-reviewer
 
 **Claude Haiku** (1 agent) - Fast file operations, data extraction:
-- context-scanner (utility)
+- ai-pm-copilot: context-scanner (utility)
 
 ---
 
@@ -711,11 +713,41 @@ Don't expect perfection on first output. Ask follow-up questions and refine.
 
 ---
 
+## Agent Teams Plugin
+
+The **agent-teams** plugin adds 6 team agents and 3 commands for multi-agent workflows. These agents work in parallel, challenge each other, and synthesize competing perspectives. Requires `CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS=1`.
+
+### Team Agents
+
+| Agent                    | Team Role                                                     | Used In                                 |
+| ------------------------ | ------------------------------------------------------------- | --------------------------------------- |
+| **idea-researcher**      | Voice of the user, investigates pain severity and workarounds | validation-sprint                       |
+| **market-researcher**    | Market perspective, sizing, competitor deep-dives             | validation-sprint, competitive-war-room |
+| **idea-skeptic**         | Devil's advocate, tries to kill the idea                      | validation-sprint                       |
+| **market-fit-reviewer**  | PRD review: market fit dimension (score 1-5)                  | prd-stress-test                         |
+| **feasibility-reviewer** | PRD review: technical feasibility dimension (score 1-5)       | prd-stress-test                         |
+| **scope-reviewer**       | PRD review: scope appropriateness dimension (score 1-5)       | prd-stress-test                         |
+
+### Team Commands
+
+**`/agent-teams:validation-sprint "<idea>"`** - Three agents investigate in parallel, cross-examine findings, deliver BUILD / DON'T BUILD / NEEDS MORE EVIDENCE verdict.
+
+**`/agent-teams:prd-stress-test <path>`** - Three reviewers score a PRD independently, flag conflicts, deliver READY TO BUILD / NEEDS REVISION / MAJOR REWORK verdict.
+
+**`/agent-teams:competitive-war-room "<competitors>"`** - One researcher per competitor, parallel deep-dives, synthesized into positioning map and battle cards.
+
+### Team Skills
+
+- **team-coordination** - Debate protocols, cross-examination patterns, synthesis frameworks
+- **team-deliverables** - Output templates and scoring rubrics for validation verdicts, PRD reviews, and competitive synthesis
+
+---
+
 ## Summary
 
-**Plugin:** ai-pm-copilot
-**Total Agents:** 9 (1 orchestrator + 7 PM specialists + 1 utility)
-**Models:** Claude Opus (6 agents), Claude Sonnet (2 agents), Claude Haiku (1 utility agent)
+**ai-pm-copilot plugin:** 9 agents (1 orchestrator + 7 PM specialists + 1 utility)
+**agent-teams plugin:** 6 team agents, 3 commands, 2 skills
+**Models:** Claude Opus (10 agents), Claude Sonnet (4 agents), Claude Haiku (1 utility agent)
 **Last Updated:** February 2026
 
 ---

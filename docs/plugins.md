@@ -2,19 +2,26 @@
 
 ## Overview
 
-The Product Management Toolkit is distributed as a **single comprehensive plugin** that includes all PM capabilities. This simplified architecture makes installation and updates easier while providing access to 1 orchestration agent, 7 specialist agents, 16 skills, and context-aware workflows.
+The Product Management Toolkit is distributed as **two plugins**: the core **ai-pm-copilot** plugin with 9 agents, 16 skills, and context-aware workflows, plus the **agent-teams** plugin with 6 team agents, 3 multi-agent commands, and 2 team skills.
 
 ---
 
 ## Architecture
 
-**Single unified plugin** provides:
+**Two plugins** with distinct responsibilities:
 
-- Complete PM toolkit in one install: `/plugin install ai-pm-copilot`
-- 1 orchestration agent + 7 specialist agents with intelligent routing
+**ai-pm-copilot** (core):
+
+- 1 orchestration agent + 7 specialist agents + 1 utility agent
 - 16 skills with 100+ assets and references
-- Unified versioning and updates
-- No plugin dependencies
+- 1 command (pm-setup)
+
+**agent-teams** (experimental):
+
+- 6 team agents for multi-agent debate workflows
+- 2 skills (team-coordination, team-deliverables)
+- 3 commands (validation-sprint, prd-stress-test, competitive-war-room)
+- Requires `CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS=1`
 
 ---
 
@@ -96,6 +103,45 @@ See [Skills Reference](agent-skills.md) for detailed documentation.
 ### Command
 
 **pm-setup** - Initialize .claude/product-context/ directory structure
+
+---
+
+## agent-teams Plugin
+
+### Overview
+
+Multi-agent team presets for high-stakes product decisions. Agents work in parallel, challenge each other's conclusions, and synthesize competing perspectives into actionable verdicts.
+
+Requires Claude Code's experimental Agent Teams feature: `CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS=1`
+
+### Structure
+
+```
+agent-teams/
+├── agents/          # 6 team agents
+├── commands/        # 3 team commands
+└── skills/          # 2 team skills
+```
+
+### Agents
+
+1. **idea-researcher** - Voice of the user in validation sprints
+2. **market-researcher** - Market perspective in validation sprints, competitor deep-diver in war rooms
+3. **idea-skeptic** - Devil's advocate, tries to kill ideas with evidence
+4. **market-fit-reviewer** - PRD review: market fit dimension
+5. **feasibility-reviewer** - PRD review: technical feasibility dimension
+6. **scope-reviewer** - PRD review: scope appropriateness dimension
+
+### Commands
+
+1. **validation-sprint** - "Should I build this?" Three agents investigate, debate, deliver verdict.
+2. **prd-stress-test** - "Is this PRD ready?" Three reviewers score, cross-reference, deliver verdict.
+3. **competitive-war-room** - Parallel competitor deep-dives with positioning synthesis.
+
+### Skills
+
+1. **team-coordination** - Structured debate protocols, cross-examination, synthesis patterns
+2. **team-deliverables** - Output templates and scoring rubrics for all three commands
 
 ---
 
@@ -236,7 +282,5 @@ See CONTRIBUTING.md (coming soon) for detailed guidelines.
 
 ---
 
-**Plugin**: ai-pm-copilot
-**Components**: 9 agents, 1 command, 16 skills
-**Status**: Production-ready (13/13 tests passing)
-**Last Updated**: October 2025
+**Plugins**: ai-pm-copilot (9 agents, 1 command, 16 skills) + agent-teams (6 agents, 3 commands, 2 skills)
+**Last Updated**: February 2026

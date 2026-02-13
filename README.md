@@ -1,39 +1,39 @@
 # AI PM Copilot for Claude Code
 
-> Answer PM's hardest questions in minutes, not days
+> Answer product management's hardest questions in minutes, not days
 
-**Expert PM guidance powered by frameworks from Teresa Torres, Marty Cagan, April Dunford, and more - without hiring a PM.**
+**Expert product management guidance powered by frameworks from Teresa Torres, Marty Cagan, April Dunford, and more - without hiring a product manager.**
 
 Right feature. Right users. Right time. Right reasons.
 
 Not a project management tool. Not a generic AI assistant. A specialized copilot that combines:
 
 - **Speed of AI** (answers in minutes)
-- **Depth of PM frameworks** (Teresa Torres, Marty Cagan, April Dunford)
+- **Depth of product management frameworks** (Teresa Torres, Marty Cagan, April Dunford)
 - **Context-aware reasoning** (remembers your product, personalizes outputs)
 
-Built for solo developers and small teams who need enterprise PM capabilities without the complexity.
+Built for solo developers and small teams who need enterprise product management capabilities without the complexity.
 
 ## Why AI PM Copilot?
 
-**You're a solo founder building your first product.** You can code, but PM decisions feel like guesswork:
+**You're a solo founder building your first product.** You can code, but product management decisions feel like guesswork:
 
 - "Should I build feature X or Y first?"
 - "How do I validate this idea without wasting weeks?"
 - "Which users should I target?"
 - "When is the right time to launch?"
 
-**Generic AI** (ChatGPT, Claude): Fast answers, but no PM frameworks or strategic depth  
-**Enterprise PM tools** (Jira, Aha!): Deep features, but slow, complex, and expensive  
+**Generic AI** (ChatGPT, Claude): Fast answers, but no product management frameworks or strategic depth
+**Enterprise PM tools** (Jira, Aha!): Deep features, but slow, complex, and expensive
 **Manual PM work** (Notion, templates): Flexible, but requires expertise you don't have
 
-**AI PM Copilot:** Expert PM frameworks + AI speed = rigorous answers delivered in minutes.
+**AI PM Copilot:** Expert product management frameworks + AI speed = rigorous answers delivered in minutes.
 
-Built on 16 proven methodologies from PM thought leaders. Context-aware intelligence that remembers your product. Developer-native experience inside Claude Code.
+Built on 16 proven methodologies from product management thought leaders. Context-aware intelligence that remembers your product. Developer-native experience inside Claude Code.
 
-## Built on Proven PM Frameworks
+## Built on Proven Product Management Frameworks
 
-AI PM Copilot isn't generic AI advice - it's built on expert frameworks from PM thought leaders:
+AI PM Copilot isn't generic AI advice - it's built on expert frameworks from product management thought leaders:
 
 **Research & Discovery:** Teresa Torres (Continuous Discovery), Erika Hall (Just Enough Research)  
 **Strategy & Goals:** Marty Cagan (Empowered), Sean Ellis (Product-Market Fit), April Dunford (Positioning)  
@@ -44,16 +44,14 @@ AI PM Copilot isn't generic AI advice - it's built on expert frameworks from PM 
 
 ## How It Works
 
-**Just talk to your PM expert agents like you would a consultant:**
+**Just talk to Claude Code like you would a consultant:**
 
 ```
-You: "Tell product-manager: I'm building a SaaS analytics tool. Should I prioritize dashboards or API access first?"
+You: "I'm building a SaaS analytics tool. Should I prioritize dashboards or API access first?"
 
-product-manager: Let me help you score these features using RICE framework...
-
-[Routes to feature-prioritizer]
-[Reads your product context from setup]
-[Returns scored recommendations with rationale]
+→ product-manager routes to feature-prioritizer
+→ Reads your product context from setup
+→ Returns scored recommendations with rationale
 
 Result: Expert RICE scoring in 2 minutes with explanation of why each feature ranks where it does.
 ```
@@ -62,14 +60,20 @@ Result: Expert RICE scoring in 2 minutes with explanation of why each feature ra
 
 1. Install: `/plugin install ai-pm-copilot`
 2. Setup (optional, 5-10 min): `/ai-pm-copilot:pm-setup`
-3. Ask: "Tell product-manager: [your PM question]"
+3. Ask: "Should I prioritize feature X or Y?"
 
 ## What's Included
 
-**8 Expert PM Agents** - Available 24/7 for research, strategy, execution, and launch (1 orchestrator + 7 specialists)  
-**1 Utility Agent** - Automated codebase context discovery (context-scanner)  
-**16 Proven Frameworks** - RICE, JTBD, Lean Startup, Story Mapping, and more  
-**100+ Templates & Assets** - PRD templates, roadmap frameworks, interview guides  
+**8 Expert Product Management Agents** - Available 24/7 for research, strategy, execution, and launch (1 orchestrator + 7 specialists)
+
+**1 Utility Agent** - Automated codebase context discovery (context-scanner)
+
+**3 Multi-Agent Team Presets** - Validation sprints, PRD stress tests, competitive war rooms
+
+**16 Proven Frameworks** - RICE, JTBD, Lean Startup, Story Mapping, and more
+
+**100+ Templates & Assets** - PRD templates, roadmap frameworks, interview guides
+
 **Context-Aware Intelligence** - One-time setup, personalized outputs across all agents
 
 Built on frameworks from Teresa Torres, Marty Cagan, April Dunford, Sean Ellis, Jeff Patton, and more.
@@ -91,37 +95,37 @@ Spend 5-10 minutes setting up context once, save 80% of questions across all fut
 /ai-pm-copilot:pm-setup
 ```
 
-### 3. Ask Your First PM Question
+### 3. Ask Your First Product Management Question
 
-```bash
-Tell product-manager: "Should I prioritize feature X or Y?"
-Tell research-ops: "Design a user interview study for churn"
-Tell feature-prioritizer: "Score these 5 features with RICE"
+```
+"Should I prioritize feature X or Y?"
+"Design a user interview study for churn"
+"Score these 5 features with RICE"
 ```
 
-**Get expert PM guidance in minutes, not days.** No signup. No API keys. Just install and ask.
+**Get expert product management guidance in minutes, not days.** No signup. No API keys. Just install and ask.
 
 ## Use Cases
 
-### Daily PM Work
+### Daily Product Management Work
 
 **Feature validation:**
 
 ```
-Tell product-manager: "I want to add real-time collaboration. Is this worth building?"
+"I want to add real-time collaboration. Is this worth building?"
 → Coordinates research-ops for validation, feature-prioritizer for scoring
 ```
 
 **Planning:**
 
 ```
-Tell roadmap-builder: "Plan next quarter focused on retention"
+"Plan next quarter focused on retention"
 ```
 
 **Documentation:**
 
 ```
-Tell requirements-engineer: "Write PRD for SSO integration"
+"Write a PRD for SSO integration"
 ```
 
 ### Strategic Planning
@@ -129,19 +133,19 @@ Tell requirements-engineer: "Write PRD for SSO integration"
 **Quarterly Goals:**
 
 ```
-Tell product-strategist: "Create Q2 2025 goals for a pre-PMF SaaS product"
+"Create Q2 goals for a pre-PMF SaaS product"
 ```
 
 **Market analysis:**
 
 ```
-Tell market-analyst: "Research the competitive landscape for project management tools"
+"Research the competitive landscape for project management tools"
 ```
 
 **Roadmap:**
 
 ```
-Tell roadmap-builder: "Build a now-next-later roadmap for next 6 months"
+"Build a now-next-later roadmap for next 6 months"
 ```
 
 ### Research & Discovery
@@ -149,19 +153,19 @@ Tell roadmap-builder: "Build a now-next-later roadmap for next 6 months"
 **User research:**
 
 ```
-Tell research-ops: "Design a study to understand user onboarding pain points"
+"Design a study to understand user onboarding pain points"
 ```
 
 **Validation:**
 
 ```
-Tell research-ops: "Help me validate this feature hypothesis with 10 user interviews"
+"Help me validate this feature hypothesis with 10 user interviews"
 ```
 
 **Synthesis:**
 
 ```
-Tell research-ops: "Analyze these interview transcripts and identify top 3 insights"
+"Analyze these interview transcripts and identify top 3 insights"
 ```
 
 ### Launch Planning
@@ -169,14 +173,44 @@ Tell research-ops: "Analyze these interview transcripts and identify top 3 insig
 **Go-to-market:**
 
 ```
-Tell launch-planner: "Create a beta launch plan for our API product"
+"Create a beta launch plan for our API product"
 ```
 
 **Positioning:**
 
 ```
-Tell market-analyst: "Develop positioning for a new pricing tier"
+"Develop positioning for a new pricing tier"
 ```
+
+## Agent Teams (Experimental)
+
+Multi-agent team presets for high-stakes product decisions. Multiple agents work in parallel, challenge each other's conclusions, and synthesize competing perspectives.
+
+Requires Claude Code's experimental Agent Teams feature: `CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS=1`
+
+### Validation Sprint
+
+```
+/agent-teams:validation-sprint "AI-powered code review tool for solo developers"
+```
+
+Three agents investigate in parallel (idea-researcher, market-researcher, idea-skeptic), cross-examine each other's findings, and deliver a BUILD / DON'T BUILD / NEEDS MORE EVIDENCE verdict.
+
+### PRD Stress Test
+
+```
+/agent-teams:prd-stress-test path/to/prd.md
+```
+
+Three reviewers (market-fit, feasibility, scope) score your PRD independently, flag conflicts between their reviews, and deliver a READY TO BUILD / NEEDS REVISION / MAJOR REWORK verdict.
+
+### Competitive War Room
+
+```
+/agent-teams:competitive-war-room "Notion, Coda, Slite"
+```
+
+One researcher per competitor runs a deep-dive in parallel. Results are synthesized into a positioning map, battle cards, and strategic recommendations.
 
 ## Agents
 
@@ -188,14 +222,14 @@ The toolkit provides 1 orchestration agent, 7 specialist agents, and 1 utility a
 
 **Use for:**
 
-- General PM questions and guidance
+- General product management questions and guidance
 - Multi-faceted problems requiring multiple perspectives
 - When unsure which specialist to consult
 
 **Example:**
 
 ```
-Tell product-manager: "I need to validate a feature idea, prioritize it, and plan delivery"
+"I need to validate a feature idea, prioritize it, and plan delivery"
 → Routes to research-ops, feature-prioritizer, and requirements-engineer
 ```
 
@@ -214,8 +248,8 @@ Tell product-manager: "I need to validate a feature idea, prioritize it, and pla
 **Example:**
 
 ```
-Tell market-analyst: "Analyze our position against competitors in the project management space"
-Tell market-analyst: "Research competitive landscape for project management tools"
+"Analyze our position against competitors in the project management space"
+"Research competitive landscape for project management tools"
 ```
 
 ### 3. research-ops
@@ -233,8 +267,8 @@ Tell market-analyst: "Research competitive landscape for project management tool
 **Example:**
 
 ```
-Tell research-ops: "Design a study to understand why 30% of users churn after first month"
-Tell research-ops: "Synthesize these interview transcripts into themes and insights"
+"Design a study to understand why 30% of users churn after first month"
+"Synthesize these interview transcripts into themes and insights"
 ```
 
 ### 4. product-strategist
@@ -252,7 +286,7 @@ Tell research-ops: "Synthesize these interview transcripts into themes and insig
 **Example:**
 
 ```
-Tell product-strategist: "Create Q2 2025 goals focused on reaching product-market fit"
+"Create Q2 goals focused on reaching product-market fit"
 ```
 
 ### 5. roadmap-builder
@@ -270,7 +304,7 @@ Tell product-strategist: "Create Q2 2025 goals focused on reaching product-marke
 **Example:**
 
 ```
-Tell roadmap-builder: "Build a 6-month roadmap for our mobile app launch"
+"Build a 6-month roadmap for our mobile app launch"
 ```
 
 ### 6. feature-prioritizer
@@ -288,7 +322,7 @@ Tell roadmap-builder: "Build a 6-month roadmap for our mobile app launch"
 **Example:**
 
 ```
-Tell feature-prioritizer: "Score these 10 features using RICE framework"
+"Score these 10 features using RICE framework"
 ```
 
 ### 7. requirements-engineer
@@ -306,7 +340,7 @@ Tell feature-prioritizer: "Score these 10 features using RICE framework"
 **Example:**
 
 ```
-Tell requirements-engineer: "Write a comprehensive PRD for dark mode feature"
+"Write a comprehensive PRD for dark mode feature"
 ```
 
 ### 8. launch-planner
@@ -324,7 +358,7 @@ Tell requirements-engineer: "Write a comprehensive PRD for dark mode feature"
 **Example:**
 
 ```
-Tell launch-planner: "Create a launch plan for our new API product"
+"Create a launch plan for our new API product"
 ```
 
 ### 9. context-scanner (Utility Agent)
@@ -367,7 +401,7 @@ Tell launch-planner: "Create a launch plan for our new API product"
 
 The **product-manager** agent acts as an intelligent router that:
 
-1. Analyzes your request to understand the PM discipline(s) needed
+1. Analyzes your request to understand the product management discipline(s) needed
 2. Routes to the appropriate specialist agent(s)
 3. Coordinates multi-agent workflows when needed
 4. Synthesizes outputs from multiple specialists
@@ -375,25 +409,20 @@ The **product-manager** agent acts as an intelligent router that:
 **Simple routing:**
 
 ```
-Tell product-manager: "Help me prioritize features"
-→ Routes to feature-prioritizer
+"Help me prioritize features"
+→ product-manager routes to feature-prioritizer
 ```
 
 **Multi-agent workflow:**
 
 ```
-Tell product-manager: "Validate this feature idea and create a launch plan"
-→ Routes to research-ops (validation)
+"Validate this feature idea and create a launch plan"
+→ product-manager routes to research-ops (validation)
 → Then to launch-planner (GTM strategy)
 → Synthesizes complete plan
 ```
 
-**You can also bypass routing:**
-
-```
-Tell feature-prioritizer: "Score these features with RICE"
-→ Goes directly to specialist
-```
+**Direct to specialist:** If your question clearly fits one domain, Claude Code may route directly to the specialist without going through product-manager first.
 
 ## Skills
 
@@ -485,8 +514,8 @@ Creates 8 core context files that all agents reference:
 
 ### Agent-First Design
 
-- **Single plugin** instead of multiple separate plugins
-- **Main orchestration agent + 7 specialist agents** with clear responsibilities
+- **Two plugins** - core PM toolkit (ai-pm-copilot) + multi-agent team presets (agent-teams)
+- **Main orchestration agent + 7 specialist agents + 6 team agents** with clear responsibilities
 - **Intelligent routing** through main product-manager agent
 - **Progressive skills** that load on-demand
 - **Solo developer focus** - no enterprise complexity
@@ -497,7 +526,7 @@ Creates 8 core context files that all agents reference:
 - Agents collaborate automatically
 - Context flows between specialists
 - Simpler mental model
-- Single plugin install with everything included
+- Install what you need: core plugin or full suite
 
 ### Model Strategy
 
@@ -511,7 +540,7 @@ Creates 8 core context files that all agents reference:
 Use **requirements-engineer** to create Product Requirements Documents with automatic template selection:
 
 ```
-Tell requirements-engineer: "Write a PRD for [your feature]"
+"Write a PRD for [your feature]"
 ```
 
 **Intelligent Template Selection:**
@@ -546,7 +575,7 @@ PRDs are automatically saved to `prds/[feature-name].md` using kebab-case naming
 
 Built for **solo developers and small teams** who need:
 
-- Enterprise PM capabilities without complexity
+- Enterprise product management capabilities without complexity
 - Conversational interface, not command memorization
 - Intelligent routing to the right expertise
 - Progressive learning and guidance
@@ -554,13 +583,13 @@ Built for **solo developers and small teams** who need:
 **Perfect for:**
 
 - Solo founders building their first product
-- Small teams without dedicated PM
+- Small teams without a dedicated product manager
 - Developers transitioning to product roles
 - Side projects and indie hackers
 
 **Not designed for:**
 
-- Enterprise organizations with PM teams
+- Enterprise organizations with product management teams
 - Complex stakeholder management scenarios
 - Large-scale portfolio management
 - Multiple product lines with dependencies
@@ -608,4 +637,4 @@ This project is licensed under the [PolyForm Noncommercial License 1.0.0](https:
 
 ---
 
-_Empowering solo developers and small teams with enterprise PM capabilities through conversational AI agents._
+_Empowering solo developers and small teams with enterprise product management capabilities through conversational AI agents._
