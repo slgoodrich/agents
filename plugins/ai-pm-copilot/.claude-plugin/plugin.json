@@ -1,0 +1,10 @@
+{
+  "name": "ai-pm-copilot",
+  "version": "1.0.0",
+  "description": "Agent-first PM toolkit with 9 specialist agents, 16 skills, and context-aware workflows for solo developers and small teams",
+  "author": {
+    "name": "Steve Goodrich",
+    "email": "slgoodrich@users.noreply.github.com"
+  },
+  "license": "PolyForm-Noncommercial-1.0.0"
+}

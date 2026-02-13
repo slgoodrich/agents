@@ -1,0 +1,150 @@
+---
+name: New Agent Proposal
+description: Propose a new PM agent for the toolkit
+title: "[NEW AGENT] "
+labels: ["enhancement", "agent-proposal"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for proposing a new agent! Quality agents require
+        careful design and clear specialization.
+
+        **Important**: Only propose agents for legitimate, constructive
+        use cases. Proposals for malicious or harmful capabilities will
+        be rejected and may result in moderation action.
+
+  - type: markdown
+    attributes:
+      value: "## Preliminary Checks"
+
+  - type: checkboxes
+    id: preliminary-checks
+    attributes:
+      label: Please confirm you have completed these steps
+      options:
+        - label: I have read the [Code of Conduct](../CODE_OF_CONDUCT.md)
+          required: true
+        - label: >-
+            I have reviewed existing agents to ensure this is not a
+            duplicate
+          required: true
+        - label: >-
+            This proposal is for legitimate, constructive use cases only
+          required: true
+        - label: I have domain expertise in the proposed area
+          required: true
+
+  - type: input
+    id: agent-name
+    attributes:
+      label: Proposed Agent Name
+      description: What should this agent be called?
+      placeholder: >-
+        e.g., pricing-strategist, customer-retention-expert,
+        product-analyst, etc.
+    validations:
+      required: true
+
+  - type: dropdown
+    id: target-plugin
+    attributes:
+      label: Target Plugin
+      description: Which plugin should this agent belong to?
+      options:
+        - product-strategy
+        - product-discovery
+        - product-growth
+        - product-execution
+    validations:
+      required: true
+
+  - type: textarea
+    id: domain-expertise
+    attributes:
+      label: Domain Expertise
+      description: What specific PM domain or specialty does this agent cover?
+      placeholder: This agent specializes in...
+    validations:
+      required: true
+
+  - type: textarea
+    id: unique-value
+    attributes:
+      label: Unique Value Proposition
+      description: >-
+        How is this different from existing agents? What unique
+        capabilities does it provide?
+      placeholder: Unlike existing agents, this one would...
+    validations:
+      required: true
+
+  - type: textarea
+    id: use-cases
+    attributes:
+      label: Primary Use Cases
+      description: >-
+        What specific PM tasks would this agent handle? (Provide 2-4
+        examples)
+      placeholder: |
+        1. Design and implement...
+        2. Optimize performance for...
+        3. Debug issues related to...
+        4. Review code for...
+    validations:
+      required: true
+
+  - type: textarea
+    id: tools-capabilities
+    attributes:
+      label: Required Tools & Capabilities
+      description: >-
+        What tools, frameworks, or knowledge would this agent need?
+      placeholder: |
+        - Access to specific PM frameworks...
+        - Integration with tools like...
+        - Specialized knowledge of...
+        - Ability to analyze...
+    validations:
+      required: true
+
+  - type: textarea
+    id: example-interactions
+    attributes:
+      label: Example Interactions
+      description: >-
+        Provide 2-3 example interactions showing how PMs would work
+        with this agent
+      placeholder: |
+        **Example 1:**
+        User: "Help me analyze pricing tiers for..."
+        Agent response: "I'll create a comprehensive pricing analysis..."
+
+        **Example 2:**
+        User: "Optimize this customer retention strategy..."
+        Agent response: "Let me analyze the strategy and suggest..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: your-expertise
+    attributes:
+      label: Your Expertise
+      description: >-
+        What experience or credentials do you have in this PM domain?
+      placeholder: >-
+        I have X years of experience in product management... I've
+        worked with... I specialize in...
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Additional Context
+      description: >-
+        Any other relevant information, resources, or considerations
+      placeholder: >-
+        Relevant documentation, similar tools, potential challenges...
+    validations:
+      required: false
