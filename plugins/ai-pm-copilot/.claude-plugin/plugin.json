@@ -1,6 +1,6 @@
 {
   "name": "ai-pm-copilot",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Agent-first PM toolkit with 9 specialist agents and 18 skills for solo developers and small teams",
   "repository": "https://github.com/slgoodrich/agents",
   "homepage": "https://github.com/slgoodrich/agents/tree/main/plugins/ai-pm-copilot",

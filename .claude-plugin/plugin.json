@@ -1,6 +1,6 @@
 {
   "name": "ai-pm-copilot",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "PM toolkit with 15 agents, 23 skills, and 3 multi-agent team presets for solo developers and small teams",
   "repository": "https://github.com/slgoodrich/agents",
   "homepage": "https://github.com/slgoodrich/agents",

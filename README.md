@@ -186,7 +186,7 @@ Spend 5-10 minutes setting up context once, save 80% of questions across all fut
 
 Multi-agent team presets for high-stakes product decisions. Multiple agents work in parallel, challenge each other's conclusions, and synthesize competing perspectives.
 
-Requires Claude Code's experimental Agent Teams feature: `CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS=1`
+Requires Claude Code's Agent Teams feature. Check https://docs.anthropic.com/en/docs/claude-code for setup instructions.
 
 ### Validation Sprint
 
@@ -473,6 +473,11 @@ Where do I launch? What's my messaging?
 
 - **go-to-market-playbooks** - GTM strategies, distribution channels
 - **launch-planning-frameworks** - Launch tiers, timelines, execution
+
+### Setup & Utility
+
+- **pm-setup** - Interactive wizard for product context initialization
+- **codebase-scanning** - Automated feature and tech stack discovery from code
 
 ## Setup Command
 
