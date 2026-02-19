@@ -7,18 +7,6 @@ description: Master user interviews, usability testing, surveys, and research sy
 
 Guide to qualitative and quantitative research methods for understanding users, validating ideas, and informing product decisions.
 
-## Table of Contents
-
-- [When to Use This Skill](#when-to-use-this-skill)
-- [Research Methods Matrix](#research-methods-matrix)
-- [Qualitative Methods](#qualitative-methods)
-- [Quantitative Methods](#quantitative-methods)
-- [Best Practices](#best-practices)
-- [Common Mistakes](#common-mistakes)
-- [Tools](#tools)
-- [Templates and References](#templates-and-references)
-- [Quick Guide](#quick-guide)
-
 ## When to Use This Skill
 
 **Auto-loaded by agents**:

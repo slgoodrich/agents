@@ -7,22 +7,6 @@ description: Master user story templates including As-a/I-want/So-that format, a
 
 Comprehensive templates and frameworks for writing effective user stories with clear acceptance criteria, enabling agile development teams to deliver value incrementally.
 
-## Table of Contents
-
-- [What is a User Story?](#what-is-a-user-story)
-- [When to Use This Skill](#when-to-use-this-skill)
-- [User Story Format](#user-story-format)
-- [Ready-to-Use Templates](#ready-to-use-templates)
-- [Acceptance Criteria](#acceptance-criteria)
-- [Story Splitting](#story-splitting)
-- [INVEST Criteria](#invest-criteria)
-- [User Story Best Practices](#user-story-best-practices)
-- [Acceptance Criteria Best Practices](#acceptance-criteria-best-practices)
-- [Story Point Estimation](#story-point-estimation)
-- [Common Mistakes to Avoid](#common-mistakes-to-avoid)
-- [Templates and References](#templates-and-references)
-- [Quick Start](#quick-start)
-
 ## What is a User Story?
 
 A user story is a concise description of a feature from the end-user's perspective. It follows the format: "As a [user], I want [goal], so that [benefit]."

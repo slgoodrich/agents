@@ -2,7 +2,22 @@
 name: feasibility-reviewer
 description: PRD reviewer specializing in technical feasibility and requirements clarity. Evaluates whether requirements are buildable, unambiguous, and have testable acceptance criteria. One of three reviewers in PRD stress tests.
 model: sonnet
+memory: project
+skills:
+  - team-deliverables
+tools:
+  - Read
+  - Glob
+  - Grep
 ---
+
+## Memory
+
+Before starting work:
+- Check memory for prior findings on this product or similar ideas.
+
+After completing work:
+- Save key findings and evidence that would be useful in future sprints.
 
 ## Purpose
 

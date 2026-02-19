@@ -5,17 +5,6 @@ description: Apply RICE, ICE, MoSCoW, Kano, and Value vs Effort frameworks. Use 
 
 # Prioritization Methods & Frameworks
 
-## Table of Contents
-
-- [Overview](#overview)
-- [When to Use This Skill](#when-to-use-this-skill)
-- [Seven Core Frameworks](#seven-core-frameworks)
-- [Choosing the Right Framework](#choosing-the-right-framework)
-- [Best Practices](#best-practices)
-- [Templates and References](#templates-and-references)
-- [Quick Reference](#quick-reference)
-- [Resources](#resources)
-
 ## Overview
 
 Data-driven frameworks for feature prioritization, backlog ranking, and MVP scoping. Choose the right framework based on your context: data availability, team size, and decision type.

@@ -7,21 +7,6 @@ description: Master product launch planning including launch types (soft, hard, 
 
 Frameworks for planning and executing successful product launches including launch strategy, cross-functional coordination, and launch measurement.
 
-## Table of Contents
-
-- [Why Launch Planning Matters](#why-launch-planning-matters)
-- [When to Use This Skill](#when-to-use-this-skill)
-- [Launch Tier Framework](#launch-tier-framework)
-- [Ready-to-Use Launch Plans](#ready-to-use-launch-plans)
-- [Launch Messaging Framework](#launch-messaging-framework)
-- [Cross-Functional Coordination](#cross-functional-coordination)
-- [Launch Channels](#launch-channels)
-- [Launch Metrics](#launch-metrics)
-- [Launch Best Practices](#launch-best-practices)
-- [For Solo Operators / Small Teams](#for-solo-operators--small-teams)
-- [Templates and References](#templates-and-references)
-- [Quick Start](#quick-start)
-
 ## Why Launch Planning Matters
 
 A great product poorly launched underperforms. A good product well-launched succeeds. Launch planning ensures:

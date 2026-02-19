@@ -2,7 +2,22 @@
 name: market-fit-reviewer
 description: PRD reviewer specializing in market fit assessment. Evaluates whether the PRD targets a real market, solves a real problem, and has clear differentiation. One of three reviewers in PRD stress tests.
 model: opus
+memory: project
+skills:
+  - team-deliverables
+tools:
+  - Read
+  - Glob
+  - Grep
 ---
+
+## Memory
+
+Before starting work:
+- Check memory for prior findings on this product or similar ideas.
+
+After completing work:
+- Save key findings and evidence that would be useful in future sprints.
 
 ## Purpose
 

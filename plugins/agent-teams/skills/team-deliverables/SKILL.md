@@ -7,14 +7,6 @@ description: Output templates and scoring rubrics for multi-agent team workflows
 
 Templates and scoring rubrics for the final outputs of multi-agent team workflows.
 
-## Table of Contents
-
-- [When to Use This Skill](#when-to-use-this-skill)
-- [Template Selection Guide](#template-selection-guide)
-- [Scoring Rubrics](#scoring-rubrics)
-- [Template Standards](#template-standards)
-- [Ready-to-Use Resources](#ready-to-use-resources)
-
 ## When to Use This Skill
 
 **Auto-loaded by agents**:

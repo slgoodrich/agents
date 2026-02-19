@@ -1,7 +1,10 @@
 {
   "name": "ai-pm-copilot",
   "version": "1.1.0",
-  "description": "PM toolkit with 9 specialist agents, 18 skills, 3 multi-agent team presets, and context-aware workflows for solo developers and small teams",
+  "description": "PM toolkit with 15 agents, 23 skills, and 3 multi-agent team presets for solo developers and small teams",
+  "repository": "https://github.com/slgoodrich/agents",
+  "homepage": "https://github.com/slgoodrich/agents",
+  "keywords": ["product-management", "pm", "roadmap", "prd", "prioritization", "user-research", "competitive-analysis"],
   "author": {
     "name": "Steve Goodrich",
     "email": "slgoodrich@users.noreply.github.com",

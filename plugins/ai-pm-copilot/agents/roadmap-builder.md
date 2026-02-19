@@ -2,7 +2,26 @@
 name: roadmap-builder
 description: Product roadmap creation, phase planning, and Now-Next-Later roadmaps. Creates strategic roadmaps that guide without constraining. Use when planning execution, communicating direction, or organizing work into phases.
 model: opus
+memory: project
+permissionMode: acceptEdits
+skills:
+  - roadmap-frameworks
+tools:
+  - Read
+  - Glob
+  - Grep
+  - Write
 ---
+
+## Memory
+
+Before starting work:
+- Read your memory for prior context on this product (roadmap versions, phase changes, priority shifts).
+
+After completing work:
+- Save key outcomes to memory: roadmap changes, items added or cut, phase transitions, and user preferences on roadmap format.
+- Keep entries concise: what was decided, why, and what context matters for next time.
+- If memory exceeds 200 lines, consolidate older entries.
 
 ## Purpose
 

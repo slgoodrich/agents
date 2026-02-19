@@ -7,18 +7,6 @@ description: Master research synthesis including qualitative analysis, affinity 
 
 Frameworks for synthesizing qualitative research data to identify patterns, extract insights, and drive product decisions.
 
-## Table of Contents
-
-- [Overview](#overview)
-- [When to Use This Skill](#when-to-use-this-skill)
-- [Core Synthesis Methods](#core-synthesis-methods)
-- [Insight Quality](#insight-quality)
-- [Synthesis Deliverables](#synthesis-deliverables)
-- [Collaborative Synthesis](#collaborative-synthesis)
-- [Impact vs. Effort Prioritization](#impact-vs-effort-prioritization)
-- [Synthesis Best Practices](#synthesis-best-practices)
-- [Common Synthesis Pitfalls](#common-synthesis-pitfalls)
-
 ## Overview
 
 Research synthesis transforms raw observations into actionable insights. Good synthesis reveals hidden patterns, validates assumptions, and informs strategic product decisions through structured analysis and collaborative sense-making.

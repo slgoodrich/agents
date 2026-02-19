@@ -1,6 +1,10 @@
 ---
+name: competitive-war-room
 description: "Run parallel competitor deep-dives and synthesize into positioning strategy and battle cards"
+user-invocable: true
+disable-model-invocation: true
 argument-hint: '"<competitor1>, <competitor2>, <competitor3>"'
+allowed-tools: Read, Glob, Grep, Task, WebSearch, WebFetch
 ---
 
 # Competitive War Room
@@ -38,32 +42,27 @@ This command spawns one market-researcher teammate per competitor. Each research
 
 ---
 
+## Competitors to Analyze
+
+$ARGUMENTS
+
+---
+
 ## Instructions
 
 ### Pre-Flight Check
 
-1. Verify Agent Teams feature is available:
+1. Verify Agent Teams is available in your Claude Code version.
+   If teammates cannot be spawned, display:
 
-```
-Check environment: CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS=1
+   ```
+   This command requires Claude Code's Agent Teams feature.
+   Check https://docs.anthropic.com/en/docs/claude-code for setup instructions.
+   ```
 
-If not set:
-╔═══════════════════════════════════════════════════════════╗
-║   Agent Teams Required                                     ║
-╔═══════════════════════════════════════════════════════════╝
+   If not available, stop.
 
-This command requires Claude Code's experimental Agent Teams feature.
-
-To enable it, set the environment variable:
-  export CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS=1
-
-Then restart Claude Code and try again.
-╚═══════════════════════════════════════════════════════════╝
-```
-
-If not enabled, display the message and stop.
-
-2. Parse the comma-separated competitor list from the command argument.
+2. Parse the competitor list from the "Competitors to Analyze" section above.
    - Trim whitespace from each competitor name
    - Validate at least 2 competitors provided
    - If fewer than 2: "Please provide at least 2 competitors, separated by commas."

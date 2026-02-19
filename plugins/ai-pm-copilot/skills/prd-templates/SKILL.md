@@ -7,17 +7,6 @@ description: Master PRD templates including problem statements, success metrics,
 
 Comprehensive PRD (Product Requirements Document) templates and frameworks for documenting product requirements and driving successful execution.
 
-## Table of Contents
-
-- [When to Use This Skill](#when-to-use-this-skill)
-- [When to Use Which Template](#when-to-use-which-template)
-- [Core PRD Components](#core-prd-components)
-- [PRD Writing Best Practices](#prd-writing-best-practices)
-- [Common PRD Mistakes to Avoid](#common-prd-mistakes-to-avoid)
-- [PRD Review Checklist](#prd-review-checklist)
-- [Ready-to-Use Templates](#ready-to-use-templates)
-- [PRD Workflow](#prd-workflow)
-
 ## When to Use This Skill
 
 **Auto-loaded by agents**:
@@ -441,50 +430,6 @@ We provide complete, copy-paste-ready templates:
 
 ---
 
-## PRD Workflow
-
-### 1. Research & Discovery
-
-- Customer interviews
-- Data analysis
-- Competitive research
-- Problem validation
-
-### 2. Pre-PRD Validation (1-2 days)
-
-- Draft 1-pager
-- Validate with user feedback or research
-- Iterate on direction
-
-### 3. Write PRD (1-3 days)
-
-- Choose appropriate template
-- Document problem, solution, requirements
-- Add mockups and user flows
-- Define success metrics
-
-### 4. Review & Iterate (1-2 days)
-
-- Self-review after 24 hours
-- Peer review if available
-- Refine for clarity
-- Finalize
-
-### 5. Development
-
-- Update PRD as decisions made
-- Regular demos and check-ins
-- Scope change management
-
-### 6. Launch & Learn
-
-- Execute launch plan
-- Track success metrics
-- Document results
-- Share learnings
-
----
-
 ## When NOT to Write a PRD
 
 PRDs aren't always needed:
@@ -544,19 +489,3 @@ Templates are starting points, not rigid structures.
 - **specification-techniques**: General spec writing best practices
 - **go-to-market-playbooks**: For launch planning
 
----
-
-## Learning More
-
-**In this skill**:
-
-- See templates in `assets/` for ready-to-use formats
-- See `references/prd-writing-guide.md` for writing techniques
-
-**Books**:
-
-- "Inspired" by Marty Cagan
-- "Escaping the Build Trap" by Melissa Perri
-- "The Lean Product Playbook" by Dan Olsen
-
-**Key Principle**: The best PRD is the one that gets your team aligned and building the right thing. Use these templates as starting points and adapt to your context.

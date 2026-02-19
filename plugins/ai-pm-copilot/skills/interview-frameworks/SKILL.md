@@ -5,20 +5,6 @@ description: Master user interviews including interview guide design, questionin
 
 # Interview Frameworks
 
-## Table of Contents
-
-- [Overview](#overview)
-- [When to Use This Skill](#when-to-use-this-skill)
-- [Four Types of User Interviews](#four-types-of-user-interviews)
-- [Core Interview Techniques](#core-interview-techniques)
-- [Best Practices](#best-practices)
-- [Participant Recruitment](#participant-recruitment)
-- [Note-Taking and Recording](#note-taking-and-recording)
-- [Analysis and Synthesis](#analysis-and-synthesis)
-- [Research Deliverables](#research-deliverables)
-- [Templates and References](#templates-and-references)
-- [Quick Reference](#quick-reference)
-
 ## Overview
 
 Frameworks for conducting effective user interviews including question design, interviewing techniques, and extracting actionable insights.
@@ -505,33 +491,9 @@ Key Rules:
 
 ---
 
-## Resources
-
-**Books**:
-
-- "The Mom Test" by Rob Fitzpatrick (2013) - Asking good questions
-- "Just Enough Research" by Erika Hall (2013) - Practical user research
-- "Continuous Discovery Habits" by Teresa Torres (2021) - Ongoing customer interviews
-
-**Articles**:
-
-- "How to Do User Interviews" - Teresa Torres
-- "The Mom Test: Customer Development Done Right" - Rob Fitzpatrick
-
-**Tools**:
-
-- **Recording**: Zoom, Otter.ai, Grain
-- **Analysis**: Dovetail, Miro, Notion, Airtable
-- **Recruitment**: Respondent.io, User Interviews
-
----
-
 ## Related Skills
 
 - `synthesis-frameworks` - Synthesizing qualitative research into actionable insights
 - `validation-frameworks` - Solution validation techniques and testing
 - `user-research-techniques` - Comprehensive user research methods beyond interviews
 
----
-
-**Key Principle**: Great interviews reveal truth through specific past behavior, not opinions about hypothetical futures. Master questioning techniques (Mom Test, 5 Whys, JTBD, Laddering) to uncover what users really think, not what they think you want to hear. Listen more than you talk, probe surface-level answers, and use synthesis techniques to extract actionable insights.

@@ -1,6 +1,10 @@
 ---
+name: prd-stress-test
 description: "Run a multi-agent PRD review to answer: Is this PRD ready to build?"
+user-invocable: true
+disable-model-invocation: true
 argument-hint: "<path-to-prd.md>"
+allowed-tools: Read, Glob, Grep, Task
 ---
 
 # PRD Stress Test
@@ -36,40 +40,32 @@ After parallel review, reviewers cross-reference findings to catch conflicts (e.
 
 ---
 
+## PRD to Review
+
+Read the PRD at: $ARGUMENTS
+
+---
+
 ## Instructions
 
 ### Pre-Flight Check
 
-1. Verify Agent Teams feature is available:
+1. Verify Agent Teams is available in your Claude Code version.
+   If teammates cannot be spawned, display:
 
-```
-Check environment: CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS=1
+   ```
+   This command requires Claude Code's Agent Teams feature.
+   Check https://docs.anthropic.com/en/docs/claude-code for setup instructions.
+   ```
 
-If not set:
-╔═══════════════════════════════════════════════════════════╗
-║   Agent Teams Required                                     ║
-╔═══════════════════════════════════════════════════════════╝
+   If not available, stop.
 
-This command requires Claude Code's experimental Agent Teams feature.
-
-To enable it, set the environment variable:
-  export CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS=1
-
-Then restart Claude Code and try again.
-╚═══════════════════════════════════════════════════════════╝
-```
-
-If not enabled, display the message and stop.
-
-2. Verify the PRD file exists:
-   - Read the file at the provided path
+2. Read the PRD file from the path in the "PRD to Review" section above.
    - If file not found, display error and stop:
      ```
      Error: PRD file not found at [path].
      Please provide a valid path to a PRD markdown file.
      ```
-
-3. Read the full PRD content for distribution to reviewers.
 
 ---
 

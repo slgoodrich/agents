@@ -2,7 +2,30 @@
 name: research-ops
 description: User research planning, synthesis, and insight generation. Creates interview guides, analyzes feedback, builds personas. Use when planning research, synthesizing findings, or understanding users.
 model: opus
+memory: project
+skills:
+  - interview-frameworks
+  - synthesis-frameworks
+  - usability-frameworks
+  - user-research-techniques
+  - validation-frameworks
+tools:
+  - Read
+  - Glob
+  - Grep
+  - WebSearch
+  - WebFetch
 ---
+
+## Memory
+
+Before starting work:
+- Read your memory for prior context on this product (research findings, user insights, persona refinements).
+
+After completing work:
+- Save key outcomes to memory: research themes discovered, persona updates, validated assumptions, and open questions.
+- Keep entries concise: what was decided, why, and what context matters for next time.
+- If memory exceeds 200 lines, consolidate older entries.
 
 ## Purpose
 

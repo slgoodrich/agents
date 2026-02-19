@@ -547,7 +547,7 @@ Automatically discovers strategic product context from existing codebases to pop
 **Example flow (automatic invocation):**
 
 ```
-User runs: /product-management:pm-setup
+User runs: /ai-pm-copilot:pm-setup
 
 pm-setup detects codebase:
 "I've detected an existing codebase. Scan to auto-discover context? (yes/no)"
@@ -660,7 +660,7 @@ Tell product-manager: "Validate this feature, prioritize it, and plan delivery"
 
 ## Context Architecture
 
-All agents reference `.claude/product-context/` files (created by `/product-management:pm-setup`):
+All agents reference `.claude/product-context/` files (created by `/ai-pm-copilot:pm-setup`):
 
 **8 context files:**
 

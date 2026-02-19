@@ -5,20 +5,6 @@ description: Master product launches, positioning, messaging, and GTM strategies
 
 # Go-to-Market Playbooks
 
-## Table of Contents
-
-- [Overview](#overview)
-- [When to Use This Skill](#when-to-use-this-skill)
-- [GTM Strategy Types](#gtm-strategy-types)
-- [Positioning](#positioning)
-- [Messaging](#messaging)
-- [Launch Strategy](#launch-strategy)
-- [Market Entry Strategy](#market-entry-strategy)
-- [Competitive Strategy](#competitive-strategy)
-- [Pricing & Packaging](#pricing--packaging)
-- [GTM Playbook Summary](#gtm-playbook-summary)
-- [Resources](#resources)
-
 ## Overview
 
 Comprehensive guide to go-to-market (GTM) strategies, product positioning, launch planning, and market entry tactics.

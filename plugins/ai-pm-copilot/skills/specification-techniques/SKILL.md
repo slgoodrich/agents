@@ -7,22 +7,6 @@ description: Master techniques for writing clear, complete product specification
 
 Structured methods for translating product vision into clear, actionable requirements that align teams, reduce ambiguity, and enable successful execution.
 
-## Table of Contents
-
-- [Overview](#overview)
-- [When to Use This Skill](#when-to-use-this-skill)
-- [Product Requirements Documents (PRDs)](#product-requirements-documents-prds)
-- [User Stories](#user-stories)
-- [Acceptance Criteria](#acceptance-criteria)
-- [Job Stories (Jobs-to-be-Done)](#job-stories-jobs-to-be-done)
-- [Use Cases](#use-cases)
-- [Edge Cases and Error Handling](#edge-cases-and-error-handling)
-- [Non-Functional Requirements](#non-functional-requirements)
-- [Specification Best Practices](#specification-best-practices)
-- [Anti-Patterns to Avoid](#anti-patterns-to-avoid)
-- [Reference Guides](#reference-guides)
-- [Templates and Tools](#templates-and-tools)
-
 ## Overview
 
 Specification techniques help you answer "what" and "why" clearly while leaving "how" flexible for the team to determine. They create shared understanding without being prescriptive about implementation.
@@ -477,23 +461,7 @@ Explored solutions: Chatbot, improved search, interactive FAQ
 
 ---
 
-### 2. Vague Requirements
-
-**Bad:** "System should have good performance"
-
-**Good:** "Dashboard loads in <2 seconds (p95) for 10,000 concurrent users"
-
----
-
-### 3. Over-Specification
-
-**Bad:** "Use bcrypt with cost factor 12, store in CHAR(60) column"
-
-**Good:** "Passwords hashed with industry-standard algorithm meeting OWASP guidelines"
-
----
-
-### 4. Missing Acceptance Criteria
+### 2. Missing Acceptance Criteria
 
 **Bad:**
 
@@ -512,96 +480,7 @@ Acceptance Criteria:
 - Given I'm in settings, when I toggle notifications, then preference saves immediately
 ```
 
----
-
-### 5. Ignoring Edge Cases
-
-**Bad:** "User can upload a file"
-
-**Good:**
-
-```
-User can upload file:
-- Happy: File <10MB, supported format → Success
-- Error: File >10MB → "File exceeds 10MB limit"
-- Error: Unsupported format → "Only JPG, PNG, PDF allowed"
-- Error: Network failure → Auto-retry 3x, then "Upload failed. Retry?"
-```
-
 **Complete Guide:** See `references/specification-anti-patterns.md` for detailed anti-patterns with examples and fixes.
-
----
-
-## Reference Guides
-
-### Comprehensive Guides
-
-**User Story Writing:**
-
-- `references/user-story-writing-guide.md`
-- INVEST criteria in depth
-- The 3 Cs framework
-- Story splitting patterns
-- User story vs job story vs use case
-
-**Acceptance Criteria:**
-
-- `references/acceptance-criteria-guide.md`
-- All three formats explained
-- Writing testable criteria
-- Covering happy/unhappy paths
-- Edge case documentation
-
-**Anti-Patterns:**
-
-- `references/specification-anti-patterns.md`
-- Common mistakes and how to avoid them
-- Solution masquerading as problem
-- Vague requirements
-- Over-specification
-
-**Best Practices:**
-
-- `references/specification-best-practices.md`
-- Core principles
-- Structure and organization
-- Writing style and clarity
-- Collaboration and communication
-- Progressive elaboration
-
----
-
-## Templates and Tools
-
-### Ready-to-Use Templates
-
-**Documentation:**
-
-- `assets/prd-structure-template.md` - Complete PRD template
-- `assets/user-story-template.md` - User story with INVEST
-- `assets/job-story-template.md` - Jobs-to-be-Done format
-- `assets/use-case-template.md` - Detailed use case structure
-
-**Checklists:**
-
-- `assets/edge-case-checklist.md` - 100+ point systematic coverage
-- `assets/non-functional-requirements-template.md` - NFR documentation
-
----
-
-## Summary
-
-**Good Specifications:**
-
-- Start with problem and user needs (the "why")
-- Are specific, measurable, and testable
-- Cover happy paths, unhappy paths, and edge cases
-- Specify behavior and constraints (the "what")
-- Leave implementation flexible (the "how")
-- Use visual aids and concrete examples
-- Create shared understanding through conversation
-
-**Remember:** Specifications are conversation starters, not contracts. Focus on creating shared understanding between product, engineering, design, and QA.
 
 ---
 

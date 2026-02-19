@@ -1,6 +1,10 @@
 ---
+name: validation-sprint
 description: "Run a multi-agent validation sprint to answer: Should I build this?"
+user-invocable: true
+disable-model-invocation: true
 argument-hint: '"<idea description>"'
+allowed-tools: Read, Glob, Grep, Task
 ---
 
 # Validation Sprint
@@ -35,43 +39,36 @@ After parallel investigation, agents cross-examine each other's findings. The le
 
 ---
 
+## Idea Under Investigation
+
+$ARGUMENTS
+
+---
+
 ## Instructions
 
 ### Pre-Flight Check
 
-Before starting, verify the Agent Teams feature is available:
+Before starting, verify Agent Teams is available in your Claude Code version.
+If teammates cannot be spawned, display:
 
 ```
-Check environment: CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS=1
-
-If not set:
-╔═══════════════════════════════════════════════════════════╗
-║   Agent Teams Required                                     ║
-╔═══════════════════════════════════════════════════════════╝
-
-This command requires Claude Code's experimental Agent Teams feature.
-
-To enable it, set the environment variable:
-  export CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS=1
-
-Then restart Claude Code and try again.
-╚═══════════════════════════════════════════════════════════╝
+This command requires Claude Code's Agent Teams feature.
+Check https://docs.anthropic.com/en/docs/claude-code for setup instructions.
 ```
 
-If not enabled, display the message above and stop.
+If not available, stop.
 
 ---
 
 ### Phase 1: Briefing
 
-1. Parse the idea from the command argument.
-
-2. Check for existing product context:
+1. Check for existing product context:
    - Read `.claude/product-context/product-info.md` if it exists
    - Read `.claude/product-context/competitive-landscape.md` if it exists
    - Read `.claude/product-context/customer-segments.md` if it exists
 
-3. Display briefing:
+2. Display briefing:
 
 ```
 ╔═══════════════════════════════════════════════════════════╗

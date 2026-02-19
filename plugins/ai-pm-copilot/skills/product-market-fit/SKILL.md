@@ -7,19 +7,6 @@ description: Master frameworks for measuring, achieving, and maintaining product
 
 Frameworks for measuring, achieving, and maintaining the critical milestone where your product satisfies strong market demand.
 
-## Table of Contents
-
-- [Overview](#overview)
-- [When to Use This Skill](#when-to-use-this-skill)
-- [Measuring Product-Market Fit](#measuring-product-market-fit)
-- [Leading vs. Lagging Indicators](#leading-vs-lagging-indicators)
-- [Dashboard and Tracking](#dashboard-and-tracking)
-- [Path to Achieving PMF](#path-to-achieving-pmf)
-- [The Three Stages of PMF](#the-three-stages-of-pmf)
-- [Maintaining PMF Over Time](#maintaining-pmf-over-time)
-- [Case Studies](#case-studies)
-- [PMF Best Practices](#pmf-best-practices)
-
 ## Overview
 
 Product-Market Fit (PMF) is the degree to which a product satisfies strong market demand - the inflection point where a product becomes a "must-have" for a well-defined market segment.
@@ -27,12 +14,6 @@ Product-Market Fit (PMF) is the degree to which a product satisfies strong marke
 **Core Principle:** PMF is not a destination, it's a milestone that gives you permission to scale. Maintaining it requires continuous attention to customer needs and market evolution.
 
 **Key Insight:** You can't manufacture PMF through marketing or sales tactics. PMF comes from deeply understanding a specific market segment and building something they desperately need. Scaling before PMF is the number one killer of startups.
-
-**Historical Context:**
-
-- Term coined by Marc Andreessen (2007)
-- Operationalized by Sean Ellis with 40% rule (2010)
-- Systematized by Rahul Vohra with Superhuman PMF Engine (2017)
 
 ## When to Use This Skill
 
@@ -488,65 +469,19 @@ We [unique capability]
 
 ## Case Studies
 
-Learn from real-world PMF journeys:
-
-**Superhuman: Systematic PMF Improvement**
-
-- 22% → 58% in 18 months
-- Data-driven PMF engine
-- Methodical quarterly improvement
-
-**Slack: Maintaining PMF Through Evolution**
-
-- Strong initial PMF with tech startups
-- Expanded while protecting core value
-- Multiple segment expansion successful
-
-**Quibi: Cautionary Tale of No PMF**
-
-- $1.75B raised, complete failure
-- Built 18 months without validation
-- Ignored user feedback, iterated too slowly
-
-**Figma: Remote Work Inflection Point**
-
-- 5 years to PMF (patient technology building)
-- COVID accelerated PMF dramatically
-- Right product, right time
-
-**Detailed case studies:** See `references/pmf-case-studies.md` for:
-
-- Complete journey narratives
-- Metrics and timelines
-- Key lessons from each
-- What worked and what didn't
+See `references/pmf-case-studies.md` for detailed PMF journeys (Superhuman, Slack, Quibi, Figma) with metrics, timelines, and lessons.
 
 ---
 
 ## PMF Best Practices
 
-**DO:**
-
-- Measure PMF systematically (40% rule)
-- Survey quarterly to track progress
-- Focus on champions (double down on "very disappointed")
-- Protect core value as you scale
-- Maintain customer proximity always
-- Use retention curves as ultimate test
-- Say no to wrong-fit customers
-- Iterate rapidly before PMF
-- Be patient (can take 6-24 months)
-
-**DON'T:**
-
-- Scale before achieving PMF (leaky bucket)
-- Ignore retention for acquisition
-- Build for everyone (niche down)
-- Assume PMF is permanent (keep measuring)
-- Stop talking to customers (ever)
-- Add features constantly (bloat)
-- Chase every deal (segment discipline)
-- Rush the process (systematic > fast)
+- Measure systematically (40% rule) and survey quarterly - never assume PMF is permanent
+- Focus on champions, say no to wrong-fit customers - niche down before expanding
+- Use retention curves as the ultimate test - don't ignore retention for acquisition
+- Protect core value as you scale - resist feature bloat (80% core, 20% new)
+- Maintain customer proximity always - never stop interviewing
+- Don't scale before PMF (leaky bucket) - be patient, it takes 6-24 months
+- Iterate rapidly before PMF, systematically after
 
 ---
 

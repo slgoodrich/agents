@@ -1,6 +1,10 @@
 ---
+name: pm-setup
 description: "Initialize .claude/product-context/ with essential product information for all PM agents"
+user-invocable: true
+disable-model-invocation: true
 argument-hint: "[--update]"
+allowed-tools: Read, Glob, Grep, Write, Task, AskUserQuestion
 ---
 
 # PM Context Setup
@@ -10,13 +14,13 @@ Quick setup wizard to initialize `.claude/product-context/` with essential produ
 ## Usage
 
 ```bash
-/product-management:pm-setup
+/ai-pm-copilot:pm-setup
 ```
 
 Or update existing context:
 
 ```bash
-/product-management:pm-setup --update
+/ai-pm-copilot:pm-setup --update
 ```
 
 ---
@@ -38,6 +42,14 @@ This command sets up the foundational context that powers the entire PM Toolkit.
 - Agents work with YOUR product specifics
 - No repeated questions across tools
 - Progressive context building through your journey
+
+---
+
+## Mode
+
+Arguments: $ARGUMENTS
+
+If arguments contain `--update`, run in update mode. Otherwise run initial setup.
 
 ---
 
@@ -193,7 +205,7 @@ Scan codebase now? (yes/no)
 Use Task tool to invoke context-scanner agent:
 
 ```
-subagent_type: "product-management:context-scanner"
+subagent_type: "ai-pm-copilot:context-scanner"
 description: "Scan codebase for strategic context"
 prompt: "Scan the current codebase and return structured discovery of features, tech stack, integrations, and scale. Include evidence and confidence scores for all findings."
 ```
@@ -225,56 +237,20 @@ Scan Complete! Here's what I discovered:
   Evidence: [evidence]
   Confidence: [High/Medium/Low]
 
-[Example:]
-✓ Authentication (login, signup, password reset)
-  Evidence: src/pages/auth/login.tsx, /api/auth routes
-  Confidence: High
-
-✓ Project Management (create, list, edit, delete)
-  Evidence: src/pages/projects/, /api/projects routes
-  Confidence: High
-
-✓ Analytics (reporting dashboard)
-  Evidence: found /analytics route
-  Confidence: Medium - please verify if this is complete
+## Features Found
+[For each feature: name, details, evidence, confidence level]
 
 ## Tech Stack
-
-**Frontend:** [list frontend tech]
-**Backend:** [list backend tech]
-**Database:** [list databases]
-**Infrastructure:** [list infrastructure]
-
-Evidence: package.json, requirements.txt, Dockerfile
+[Frontend, backend, database, infrastructure with evidence]
 
 ## Integrations
-
-[For each integration:]
-- [Service name] ([type])
-  Evidence: [package info]
-  Confidence: [level]
-
-[Example:]
-- Stripe (payments)
-  Evidence: stripe@12.0.0 in package.json
-  Confidence: Medium (package present, usage not verified)
-
-- SendGrid (email)
-  Evidence: @sendgrid/mail in package.json
-  Confidence: Medium (package present, usage not verified)
+[For each: service name, type, evidence, confidence]
 
 ## Project Scale
+[Total files, LOC estimate, complexity, maturity]
 
-- Total files: [count]
-- Lines of code: ~[estimate]
-- Complexity: [simple/medium/complex]
-- Maturity: [prototype/mvp/established/mature]
-
-[If scan_limitations exist:]
 ## Scan Limitations
-
-[Display limitations]
-Example: "Large codebase detected (5000+ files). Scanned primary directories only. May have missed features in non-standard locations."
+[If any, display what couldn't be scanned]
 
 ───────────────────────────────────────────────────────────
 ```
@@ -403,7 +379,7 @@ _Last validated: [current date]_
 ---
 
 _This file was auto-discovered by context-scanner and validated by user._
-_Refresh by running: /product-management:pm-setup_
+_Refresh by running: /ai-pm-copilot:pm-setup_
 ```
 
 **Update tech-stack.md:**
@@ -1040,55 +1016,9 @@ Optional:
 
 ───────────────────────────────────────────────────────────
 
-**Next: Start Your Product Journey**
+**Next:** Tell product-manager what you need, or invoke a specialist agent directly.
 
-Your agents will now work with your product context! As you progress through
-stages, agents will create additional context files:
-
-**Stage 1: Validation** (market-analyst)
-→ Tell market-analyst: "Validate my [product] idea"
-→ Creates: competitive-landscape.md (competitors, positioning)
-
-**Stage 2: Understanding** (research-ops)
-→ Tell research-ops: "Help me understand my users"
-→ Creates: customer-segments.md (personas, pain points)
-
-**Stage 3: Scoping** (feature-prioritizer)
-→ Tell feature-prioritizer: "Help me scope my MVP"
-→ Uses: All prior context for RICE scoring
-
-**Stage 4: Speccing** (requirements-engineer)
-→ Tell requirements-engineer: "Write a PRD for [feature]"
-→ Uses: Tech stack, personas for specific specs
-
-**Stage 5: Planning** (roadmap-builder)
-→ Tell roadmap-builder: "Create a Now-Next-Later roadmap"
-→ Creates: current-roadmap.md (Now/Next/Later)
-
-**Stage 6: Launch** (launch-planner)
-→ Tell launch-planner: "Plan my Product Hunt launch"
-→ Uses: All context for targeted launch strategy
-
-───────────────────────────────────────────────────────────
-
-**Or use the orchestrator:**
-→ Tell product-manager: "Help me validate my idea" (routes to market-analyst)
-→ Tell product-manager: "Create a PRD for auth" (routes to requirements-engineer)
-
-**Quick commands also available:**
-→ /prd-generator - Write PRDs
-→ /quick-prioritize - RICE scoring
-→ /mvp-scoper - Scope MVP
-→ /roadmap-builder - Create roadmaps
-
-**Update context anytime:**
-→ /pm-setup --update (refresh any file)
-→ Edit files directly in .claude/product-context/
-→ Recommended: Update quarterly (goals, metrics)
-
-───────────────────────────────────────────────────────────
-
-Ready to start? Tell product-manager or a specialist agent what you need!
+**Update context anytime:** `/ai-pm-copilot:pm-setup --update`
 ```
 
 ---
@@ -1209,30 +1139,3 @@ Setup incomplete. Files created so far:
 Required files are incomplete. Please run /pm-setup again to finish.
 ```
 
----
-
-## Related
-
-**Context Architecture:**
-
-- See `docs/context-architecture.md` for detailed specification
-- Context files follow progressive disclosure pattern
-
-**How Agents Use Context:**
-
-- All agents read context files before asking questions
-- Agents that create strategic artifacts save back to context
-- Context accumulates through your product journey
-
-**Update Frequency:**
-
-- Required files (product-info, tech-stack): Update when fundamentals change
-- Strategic goals: Update quarterly or when priorities shift
-- Metrics: Update monthly if actively tracking growth
-- Journey-created files: Updated by agents as insights evolve
-
-**Progressive Context Building:**
-
-- Setup creates INPUT files (what agents need to start)
-- Journey creates OUTPUT files (what agents generate)
-- Your context grows richer as you progress through stages

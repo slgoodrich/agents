@@ -7,18 +7,6 @@ description: Structured debate protocols, cross-examination patterns, and synthe
 
 Protocols for structuring productive debate, cross-examination, and synthesis across multi-agent teams.
 
-## Table of Contents
-
-- [When to Use This Skill](#when-to-use-this-skill)
-- [Core Principle: Structured Disagreement Produces Better Decisions](#core-principle)
-- [Debate Protocol](#debate-protocol)
-- [Cross-Examination Patterns](#cross-examination-patterns)
-- [Consensus vs. Dissent Handling](#consensus-vs-dissent-handling)
-- [Synthesis Patterns](#synthesis-patterns)
-- [Team Communication Standards](#team-communication-standards)
-- [Common Anti-Patterns](#common-anti-patterns)
-- [Ready-to-Use Resources](#ready-to-use-resources)
-
 ## When to Use This Skill
 
 **Auto-loaded by agents**:

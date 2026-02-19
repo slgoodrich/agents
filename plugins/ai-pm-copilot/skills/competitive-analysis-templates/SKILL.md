@@ -41,15 +41,6 @@ Competitive analysis helps you:
 
 **Bad competitive analysis**: Feature lists without context, outdated, biased, not used by teams
 
-**When to Use This Skill**:
-
-- Conducting competitive research
-- Enabling sales for competitive deals
-- Defining product positioning
-- Planning market entry strategy
-- Responding to competitive threats
-- Quarterly strategic planning
-
 ---
 
 ## Evidence Standards
@@ -474,12 +465,6 @@ Monitoring strategies, intelligence distribution
 - Simplified positioning map
 - Lightweight deep-dive (key sections only)
 
-**Tools**:
-
-- Google Alerts (free monitoring)
-- Spreadsheet for tracking
-- Notion/Google Docs for documentation
-
 ---
 
 ## Templates and References
@@ -509,39 +494,3 @@ When you need comprehensive guidance:
 - `roadmap-frameworks` - Product roadmaps
 - `market-sizing-frameworks` - Market opportunity assessment
 
----
-
-## Quick Start
-
-**For your first competitive analysis**:
-
-1. Pick your top competitor
-2. Start with `assets/competitor-deep-dive-template.md`
-3. Research: Product trial, 20 reviews, website analysis
-4. Fill in template (focus on implications, not just facts)
-5. Create battle card using `assets/battle-card-template.md`
-6. Train sales team on battle card
-7. Set quarterly review cadence
-
-**For sales enablement**:
-
-1. Identify 2-3 competitors sales faces most
-2. Use `assets/battle-card-template.md`
-3. Gather: Win/loss data, sales objections, customer quotes
-4. Create 1-2 page battle cards
-5. Role-play objection handling with sales
-6. Update monthly based on field feedback
-
-**For strategic positioning**:
-
-1. Use `assets/positioning-map-template.md`
-2. Create perceptual map (choose relevant axes)
-3. Plot competitors
-4. Identify white space
-5. Define positioning using April Dunford framework
-6. Validate with customer research
-7. Update messaging and roadmap
-
----
-
-**Key Principle**: Competitive intelligence informs strategy, not dictates it. Understand competitors to find your unique position and enable sales to win, not to copy or obsess over feature parity.

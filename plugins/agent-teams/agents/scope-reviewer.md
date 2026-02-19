@@ -2,7 +2,22 @@
 name: scope-reviewer
 description: PRD reviewer specializing in scope analysis and MVP sizing. Evaluates whether the PRD is appropriately sized, identifies what should be cut from V1, and flags scope creep. One of three reviewers in PRD stress tests.
 model: sonnet
+memory: project
+skills:
+  - team-deliverables
+tools:
+  - Read
+  - Glob
+  - Grep
 ---
+
+## Memory
+
+Before starting work:
+- Check memory for prior findings on this product or similar ideas.
+
+After completing work:
+- Save key findings and evidence that would be useful in future sprints.
 
 ## Purpose
 

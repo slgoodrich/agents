@@ -2,7 +2,24 @@
 name: feature-prioritizer
 description: Feature prioritization using RICE, ICE, and Value vs Effort frameworks. Helps scope MVP and avoid scope creep. Use when deciding what to build first, prioritizing backlog, or making trade-off decisions.
 model: opus
+memory: project
+skills:
+  - prioritization-methods
+tools:
+  - Read
+  - Glob
+  - Grep
 ---
+
+## Memory
+
+Before starting work:
+- Read your memory for prior context on this product (scoring history, prioritization decisions, cut/keep rationale).
+
+After completing work:
+- Save key outcomes to memory: features scored, framework used, prioritization decisions, and rationale for cuts.
+- Keep entries concise: what was decided, why, and what context matters for next time.
+- If memory exceeds 200 lines, consolidate older entries.
 
 ## Purpose
 

@@ -7,22 +7,6 @@ description: Problem and solution validation methodologies, assumption testing, 
 
 Frameworks for validating problems, solutions, and product assumptions before committing to full development.
 
-## Table of Contents
-
-- [When to Use This Skill](#when-to-use-this-skill)
-- [Core Principle: Reduce Risk Through Learning](#core-principle-reduce-risk-through-learning)
-- [The Validation Spectrum](#the-validation-spectrum)
-- [Problem Validation vs. Solution Validation](#problem-validation-vs-solution-validation)
-- [The Assumption-Validation Cycle](#the-assumption-validation-cycle)
-- [Validation Methods by Fidelity](#validation-methods-by-fidelity)
-- [Validation Metrics and Success Criteria](#validation-metrics-and-success-criteria)
-- [Setting Success Criteria](#setting-success-criteria)
-- [Teresa Torres Continuous Discovery Validation](#teresa-torres-continuous-discovery-validation)
-- [Common Validation Anti-Patterns](#common-validation-anti-patterns)
-- [Validation Workflow: End-to-End Example](#validation-workflow-end-to-end-example)
-- [Validation Checklist by Stage](#validation-checklist-by-stage)
-- [Ready-to-Use Resources](#ready-to-use-resources)
-
 ## When to Use This Skill
 
 **Auto-loaded by agents**:
@@ -320,74 +304,6 @@ For each assumption, design the cheapest test that could prove it wrong.
 
 ---
 
-## Validation Metrics and Success Criteria
-
-### Quantitative Validation Metrics
-
-**Interest/Demand**:
-
-- Landing page conversion rate
-- Waitlist signup rate
-- Pre-order conversion
-- Prototype test completion rate
-
-**Usage**:
-
-- Feature adoption rate
-- Task completion rate
-- Time on task
-- Frequency of use
-
-**Engagement**:
-
-- DAU/MAU (daily/monthly active users)
-- Session length
-- Return rate
-- Feature usage depth
-
-**Value Realization**:
-
-- Aha moment rate (reached key action)
-- Time to value
-- Retention curves
-- Referral rate
-
-**Business**:
-
-- Conversion to paid
-- Lifetime value (LTV)
-- Customer acquisition cost (CAC)
-- Churn rate
-
----
-
-### Qualitative Validation Signals
-
-**Strong positive signals**:
-
-- Users ask when they can buy it
-- Users describe it to others excitedly
-- Users find use cases you didn't imagine
-- Users return without prompting
-- Users complain when you take it away
-
-**Weak positive signals**:
-
-- "That's interesting"
-- "I might use that"
-- Polite feedback with no follow-up
-- Theoretical interest but no commitment
-
-**Negative signals**:
-
-- Confusion about value proposition
-- Preference for existing solution
-- Feature requests that miss the point
-- Can't articulate who would use it
-- Ghosting after initial interest
-
----
-
 ## Setting Success Criteria
 
 **Before running experiment**, define what success looks like.
@@ -524,80 +440,6 @@ See `references/lean-startup-validation.md` and `references/assumption-testing-m
 
 ---
 
-## Validation Workflow: End-to-End Example
-
-**Idea**: Mobile app for tracking baby sleep patterns
-
-### Phase 1: Problem Validation
-
-**Assumption**: "New parents struggle to understand their baby's sleep patterns"
-
-**Experiment 1: Customer Interviews**
-
-- Interview 10 new parents
-- Ask about sleep tracking current methods, pain points
-- Success criteria: 7/10 express frustration with current methods
-
-**Result**: 9/10 keep notes on paper, all frustrated by inconsistency
-
-**Conclusion**: Problem validated, proceed.
-
----
-
-### Phase 2: Solution Validation (Concept)
-
-**Assumption**: "Parents would use an app that auto-tracks sleep from smart monitor"
-
-**Experiment 2: Landing Page**
-
-- Create page describing solution
-- Run ads targeting new parents
-- Success criteria: 20% email signup rate
-
-**Result**: 8% signup rate
-
-**Conclusion**: Interest is lower than hoped. Talk to non-signups to understand why.
-
-**Learning**: They don't have smart monitors, manual entry would be fine.
-
----
-
-### Phase 3: Solution Validation (Refined)
-
-**Assumption**: "Parents will manually log sleep times if it's fast"
-
-**Experiment 3: Concierge MVP**
-
-- Ask 5 parents to text sleep times
-- Manually create charts/insights
-- Send back daily summaries
-- Success criteria: 4/5 use it for 2 weeks
-
-**Result**: All 5 use it for 2 weeks, ask to keep using
-
-**Conclusion**: Strong validation, build simple MVP.
-
----
-
-### Phase 4: Build & Validate MVP
-
-**Build**: Simple app with manual time entry + basic charts
-
-**Experiment 4: Private Beta**
-
-- 30 parents use MVP for 4 weeks
-- Success criteria: 60% retention after 2 weeks, 40% after 4 weeks
-
-**Result**: 70% 2-week retention, 50% 4-week retention
-
-**Conclusion**: Exceeded criteria, prepare for launch.
-
----
-
-This workflow: problem → concept → refined solution → MVP took 8 weeks and cost minimal development before validation.
-
----
-
 ## Validation Checklist by Stage
 
 ### Idea Stage
@@ -643,26 +485,3 @@ This workflow: problem → concept → refined solution → MVP took 8 weeks and
 - **lean-startup-validation.md**: Build-Measure-Learn cycle, MVP types, pivot decisions
 - **assumption-testing-methods.md**: Comprehensive assumption testing techniques
 
----
-
-## Further Reading
-
-**Books**:
-
-- "The Lean Startup" by Eric Ries
-- "The Mom Test" by Rob Fitzpatrick
-- "Continuous Discovery Habits" by Teresa Torres
-- "Testing Business Ideas" by Bland & Osterwalder
-
-**Key Concepts**:
-
-- Minimum Viable Product (MVP)
-- Build-Measure-Learn
-- Validated learning
-- Pivot or persevere
-- Assumption mapping
-- Evidence-based product development
-
----
-
-**Remember**: Validation isn't about proving you're right. It's about learning what's true. Seek evidence that you're wrong - that's the fastest path to building something valuable.

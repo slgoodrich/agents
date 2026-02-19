@@ -7,21 +7,6 @@ description: Usability testing methodology, Nielsen's heuristics, and usability 
 
 Comprehensive frameworks and methodologies for planning, conducting, and analyzing usability tests to improve user experience.
 
-## Table of Contents
-
-- [When to Use This Skill](#when-to-use-this-skill)
-- [Core Concepts](#core-concepts)
-- [Usability Testing Methodologies](#usability-testing-methodologies)
-- [Nielsen's 10 Usability Heuristics](#nielsens-10-usability-heuristics)
-- [Think-Aloud Protocol](#think-aloud-protocol)
-- [Task Scenario Design](#task-scenario-design)
-- [Severity Rating Framework](#severity-rating-framework)
-- [Usability Metrics](#usability-metrics)
-- [Sample Size Guidelines](#sample-size-guidelines)
-- [Planning Your Usability Test](#planning-your-usability-test)
-- [Ready-to-Use Templates](#ready-to-use-templates)
-- [Common Pitfalls to Avoid](#common-pitfalls-to-avoid)
-
 ## When to Use This Skill
 
 **Auto-loaded by agents**:

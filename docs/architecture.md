@@ -58,7 +58,7 @@ Two plugins with distinct responsibilities:
 Reusable product context enables efficient, focused interactions:
 
 - **`.claude/product-context/`** directory stores core context files
-- One-time setup with `/product-management:pm-setup` command (5-10 min with codebase scanning)
+- One-time setup with `/ai-pm-copilot:pm-setup` command (5-10 min with codebase scanning)
 - All 9 agents read context files first, then ask only for gaps
 - context-scanner utility agent can auto-discover context from existing codebases
 - More time for product work, less time providing background

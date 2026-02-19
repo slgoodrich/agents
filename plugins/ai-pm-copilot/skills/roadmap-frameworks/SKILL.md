@@ -7,21 +7,6 @@ description: Master product roadmaps including roadmap types (timeline, outcome-
 
 Frameworks for building, communicating, and managing product roadmaps that align teams, guide execution, and drive strategic outcomes.
 
-## Table of Contents
-
-- [What is a Roadmap?](#what-is-a-roadmap)
-- [When to Use This Skill](#when-to-use-this-skill)
-- [Roadmap Types](#roadmap-types)
-- [Roadmap by Audience](#roadmap-by-audience)
-- [Building Your Roadmap](#building-your-roadmap)
-- [Roadmap Narrative](#roadmap-narrative)
-- [Roadmap Best Practices](#roadmap-best-practices)
-- [Roadmap Anti-Patterns](#roadmap-anti-patterns)
-- [Roadmap Maintenance](#roadmap-maintenance)
-- [For Solo Operators / Small Teams](#for-solo-operators--small-teams)
-- [Templates and References](#templates-and-references)
-- [Quick Start](#quick-start)
-
 ## What is a Roadmap?
 
 A roadmap is a strategic communication tool that:

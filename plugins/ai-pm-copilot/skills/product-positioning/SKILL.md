@@ -5,21 +5,6 @@ description: Master product positioning and differentiation using April Dunford'
 
 # Product Positioning
 
-## Table of Contents
-
-- [Overview](#overview)
-- [When to Use This Skill](#when-to-use-this-skill)
-- [Positioning Framework Overview](#positioning-framework-overview)
-- [Positioning Statement Frameworks](#positioning-statement-frameworks)
-- [Differentiation Strategies](#differentiation-strategies)
-- [Messaging Hierarchy](#messaging-hierarchy)
-- [Competitive Positioning Maps](#competitive-positioning-maps)
-- [Positioning Tests and Validation](#positioning-tests-and-validation)
-- [Common Anti-Patterns](#common-anti-patterns)
-- [Best Practices](#best-practices)
-- [Templates and References](#templates-and-references)
-- [Quick Reference](#quick-reference)
-
 ## Overview
 
 Product positioning is the strategic process of defining how your product is uniquely different and valuable compared to alternatives, and how it fits into the market landscape in the minds of your target customers.

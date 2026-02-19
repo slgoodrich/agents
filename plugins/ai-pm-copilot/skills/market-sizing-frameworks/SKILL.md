@@ -7,19 +7,6 @@ description: Master TAM/SAM/SOM calculations, market sizing methodologies, and v
 
 Frameworks and methodologies for estimating market size and validating market opportunity.
 
-## Table of Contents
-
-- [Overview](#overview)
-- [When to Use This Skill](#when-to-use-this-skill)
-- [The Three-Tier Framework](#the-three-tier-framework)
-- [Three Market Sizing Methods](#three-market-sizing-methods)
-- [Validation Framework](#validation-framework)
-- [Common Mistakes to Avoid](#common-mistakes-to-avoid)
-- [Recommended Workflow](#recommended-workflow)
-- [Key Assumptions](#key-assumptions)
-- [Templates and Tools](#templates-and-tools)
-- [Reference Guides](#reference-guides)
-
 ## Overview
 
 Market sizing answers the critical question: "Is this opportunity large enough to pursue?" It provides the foundation for strategic decisions, resource allocation, and investment prioritization.
