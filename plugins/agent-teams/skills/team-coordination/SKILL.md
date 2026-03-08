@@ -9,14 +9,10 @@ Protocols for structuring productive debate, cross-examination, and synthesis ac
 
 ## When to Use This Skill
 
-**Auto-loaded by agents**:
+**Auto-loaded by all six agents**:
 
-- `idea-researcher` - For structured debate in validation sprints
-- `market-researcher` - For cross-examination in validation sprints and war rooms
-- `idea-skeptic` - For devil's advocacy protocols
-- `market-fit-reviewer` - For cross-referencing in PRD stress tests
-- `feasibility-reviewer` - For cross-referencing in PRD stress tests
-- `scope-reviewer` - For cross-referencing in PRD stress tests
+- `idea-researcher`, `market-researcher`, `idea-skeptic` - For structured debate and cross-examination in validation sprints and war rooms
+- `market-fit-reviewer`, `feasibility-reviewer`, `scope-reviewer` - For cross-referencing in PRD stress tests
 
 **Use when you need**:
 

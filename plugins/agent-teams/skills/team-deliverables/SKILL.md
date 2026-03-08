@@ -9,14 +9,10 @@ Templates and scoring rubrics for the final outputs of multi-agent team workflow
 
 ## When to Use This Skill
 
-**Auto-loaded by agents**:
+**Auto-loaded by all six agents**:
 
-- `idea-researcher` - For validation verdict deliverables
-- `market-researcher` - For validation verdict and competitive synthesis deliverables
-- `idea-skeptic` - For validation verdict deliverables
-- `market-fit-reviewer` - For PRD review report deliverables
-- `feasibility-reviewer` - For PRD review report deliverables
-- `scope-reviewer` - For PRD review report deliverables
+- `idea-researcher`, `market-researcher`, `idea-skeptic` - For validation verdict and competitive synthesis scoring rubrics
+- `market-fit-reviewer`, `feasibility-reviewer`, `scope-reviewer` - For PRD review report scoring rubrics
 
 **Use when you need**:
 

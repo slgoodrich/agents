@@ -128,7 +128,64 @@ Acceptance Criteria:
 
 ---
 
-### Format 3: Example-Based
+### Format 3: Rule-Based (MoSCoW)
+
+**Best For:**
+
+- Features with variable scope
+- Time-constrained sprints
+- When prioritization within criteria is needed
+
+**Structure:**
+
+```
+Acceptance Criteria:
+
+Must:
+- [Critical requirements]
+
+Should:
+- [Important but not critical]
+
+May:
+- [Nice to have]
+```
+
+**Example - Search Feature:**
+
+```
+User Story: Product search
+
+Acceptance Criteria:
+
+Must:
+- Search accepts text input (min 2 characters)
+- Results update as user types (debounced 300ms)
+- Results show product name, price, image
+- "No results" message when query returns 0 items
+- Search works across product name and description
+
+Should:
+- Results highlight matching keywords
+- Results sorted by relevance (not just alphabetical)
+- Recent searches saved (last 5 searches)
+- Search suggestions appear (autocomplete)
+
+May:
+- Filter search results by category
+- Voice search support
+- Search history shared across devices
+```
+
+**When to Use:**
+
+- Criteria need clear prioritization
+- Sprint capacity requires scope negotiation
+- Supports MVP thinking (ship Must, defer Should/May)
+
+---
+
+### Format 4: Example-Based
 
 **Best For:**
 

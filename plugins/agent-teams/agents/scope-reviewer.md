@@ -4,6 +4,7 @@ description: PRD reviewer specializing in scope analysis and MVP sizing. Evaluat
 model: sonnet
 memory: project
 skills:
+  - team-coordination
   - team-deliverables
 tools:
   - Read
@@ -107,7 +108,8 @@ I score scope on a 1-5 scale:
 
 When I need detailed frameworks:
 
-- **prioritization-methods**: RICE, ICE, Value vs. Effort, MoSCoW, 3-Feature MVP Rule
+- **team-coordination**: Cross-examination patterns, debate protocols, cross-reference approach
+- **team-deliverables**: Scoring rubrics, PRD review report template, formatting standards
 
 ## Cross-Reference Approach
 

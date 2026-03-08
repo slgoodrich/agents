@@ -80,24 +80,22 @@ Read the PRD at: $ARGUMENTS
 3. Display briefing:
 
 ```
-╔═══════════════════════════════════════════════════════════╗
-║   PRD Stress Test                                          ║
-╔═══════════════════════════════════════════════════════════╝
+── PRD Stress Test ────────────────────────────────────────
 
 PRD: [file path]
 Title: [extracted title or first heading]
 
 Assembling your review team:
-  1. market-fit-reviewer   - Market fit and differentiation
-  2. feasibility-reviewer  - Technical feasibility and requirements clarity
-  3. scope-reviewer        - Scope appropriateness and MVP sizing
+  1. market-fit-reviewer   → Market fit and differentiation
+  2. feasibility-reviewer  → Technical feasibility and requirements clarity
+  3. scope-reviewer        → Scope appropriateness and MVP sizing
 
 Phase 1: Parallel Review (3 reviewers working simultaneously)
 Phase 2: Cross-Reference (reviewers check each other's findings)
 Phase 3: Consolidated Report (verdict with revision checklist)
 
 Starting review...
-╚═══════════════════════════════════════════════════════════╝
+───────────────────────────────────────────────────────────
 ```
 
 ---
@@ -282,4 +280,3 @@ then run the stress test again to verify.
 
 - `/agent-teams:validation-sprint` - Validate the idea before writing a PRD
 - `/agent-teams:competitive-war-room` - Research competitors referenced in the PRD
-- `requirements-engineer` agent - For help improving the PRD based on review findings

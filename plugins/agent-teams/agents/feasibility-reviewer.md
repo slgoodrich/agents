@@ -4,6 +4,7 @@ description: PRD reviewer specializing in technical feasibility and requirements
 model: sonnet
 memory: project
 skills:
+  - team-coordination
   - team-deliverables
 tools:
   - Read
@@ -122,8 +123,8 @@ I flag these common ambiguity patterns:
 
 When I need detailed frameworks:
 
-- **specification-techniques**: Requirements writing best practices, acceptance criteria patterns
-- **prd-templates**: Standard PRD structure, section checklists
+- **team-coordination**: Cross-examination patterns, debate protocols, cross-reference approach
+- **team-deliverables**: Scoring rubrics, PRD review report template, formatting standards
 
 ## Cross-Reference Approach
 
