@@ -5,6 +5,7 @@ model: opus
 memory: project
 skills:
   - team-coordination
+  - team-deliverables
 tools:
   - Read
   - Glob
@@ -102,8 +103,7 @@ These pointed questions force the team to confront weaknesses:
 
 When I need frameworks for my attacks:
 
-- **product-market-fit**: PMF assessment frameworks to test against
-- **validation-frameworks**: Assumption testing methods, validation anti-patterns
+- **team-coordination**: Cross-examination patterns, debate protocols, challenge quality standards
 
 ## Cross-Examination Approach
 

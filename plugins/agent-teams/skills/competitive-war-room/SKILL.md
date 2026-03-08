@@ -81,9 +81,7 @@ $ARGUMENTS
 2. Display briefing:
 
 ```
-╔═══════════════════════════════════════════════════════════╗
-║   Competitive War Room                                     ║
-╔═══════════════════════════════════════════════════════════╝
+── Competitive War Room ───────────────────────────────────
 
 Your Product: [product name and positioning from context]
 
@@ -100,7 +98,7 @@ Phase 1: Parallel Deep-Dives ([N] researchers working simultaneously)
 Phase 2: Synthesis (positioning map, battle cards, recommendations)
 
 Starting research...
-╚═══════════════════════════════════════════════════════════╝
+───────────────────────────────────────────────────────────
 ```
 
 ---
@@ -171,21 +169,7 @@ As the lead agent, compile all deep-dives into a competitive synthesis.
 
 ---
 
-### Phase 4: Battle Cards
-
-After presenting the synthesis, generate a standalone battle card for each competitor.
-
-Each battle card should be concise (under 1 page) and actionable:
-
-- When you encounter this competitor
-- Their pitch vs. your counter
-- Your advantages and their advantages (be honest)
-- Topics to avoid (their strengths you can't match)
-- One killer question that shifts the conversation in your favor
-
----
-
-### Phase 5: Cleanup
+### Phase 4: Cleanup
 
 1. Shut down all researcher teammates.
 
@@ -223,5 +207,3 @@ launch-planner, feature-prioritizer) for future reference.
 
 - `/agent-teams:validation-sprint` - Validate your idea against the competitive landscape
 - `/agent-teams:prd-stress-test` - Stress-test a PRD with competitive context
-- `market-analyst` agent - For focused competitive research on a single competitor
-- `product-strategist` agent - For positioning strategy based on competitive findings

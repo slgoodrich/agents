@@ -71,23 +71,21 @@ If not available, stop.
 2. Display briefing:
 
 ```
-╔═══════════════════════════════════════════════════════════╗
-║   Validation Sprint                                        ║
-╔═══════════════════════════════════════════════════════════╝
+── Validation Sprint ──────────────────────────────────────
 
 Idea: [parsed idea description]
 
 Assembling your validation team:
-  1. idea-researcher  - Investigating the user problem
-  2. market-researcher - Researching the market opportunity
-  3. idea-skeptic      - Trying to kill this idea
+  1. idea-researcher   → Investigating the user problem
+  2. market-researcher → Researching the market opportunity
+  3. idea-skeptic      → Trying to kill this idea
 
 Phase 1: Parallel Investigation (3 agents working simultaneously)
 Phase 2: Cross-Examination (agents challenge each other)
 Phase 3: Synthesis (final verdict with scores)
 
 Starting investigation...
-╚═══════════════════════════════════════════════════════════╝
+───────────────────────────────────────────────────────────
 ```
 
 ---
@@ -263,4 +261,3 @@ This will be available to other PM agents for future reference.
 
 - `/agent-teams:prd-stress-test` - After validation, stress-test the PRD
 - `/agent-teams:competitive-war-room` - Deep-dive specific competitors
-- `product-strategist` agent - For strategy refinement after validation

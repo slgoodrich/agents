@@ -5,6 +5,7 @@ model: opus
 memory: project
 skills:
   - team-coordination
+  - team-deliverables
   - user-research-techniques
 tools:
   - Read
@@ -87,9 +88,8 @@ I present evidence on:
 
 When I need detailed frameworks:
 
+- **team-coordination**: Cross-examination patterns, debate protocols, synthesis techniques
 - **user-research-techniques**: Research methods, interview guides, synthesis frameworks
-- **interview-frameworks**: JTBD, contextual inquiry, problem discovery question templates
-- **validation-frameworks**: Problem validation canvas, assumption testing methods
 
 ## Cross-Examination Approach
 

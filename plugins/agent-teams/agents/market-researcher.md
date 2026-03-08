@@ -5,6 +5,7 @@ model: opus
 memory: project
 skills:
   - team-coordination
+  - team-deliverables
   - market-sizing-frameworks
   - competitive-analysis-templates
 tools:
@@ -93,9 +94,9 @@ I deep-dive a single assigned competitor. My job is to become the expert on that
 
 When I need detailed frameworks:
 
+- **team-coordination**: Cross-examination patterns, debate protocols, synthesis techniques
 - **market-sizing-frameworks**: TAM/SAM/SOM calculations, market sizing methodologies
 - **competitive-analysis-templates**: Battle cards, SWOT analysis, competitive matrices
-- **product-positioning**: Positioning frameworks, value proposition canvas, messaging
 
 ## Cross-Examination Approach
 
