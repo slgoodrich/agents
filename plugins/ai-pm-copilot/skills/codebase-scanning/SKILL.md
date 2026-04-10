@@ -1,17 +1,22 @@
 ---
 name: codebase-scanning
-description: Platform detection patterns, manifest parsing rules, feature discovery methods, integration mapping, and edge case handling for codebase scanning
+description: "Detect platform, tech stack, features, integrations, and project scale from codebases. Use when scanning a codebase, analyzing project structure, discovering tech stack, or identifying integrations. Trigger on: 'scan my codebase', 'what tech stack am I using', 'analyze my project', 'discover integrations', 'what does this project do'."
 ---
 
 # Codebase Scanning
 
-Detection patterns and scanning rules for discovering strategic product context from existing codebases. Covers web and mobile platforms.
+Discover strategic product context from existing codebases. Covers web and mobile platforms.
 
-## When to Use This Skill
+Auto-loaded by the `context-scanner` agent for all codebase scanning operations. Also loaded when `pm-setup` bootstraps project context from code.
 
-**Auto-loaded by agents**:
+## Scanning Process
 
-- `context-scanner` - For all codebase scanning operations
+1. **Detect platform** - Identify web, mobile, or hybrid. For mobile, follow the detection order in `references/platform-detection.md`
+2. **Parse tech stack** - Read manifests to identify frameworks, languages, databases. See `references/manifest-detection.md` for supported manifests per platform
+3. **Discover features** - Scan routes, pages, and components for user-facing functionality
+4. **Map integrations** - Match dependencies against known 3rd party services. See `references/integration-mapping.md` for lookup tables
+5. **Estimate scale** - Count files, estimate LOC, assign complexity and maturity tiers
+6. **Present results** - Use `assets/presentation-template.md` format, structured per `assets/output-schema.md`
 
 ## Feature Discovery
 
@@ -32,125 +37,30 @@ Scan routes, pages, and components to identify user-facing functionality.
 
 **Common features detected**: Authentication, project/task management, team collaboration, analytics/reporting, settings/configuration.
 
----
-
 ## Tech Stack Detection
 
-Parse package manifests and project files to identify technologies.
+Parse package manifests and project files to identify technologies. Supports 7 web platforms (Node.js, Python, Go, Ruby, PHP, Rust, Java) and 4 mobile platforms (iOS, Android, Flutter, React Native).
 
-### Supported Manifests
-
-**Web Platforms**:
-
-| Platform | Manifest |
-|---|---|
-| Node.js | package.json |
-| Python | requirements.txt, pyproject.toml, Pipfile |
-| Go | go.mod |
-| Ruby | Gemfile |
-| PHP | composer.json |
-| Rust | Cargo.toml |
-| Java | pom.xml, build.gradle |
-
-**Mobile Platforms**:
-
-| Platform | Manifests |
-|---|---|
-| iOS | Podfile, Package.swift, *.xcodeproj/project.pbxproj |
-| Android | build.gradle, build.gradle.kts, AndroidManifest.xml |
-| Flutter | pubspec.yaml, pubspec.lock |
-| React Native | package.json, ios/Podfile, android/build.gradle |
-
-### What to Detect
-
-**Web**: Frontend frameworks (React, Vue, Angular, Svelte, Next.js), backend frameworks (Express, FastAPI, Rails, Django, Laravel, Gin), databases (PostgreSQL, MySQL, MongoDB, Redis via client packages), languages/versions, build tools (Vite, Webpack, esbuild).
-
-**iOS**: Swift version, Objective-C, UIKit vs SwiftUI, iOS deployment target, Xcode version.
-
-**Android**: Kotlin version, Java, Jetpack Compose vs XML layouts, minSdk, targetSdk, Gradle version.
-
-**Flutter**: Flutter SDK version, Dart version, platform targets (iOS, Android, Web, Desktop).
-
-**React Native**: RN version, TypeScript usage, Expo detection, native module detection.
-
----
+Full manifest tables and per-platform detection rules: `references/manifest-detection.md`
 
 ## Integration Discovery
 
-Identify 3rd party services from package dependencies.
+Match package dependencies against known 3rd party services across 9 categories: Payments, Email, SMS, Auth, Cloud, Analytics, Monitoring, Push, Maps/Location.
 
-**Common integrations by category**:
+Full lookup tables and cross-platform dependency mapping: `references/integration-mapping.md`
 
-| Category | Services |
-|---|---|
-| Payments | Stripe, PayPal, Square, Braintree, In-App Purchases |
-| Email | SendGrid, Mailgun, AWS SES |
-| SMS | Twilio, Plivo |
-| Auth | Auth0, Firebase Auth, Okta, Sign in with Apple, Google Sign-In |
-| Cloud | AWS SDK, GCP SDK, Azure SDK |
-| Analytics | Segment, Mixpanel, Amplitude, Firebase Analytics, Facebook SDK |
-| Monitoring | Sentry, Datadog, New Relic, Crashlytics, Bugsnag |
-| Push | Firebase Cloud Messaging, OneSignal, APNs |
-| Maps/Location | Google Maps SDK, Mapbox, Apple Maps, Core Location |
-| State Mgmt | Redux, MobX, Provider, Riverpod, GetX |
+## Platform Detection
 
-**Mobile backend/database**: Firebase (Firestore, Realtime DB, Storage), Supabase, Realm, Core Data (iOS), Room (Android), Hive (Flutter).
+For mobile projects, detect platform type using ordered priority checks (Flutter > React Native > iOS Native > Android Native > Hybrid). Includes feature discovery rules per platform.
 
-**Mobile networking**: Alamofire (iOS), Retrofit (Android), Dio (Flutter), Axios (React Native).
-
-**Mobile media**: Kingfisher (iOS), Coil (Android), cached_network_image (Flutter), react-native-fast-image.
-
-**Confidence note**: Package installed does not mean actively used. Assign medium confidence to integrations.
-
----
-
-## Mobile Platform Detection
-
-Check in this order:
-
-1. **Flutter**: pubspec.yaml exists AND lib/main.dart exists
-2. **React Native**: package.json exists AND (ios/ + android/ directories OR "react-native" in dependencies)
-3. **iOS Native**: (Podfile OR Package.swift OR *.xcodeproj) AND NO android/ directory
-4. **Android Native**: (build.gradle OR build.gradle.kts) AND NO ios/ directory
-5. **Hybrid/Monorepo**: Multiple platform indicators present
-
-**Edge cases**:
-
-- **Expo**: Detect from app.json or "expo" in package.json dependencies
-- **Flutter with custom native code**: Both pubspec.yaml and platform directories with custom code
-- **Monorepo**: Multiple apps/ subdirectories with different platforms - scan each separately
-
-### Mobile Feature Discovery
-
-**iOS Native**: Search for *ViewController.swift (UIKit), *View.swift (SwiftUI). Count distinct ViewControllers/Views = feature count. Exclude Tests/, Pods/.
-
-**Android Native**: Search for classes extending Activity, Fragment, @Composable functions. Parse navigation.xml. Count Activities + Fragment groups + Composable screens. Look in app/src/main/.
-
-**Flutter**: Search lib/screens/, lib/pages/, route definitions. Parse MaterialApp.routes or GoRouter. Count screen files + routes.
-
-**React Native**: Search src/screens/, src/pages/, Stack.Screen definitions. Parse React Navigation navigators. Count screen components.
-
-### Mobile Integration Mapping
-
-Map platform-specific dependencies to universal names:
-
-| Universal Name | iOS (CocoaPods/SPM) | Android (Gradle) | Flutter (pub) | React Native (npm) |
-|---|---|---|---|---|
-| Firebase Auth | Firebase/Auth | firebase-auth | firebase_auth | @react-native-firebase/auth |
-| Stripe | Stripe | stripe-android | stripe_flutter | @stripe/stripe-react-native |
-| Image Loading | Kingfisher | coil | cached_network_image | react-native-fast-image |
-| Networking | Alamofire | retrofit | dio | axios |
-
-**Integration categories**: Authentication, Payments, Analytics, Database, Networking, Media, Location, Push Notifications, Crash Reporting, State Management.
-
----
+Detection order and feature discovery methods: `references/platform-detection.md`
 
 ## Scale Estimation
 
 **Metrics to collect**:
 
 - Total source files (excluding node_modules, dist, build, .git)
-- Lines of code (approximated from file sizes, not precise line counts)
+- Lines of code (estimate: average 25 LOC per KB of source file size, excluding binary and generated files)
 
 **Complexity tiers**:
 
@@ -169,7 +79,13 @@ Map platform-specific dependencies to universal names:
 | Established | 25k-100k | Feature-complete |
 | Mature | 100k+ | Extensive feature set |
 
----
+## Confidence Assignment
+
+- **High**: Direct evidence from routes, manifest versions, clear file patterns
+- **Medium**: Package present but usage not verified; ambiguous naming patterns
+- **Low**: Indirect evidence, weak signals, potentially deprecated
+
+Package installed does not mean actively used. Assign medium confidence to integrations by default.
 
 ## Edge Cases & Limitations
 
@@ -189,45 +105,20 @@ Map platform-specific dependencies to universal names:
 
 ### Hybrid Mobile Apps
 
-**Types**:
+- React Native with custom native modules: ios/ and android/ with custom .swift or .kt files beyond standard RN setup
+- Flutter with platform channels: ios/Runner/ or android/app/ with custom native code
+- Capacitor/Ionic: capacitor.config.json present
 
-- React Native with custom native modules (RN + Swift + Kotlin)
-- Flutter with platform channels (Flutter + native iOS/Android code)
-- Capacitor/Ionic (web app in native container)
+### Conflicting Manifests
 
-**Detection**:
+- If multiple manifests disagree (e.g., package.json has both react-native and expo), report both with evidence and let the user resolve
+- Prefer the more specific indicator (expo in app.json overrides generic react-native in package.json)
+- For monorepos with mixed platforms, report per-app rather than trying to unify
 
-- React Native: ios/ and android/ with custom .swift or .kt files beyond standard RN setup
-- Flutter: ios/Runner/ or android/app/ with custom native code
-- Capacitor: capacitor.config.json present
+### Other Edge Cases
 
-### Permission Issues
-
-- Attempt to read file/directory
-- If permission denied: log warning, continue with accessible files
-- Report in scan_limitations
-
-### Ambiguous Patterns
-
-- If uncertain, assign lower confidence
-- Provide evidence, let user decide
-- Better to under-report than hallucinate
-
-### Deprecated Code
-
-- Report what exists (facts)
-- Flag as medium/low confidence if evidence is weak
-- User validation catches deprecated features
-
-### Multi-Language Projects
-
-- Scan all tech stacks present
-- Report separately in tech_stack
-- Note in confidence_notes
-
-### Empty Projects
-
-- No src/, pages/, routes/, api/ directories and no manifests
-- Return empty findings
-- Note: "Project appears empty or very early stage"
-- pm-setup falls back to manual questions
+- **Permission issues**: Log warning, continue with accessible files, report in scan_limitations
+- **Ambiguous patterns**: Assign lower confidence, provide evidence, let user decide. Better to under-report than hallucinate
+- **Deprecated code**: Report what exists (facts), flag as medium/low confidence if evidence is weak
+- **Multi-language projects**: Scan all tech stacks present, report separately
+- **Empty projects**: Return empty findings, note "Project appears empty or very early stage". pm-setup falls back to manual questions

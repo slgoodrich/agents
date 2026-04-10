@@ -1,6 +1,6 @@
 ---
 name: user-research-techniques
-description: Master user interviews, usability testing, surveys, and research synthesis. Use when planning research, gathering user insights, or validating assumptions.
+description: "User research methods including interviews, usability testing, surveys, and analytics. Use when planning user research, choosing a research method, gathering user insights, or validating assumptions with data. Trigger on: 'plan user research', 'which research method should I use', 'how do I talk to users', 'conduct user research', 'how many participants do I need'."
 ---
 
 # User Research Techniques
@@ -74,11 +74,19 @@ Track behavioral data: engagement (DAU/WAU/MAU), conversion funnels, retention c
 
 ### A/B Testing
 
-Test variants with statistical rigor. Hypothesis, design, sample size, run 1-2 weeks, analyze significance.
+Test variants with statistical rigor. Requires a clear hypothesis ("Changing CTA color from blue to green will increase click-through by 10%"), a single variable change, sufficient sample size (use an online calculator -- typically 1,000+ per variant for small effects), and a 1-2 week runtime. Only test when you have enough traffic; for early-stage products with <1,000 weekly visitors, use qualitative methods instead.
+
+**Key pitfalls**: Stopping tests early when results look promising (peeking problem), testing too many variants at once (diluted significance), and ignoring segment effects (overall neutral but positive for one cohort).
 
 ### Research Synthesis
 
-Combine findings through affinity mapping, thematic analysis, or Jobs-to-be-Done framework.
+Combine findings across studies to identify patterns. Three core approaches:
+
+- **Affinity mapping**: Group observations by similarity, name the clusters, identify themes. Start here when you have raw interview notes.
+- **Thematic analysis**: Code data into themes using a three-level system (codes → categories → themes). More rigorous than affinity mapping.
+- **Jobs-to-be-Done**: Frame findings around the job users are hiring your product to do. Structure: "When [situation], I want to [motivation], so I can [outcome]."
+
+For deeper synthesis methods, see `synthesis-frameworks`.
 
 **Comprehensive guide**: `references/quantitative-methods-guide.md`
 
@@ -211,3 +219,22 @@ Deep context? -> Field Study
 
 Always: Define questions, recruit right users, synthesize, act on insights
 ```
+
+---
+
+## Troubleshooting
+
+**"I don't know which research method to use"**: Start with your question type. Exploring "why" = interviews. Testing usability = usability test. Measuring satisfaction = survey. If you're unsure, default to 5 user interviews -- they're the highest insight-per-hour method.
+
+**"I can't recruit enough participants"**: Lower the bar. For qualitative research, 5 is enough. Use your existing users, social media, or offer small incentives ($25 gift cards). For guerrilla testing, find people at coffee shops or coworking spaces.
+
+**"Leadership wants data but we have no budget for research"**: Use free methods: 5-second tests (UsabilityHub free tier), unmoderated testing (Maze free plan), or analyze existing support tickets and app reviews as proxy research data.
+
+---
+
+## Related Skills
+
+- `interview-frameworks` - Deep-dive interview techniques and question design
+- `usability-frameworks` - Usability testing methodology and heuristic evaluation
+- `synthesis-frameworks` - Turning research data into actionable insights
+- `validation-frameworks` - Experiment design for validating assumptions

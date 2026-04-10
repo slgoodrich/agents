@@ -1,6 +1,6 @@
 ---
 name: specification-techniques
-description: Master techniques for writing clear, complete product specifications and requirements documents (PRDs). Use when defining feature requirements, writing user stories, creating acceptance criteria, documenting API specifications, aligning cross-functional teams, reducing ambiguity, covering edge cases, or translating product vision into actionable development tasks. Covers PRD structure, user story formats (INVEST, 3Cs, Given-When-Then), Jobs-to-be-Done, use cases, non-functional requirements, and specification best practices.
+description: "Techniques for writing clear product specifications, user stories, and acceptance criteria. Use when defining feature requirements, writing user stories, creating acceptance criteria, or reducing spec ambiguity. Trigger on: 'write a spec', 'acceptance criteria for this feature', 'user story format', 'define requirements', 'Given-When-Then'."
 ---
 
 # Specification Techniques
@@ -481,6 +481,16 @@ Acceptance Criteria:
 ```
 
 **Complete Guide:** See `references/specification-anti-patterns.md` for detailed anti-patterns with examples and fixes.
+
+---
+
+## Troubleshooting
+
+**"Developers say my specs are ambiguous"**: You're likely writing what the feature does but not the edge cases. For every requirement, ask: "What happens when the input is empty? Invalid? Extremely large?" Add Given-When-Then acceptance criteria for each case.
+
+**"My user stories are too big to estimate"**: Apply the INVEST criteria -- specifically the S (Small). If a story can't be completed in one sprint, split it. Split by workflow step, data variation, or happy path vs. error handling.
+
+**"Stakeholders and engineers interpret the spec differently"**: Add concrete examples. Abstract specs create ambiguity. For every requirement, include at least one specific input/output example showing exactly what happens.
 
 ---
 

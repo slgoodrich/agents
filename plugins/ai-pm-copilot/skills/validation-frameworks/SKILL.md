@@ -1,6 +1,6 @@
 ---
 name: validation-frameworks
-description: Problem and solution validation methodologies, assumption testing, and MVP validation experiments
+description: "Problem and solution validation methodologies, assumption testing, and MVP experiments. Use when validating a problem worth solving, testing solution assumptions, designing MVP experiments, or deciding whether to pivot or persevere. Trigger on: 'validate my idea', 'test my assumptions', 'design an MVP experiment', 'should I pivot', 'is this problem worth solving'."
 ---
 
 # Validation Frameworks
@@ -484,4 +484,23 @@ See `references/lean-startup-validation.md` and `references/assumption-testing-m
 
 - **lean-startup-validation.md**: Build-Measure-Learn cycle, MVP types, pivot decisions
 - **assumption-testing-methods.md**: Comprehensive assumption testing techniques
+
+---
+
+## Troubleshooting
+
+**"I validated the problem but the solution still failed"**: Problem validation and solution validation are separate steps. Confirming a problem exists doesn't mean your specific solution is right. Run a concierge or Wizard of Oz test before building anything.
+
+**"My MVP got no signups"**: Either the problem isn't urgent enough, your audience can't find you, or your messaging doesn't communicate the value. Check distribution before blaming the product. A landing page with 0 signups is a distribution problem; one with signups but no activation is a product problem.
+
+**"Stakeholders want to skip validation and just build it"**: Frame validation as de-risking, not delaying. "We can spend 2 weeks testing this assumption, or 3 months building something nobody wants." Quantify the cost of being wrong.
+
+---
+
+## Related Skills
+
+- `product-market-fit` - Measuring and achieving product-market fit after validation
+- `interview-frameworks` - Interview techniques for problem discovery
+- `user-research-techniques` - Broader research methods for gathering validation data
+- `market-sizing-frameworks` - Validating market size before committing
 

@@ -1,6 +1,6 @@
 ---
 name: prioritization-methods
-description: Apply RICE, ICE, MoSCoW, Kano, and Value vs Effort frameworks. Use when prioritizing features, roadmap planning, or making trade-off decisions.
+description: "RICE, ICE, MoSCoW, Kano, and Value vs Effort prioritization frameworks. Use when prioritizing features, ranking a backlog, scoping an MVP, or making trade-off decisions. Trigger on: 'prioritize my features', 'RICE scoring', 'what should I build first', 'rank my backlog', 'MVP scoping'."
 ---
 
 # Prioritization Methods & Frameworks
@@ -293,6 +293,16 @@ Always: Document, communicate, iterate
 - "RICE: Simple prioritization for product managers" - Intercom
 - "How to use ICE Scoring" - Sean Ellis
 - "The Kano Model" - UX Magazine
+
+---
+
+## Troubleshooting
+
+**"Everything scores the same priority"**: Your scoring criteria are too coarse. Increase granularity -- use 1-10 instead of 1-5. Or you're not differentiating on Effort enough. Recalibrate by anchoring your highest and lowest items first, then score the rest relative to those.
+
+**"Stakeholders disagree on scores"**: Use the framework as a discussion tool, not a calculator. When scores diverge, the value is in surfacing the disagreement, not resolving it with math. Have stakeholders defend their scores, then converge.
+
+**"I don't know which framework to pick"**: Start with RICE. It's the most widely applicable. Switch to Kano if you need to understand customer delight vs. expectations, or MoSCoW if you need a quick yes/no cut for a deadline.
 
 ---
 

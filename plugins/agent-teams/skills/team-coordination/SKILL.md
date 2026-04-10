@@ -1,6 +1,6 @@
 ---
 name: team-coordination
-description: Structured debate protocols, cross-examination patterns, and synthesis techniques for multi-agent team workflows. Use when coordinating agent teams for idea validation, PRD review, or competitive analysis. Covers dialectical inquiry, devil's advocacy, constructive controversy, and consensus-building frameworks.
+description: "Structured debate protocols, cross-examination, and synthesis for multi-agent teams. Use when structuring multi-agent debate, cross-examining findings across reviewers, or synthesizing conflicting agent outputs into a verdict. Trigger on: 'debate protocol', 'cross-examine findings', 'synthesize agent outputs', 'devil's advocacy', 'consensus building'."
 ---
 
 # Team Coordination
@@ -274,6 +274,24 @@ Scoring with decimal precision (7.3/10) when the underlying evidence only suppor
 ### In `references/`:
 
 - **team-debate-patterns.md**: Dialectical Inquiry, Devil's Advocacy, and Constructive Controversy frameworks with implementation details
+
+---
+
+## Troubleshooting
+
+**"All agents agree and the debate produces nothing useful"**: Your prompts are too similar. Give each agent a distinct lens (optimist vs. skeptic, market vs. technical, user vs. business). Assign one agent the explicit devil's advocate role.
+
+**"The synthesis just averages the scores instead of finding insight"**: Averaging destroys signal. The synthesizer should identify where agents disagree most and explain why. A 5 and a 2 on the same dimension is more interesting than two 4s.
+
+**"One agent dominates the output"**: Check prompt length and specificity. If one agent's prompt is 3x longer, it will produce 3x more output and overwhelm the synthesis. Keep reviewer prompts roughly equal in scope.
+
+---
+
+## Related
+
+- `/agent-teams:validation-sprint` - Uses these protocols for idea validation
+- `/agent-teams:prd-stress-test` - Uses these protocols for PRD review
+- `/agent-teams:competitive-war-room` - Uses these protocols for competitive analysis
 
 ---
 

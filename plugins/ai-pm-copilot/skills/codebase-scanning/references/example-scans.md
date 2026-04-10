@@ -361,12 +361,6 @@ Reference examples showing expected output for different project types. All exam
       "platforms": ["ios", "android", "web"]
     },
     {
-      "service": "Provider",
-      "type": "state_management",
-      "evidence": "provider package in pubspec.yaml",
-      "platforms": ["ios", "android", "web"]
-    },
-    {
       "service": "Cached Network Image",
       "type": "media",
       "evidence": "cached_network_image in pubspec.yaml",

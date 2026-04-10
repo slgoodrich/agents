@@ -1,6 +1,6 @@
 ---
 name: validation-sprint
-description: "Run a multi-agent validation sprint to answer: Should I build this?"
+description: "Multi-agent validation sprint with parallel market research, idea exploration, and critical scrutiny. Use when validating a startup idea, testing whether a product concept is worth building, or getting a multi-perspective go/no-go verdict. Trigger on: 'validate my idea', 'should I build this', 'validation sprint', 'is this idea worth pursuing', 'go/no-go on this concept'."
 user-invocable: true
 disable-model-invocation: true
 argument-hint: '"<idea description>"'
@@ -107,7 +107,8 @@ Use your research-ops expertise. Search for evidence in forums, review sites,
 and community discussions.
 
 Deliver your findings in the standard idea-researcher output format.
-Include confidence levels and evidence gaps."
+Include confidence levels, evidence gaps, and source URLs for every factual claim.
+Never fabricate user quotes, statistics, or community sentiment."
 ```
 
 **Teammate 2: market-researcher**
@@ -122,7 +123,8 @@ Use WebSearch to find real data on competitors, pricing, and market indicators.
 Estimate TAM/SAM/SOM with transparent methodology.
 
 Deliver your findings in the standard market-researcher validation sprint format.
-Include source URLs and data gaps."
+Cite source URLs and access dates for every data point. Flag estimates vs. verified data.
+When data is unavailable, say so explicitly rather than inventing numbers."
 ```
 
 **Teammate 3: idea-skeptic**
@@ -138,7 +140,9 @@ temporary differentiation, vague target market, incumbent response,
 TAM inflation, switching costs.
 
 Deliver at least 3 specific attacks in the standard idea-skeptic output format.
-Rate each attack's severity. Be honest about which attacks are strong vs weak."
+Rate each attack's severity. Be honest about which attacks are strong vs weak.
+Base attacks on verifiable evidence where possible, not speculation.
+Cite sources for competitive claims and market assertions."
 ```
 
 Wait for all three teammates to complete their investigations.
@@ -222,8 +226,9 @@ As the lead agent, compile all findings into the Validation Verdict.
 5. Fill in the validation verdict template with:
    - Executive summary
    - Scores with justifications
-   - Evidence from each agent
+   - Evidence from each agent (with source URLs where available)
    - Cross-examination highlights (where they agreed, where they disagreed)
+   - Data provenance note: flag which claims are backed by cited sources vs. agent estimates vs. unverifiable assertions
    - Key risks with mitigations
    - Specific next steps based on verdict
    - Dissenting views if any agent strongly disagreed with the verdict
@@ -248,6 +253,16 @@ This will be available to other PM agents for future reference.
 ```
 
 3. If user accepts, save the verdict file. If not, done.
+
+---
+
+## Troubleshooting
+
+**"All three agents said BUILD but I'm still not sure"**: Check the confidence levels and conditions. If they all said BUILD but with LOW confidence, that's not a strong signal. Look at the unresolved risks section -- those are the things that could still kill the idea.
+
+**"The verdict is DON'T BUILD but I believe in this idea"**: Read the specific objections. If the concerns are "market too small" or "no evidence of demand," those are testable. Run the specific validation experiments the agents recommend before dismissing the verdict.
+
+**"The market-researcher returned thin data"**: The idea might be too niche for public data. That's not necessarily bad -- it could mean an underserved market. Note the data gap and supplement with direct customer conversations.
 
 ---
 

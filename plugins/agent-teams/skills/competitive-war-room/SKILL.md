@@ -1,6 +1,6 @@
 ---
 name: competitive-war-room
-description: "Run parallel competitor deep-dives and synthesize into positioning strategy and battle cards"
+description: "Run parallel competitor deep-dives and synthesize into positioning strategy and battle cards. Use when analyzing multiple competitors at once, building battle cards, or developing competitive positioning. Trigger on: 'analyze my competitors', 'competitive war room', 'build battle cards for these competitors', 'competitive landscape analysis'."
 user-invocable: true
 disable-model-invocation: true
 argument-hint: '"<competitor1>, <competitor2>, <competitor3>"'
@@ -193,6 +193,16 @@ launch-planner, feature-prioritizer) for future reference.
    - Include "Last Updated: [date]" header in each file
 
 4. If declined, done.
+
+---
+
+## Troubleshooting
+
+**"Researchers are returning thin results for a competitor"**: The competitor may be pre-launch or private. Note the data gap in the synthesis and recommend the user do a product trial or demo request to fill it manually.
+
+**"The synthesis contradicts individual deep-dives"**: The synthesizer should always cite which deep-dive supports each claim. If claims conflict, surface both perspectives rather than picking one. Let the user resolve ambiguity.
+
+**"Too many competitors dilute the analysis"**: Cap at 3-4 for the best results. If the user provides more than 5, warn that depth will suffer and suggest prioritizing the top 3 most direct competitors.
 
 ---
 

@@ -1,6 +1,6 @@
 ---
 name: product-market-fit
-description: Master frameworks for measuring, achieving, and maintaining product-market fit (PMF). Use when validating new products, assessing readiness to scale, diagnosing retention problems, planning market expansion, measuring "very disappointed" score, implementing PMF engines, or determining if you have permission to grow. Covers Sean Ellis survey methodology, Superhuman PMF engine, retention curve analysis, leading/lagging indicators, pre-PMF vs. post-PMF strategies, and maintaining fit as markets evolve.
+description: "Frameworks for measuring, achieving, and maintaining product-market fit. Use when validating new products, assessing readiness to scale, diagnosing retention, or measuring PMF. Trigger on: 'do I have product-market fit', 'PMF survey', 'very disappointed score', 'retention curve analysis', 'ready to scale'."
 ---
 
 # Product-Market Fit
@@ -482,6 +482,16 @@ See `references/pmf-case-studies.md` for detailed PMF journeys (Superhuman, Slac
 - Maintain customer proximity always - never stop interviewing
 - Don't scale before PMF (leaky bucket) - be patient, it takes 6-24 months
 - Iterate rapidly before PMF, systematically after
+
+---
+
+## Troubleshooting
+
+**"My Sean Ellis score is below 40% but users seem happy"**: Your survey sample may be biased toward casual users. Filter to users who've used the product at least 3 times in the last 2 weeks. PMF is about core users, not everyone who signed up.
+
+**"Retention is flat but not growing"**: You likely have PMF with a niche but haven't found the growth loop yet. Don't break what works -- instead test acquisition channels while protecting the core experience.
+
+**"We had PMF but lost it"**: Markets shift. Re-run the Sean Ellis survey, check if your core value proposition still matches what users need. Common causes: competitor caught up, user needs evolved, or you over-expanded and diluted the core product.
 
 ---
 
