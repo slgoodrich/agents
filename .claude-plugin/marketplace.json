@@ -7,14 +7,14 @@
   },
   "metadata": {
     "description": "AI PM Copilot - Agent-first product management toolkit for solo developers and small teams",
-    "version": "1.4.0"
+    "version": "1.5.0"
   },
   "plugins": [
     {
       "name": "ai-pm-copilot",
       "source": "./plugins/ai-pm-copilot",
-      "description": "Agent-first PM toolkit with 9 specialist agents and 18 skills for solo developers and small teams",
-      "version": "1.4.0",
+      "description": "Agent-first PM toolkit with 9 specialist agents, 17 skills, and 1 command for solo developers and small teams",
+      "version": "1.5.0",
       "author": {
         "name": "Steve Goodrich",
         "email": "slgoodrich@users.noreply.github.com"
@@ -26,8 +26,8 @@
     {
       "name": "agent-teams",
       "source": "./plugins/agent-teams",
-      "description": "Multi-agent team presets with 6 agents, 5 skills, and 3 team workflows for idea validation, PRD review, and competitive analysis",
-      "version": "1.4.0",
+      "description": "Multi-agent team presets with 6 agents, 2 skills, and 3 commands for idea validation, PRD review, and competitive analysis",
+      "version": "1.5.0",
       "author": {
         "name": "Steve Goodrich",
         "email": "slgoodrich@users.noreply.github.com"

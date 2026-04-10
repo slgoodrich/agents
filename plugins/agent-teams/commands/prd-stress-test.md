@@ -1,11 +1,10 @@
 ---
-name: prd-stress-test
-description: "Parallel multi-reviewer PRD stress test for market fit, feasibility, and scope. Use when checking if a PRD is ready to build, stress-testing requirements, or getting multi-perspective PRD feedback. Trigger on: 'stress test this PRD', 'is this PRD ready to build', 'PRD quality check', 'review my PRD from multiple angles'."
-user-invocable: true
-disable-model-invocation: true
+description: "Run multi-reviewer PRD stress test for build-readiness"
 argument-hint: "<path-to-prd.md>"
 allowed-tools: Read, Glob, Grep, Task
+disable-model-invocation: true
 ---
+
 
 # PRD Stress Test
 

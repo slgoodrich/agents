@@ -1,7 +1,7 @@
 {
   "name": "agent-teams",
-  "version": "1.4.0",
-  "description": "Multi-agent team presets with 6 agents, 5 skills, and 3 team workflows for idea validation, PRD review, and competitive analysis",
+  "version": "1.5.0",
+  "description": "Multi-agent team presets with 6 agents, 2 skills, and 3 commands for idea validation, PRD review, and competitive analysis",
   "repository": "https://github.com/slgoodrich/agents",
   "homepage": "https://github.com/slgoodrich/agents/tree/main/plugins/agent-teams",
   "keywords": ["multi-agent", "validation", "prd-review", "competitive-analysis", "agent-teams"],
