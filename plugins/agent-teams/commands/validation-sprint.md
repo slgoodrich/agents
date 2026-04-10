@@ -1,11 +1,10 @@
 ---
-name: validation-sprint
-description: "Multi-agent validation sprint with parallel market research, idea exploration, and critical scrutiny. Use when validating a startup idea, testing whether a product concept is worth building, or getting a multi-perspective go/no-go verdict. Trigger on: 'validate my idea', 'should I build this', 'validation sprint', 'is this idea worth pursuing', 'go/no-go on this concept'."
-user-invocable: true
-disable-model-invocation: true
+description: "Run multi-agent validation sprint: should I build this?"
 argument-hint: '"<idea description>"'
 allowed-tools: Read, Glob, Grep, Task
+disable-model-invocation: true
 ---
+
 
 # Validation Sprint
 

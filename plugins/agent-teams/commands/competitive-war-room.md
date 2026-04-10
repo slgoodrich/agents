@@ -1,11 +1,10 @@
 ---
-name: competitive-war-room
-description: "Run parallel competitor deep-dives and synthesize into positioning strategy and battle cards. Use when analyzing multiple competitors at once, building battle cards, or developing competitive positioning. Trigger on: 'analyze my competitors', 'competitive war room', 'build battle cards for these competitors', 'competitive landscape analysis'."
-user-invocable: true
-disable-model-invocation: true
+description: "Run parallel competitor deep-dives with battle cards"
 argument-hint: '"<competitor1>, <competitor2>, <competitor3>"'
 allowed-tools: Read, Glob, Grep, Task, WebSearch, WebFetch
+disable-model-invocation: true
 ---
+
 
 # Competitive War Room
 
