@@ -67,12 +67,6 @@ _(For mobile, add:)_
 - Are tech stack and integrations accurate?
 ```
 
-## After Validation
+## Notes
 
-After the user confirms/corrects findings, create or update context files using the Write tool. Add metadata to all auto-discovered data:
-
-```markdown
-_Auto-discovered: [date]_
-_Last validated: [date]_
-_Evidence: [manifest files and directories scanned]_
-```
+Post-validation actions (writing context files, updating metadata) are handled by the `context-scanner` agent, not this skill.

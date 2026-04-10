@@ -1,6 +1,6 @@
 ---
 name: synthesis-frameworks
-description: Master research synthesis including qualitative analysis, affinity diagramming, theme identification, pattern recognition, and insight extraction. Use when synthesizing research, analyzing interviews, identifying patterns, extracting insights, organizing findings, or translating research into action. Covers synthesis methods, affinity mapping, thematic analysis, and insight generation techniques.
+description: "Research synthesis frameworks including affinity mapping, thematic analysis, and insight generation. Use when synthesizing interview data, identifying patterns across research, extracting actionable insights, or building personas from findings. Trigger on: 'synthesize my research', 'what themes emerged from interviews', 'affinity mapping', 'turn research into insights', 'build a persona from this data'."
 ---
 
 # Synthesis Frameworks
@@ -360,6 +360,16 @@ Impact  (Do Later)    (Avoid)
 **Insight fatigue:** So many insights team doesn't act
 
 - Solution: Limit to top 3-5, focus on actionable quick wins
+
+## Troubleshooting
+
+**"I have 50 interview notes and don't know where to start"**: Start with affinity mapping. Pull one observation per sticky note, group by similarity, then name the groups. Don't try to find themes in your head -- let the clusters emerge from the data.
+
+**"My insights are just restated observations"**: An insight connects observation to implication. "Users struggle with onboarding" is an observation. "Users need guided setup because they can't discover core features on their own, leading to 60% Day-1 churn" is an insight. Add the "so what" and "because."
+
+**"Stakeholders don't trust qualitative findings"**: Quantify where you can. "7 of 10 participants mentioned X" is more persuasive than "participants mentioned X." Pair qualitative themes with any available quantitative data.
+
+---
 
 ## Related Skills
 

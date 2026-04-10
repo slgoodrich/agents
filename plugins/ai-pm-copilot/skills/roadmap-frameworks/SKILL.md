@@ -1,6 +1,6 @@
 ---
 name: roadmap-frameworks
-description: Master product roadmaps including roadmap types (timeline, outcome-based, Now-Next-Later), communication strategies, and prioritization. Use when creating roadmaps, communicating strategy, prioritizing initiatives, or evolving product direction. Covers roadmap formats, communication tactics, and roadmap best practices from product leaders.
+description: "Product roadmap frameworks including Now-Next-Later, outcome-based, and timeline formats. Use when creating a product roadmap, presenting strategy to executives or customers, planning quarterly initiatives, or choosing a roadmap format for your audience. Trigger on: 'create a product roadmap', 'what roadmap format should I use', 'plan next quarter', 'roadmap for executives vs engineering', 'now next later template'."
 ---
 
 # Roadmap Frameworks
@@ -33,7 +33,7 @@ A roadmap is a strategic communication tool that:
 
 - Quarterly/annual planning
 - Strategic clarity
-- Team coordination
+- Team alignment
 - Clear communication
 - Investment decisions
 - Customer/user communication
@@ -46,9 +46,16 @@ A roadmap is a strategic communication tool that:
 
 **Structure**: Three buckets without dates
 
-**NOW**: What we're working on right now (high confidence, active)
-**NEXT**: What we'll likely do next (medium confidence, validated)
-**LATER**: What we're exploring (low confidence, directional)
+```markdown
+## NOW (High confidence - actively building)
+- [Initiative]: [Outcome] — Owner: [name], Status: [in-progress]
+
+## NEXT (Medium confidence - validated, queued)
+- [Initiative]: [Outcome] — Target: [quarter]
+
+## LATER (Low confidence - exploring)
+- [Initiative]: [Outcome] — Needs: [validation step]
+```
 
 **When to use**: Maximum flexibility, minimal commitment, high uncertainty
 
@@ -335,6 +342,16 @@ When you need comprehensive guidance:
 - `references/roadmap-types-guide.md` - All types compared, selection criteria
 - `references/roadmap-communication-guide.md` - Audience-specific roadmaps, communication tactics
 - `references/roadmap-building-guide.md` - 7-step process, prioritization, maintenance
+
+---
+
+## Troubleshooting
+
+**"Stakeholders treat the roadmap as a commitment"**: You're using a timeline roadmap when you should use Now-Next-Later. Switch formats. If you must use dates, add confidence levels (high/medium/low) and present ranges, not fixed dates.
+
+**"My roadmap is a feature list"**: Reframe around outcomes. Instead of "Build notifications feature" write "Reduce churn by 15% through proactive user re-engagement." Features are implementation details, not strategy.
+
+**"The roadmap is outdated within a week"**: Your review cadence is too infrequent. Set a monthly review rhythm. Also check if you're putting too much detail on the roadmap -- keep it at the initiative level, not the task level.
 
 ---
 

@@ -1,6 +1,6 @@
 ---
 name: market-sizing-frameworks
-description: Master TAM/SAM/SOM calculations, market sizing methodologies, and validation frameworks. Use when assessing market opportunity, validating business viability, planning market entry, estimating revenue potential, or determining if a market is worth pursuing. Covers bottom-up, top-down, and value theory sizing methods, competitive analysis, and systematic validation approaches.
+description: "TAM/SAM/SOM calculations and market sizing methodologies. Use when assessing market opportunity, estimating revenue potential, or validating if a market is worth pursuing. Trigger on: 'size my market', 'TAM SAM SOM', 'how big is my market', 'market opportunity', 'is this market worth it'."
 ---
 
 # Market Sizing Frameworks
@@ -448,6 +448,16 @@ Critical for updating as you learn:
 - If Year 1 SOM < $50K: Question if worth effort
 - If methods disagree >5x: Assumptions need work
 - If no competitors exist: Either no market OR huge opportunity (validate carefully)
+
+---
+
+## Troubleshooting
+
+**"My TAM and bottom-up numbers disagree by 10x"**: This is common. Bottom-up is almost always more realistic. If the gap is huge, your TAM assumptions are too broad. Narrow your market definition or segment further.
+
+**"I can't find reliable data for my niche"**: Use proxies. Find adjacent markets with data, then estimate your slice. Combine multiple weak signals rather than relying on one perfect source. Note your assumptions explicitly.
+
+**"My SOM looks embarrassingly small"**: That's probably accurate for year 1. A realistic SOM of $200K is more credible than a fantasy SOM of $10M. Investors prefer honest sizing with a clear expansion path.
 
 ---
 

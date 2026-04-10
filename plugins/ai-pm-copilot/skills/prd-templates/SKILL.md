@@ -56,7 +56,7 @@ We provide 4 ready-to-use PRD templates for different contexts:
 
 - Standard features (1-4 weeks of development)
 - Customer-facing changes
-- Features requiring cross-functional coordination
+- Features requiring cross-functional alignment
 - New capabilities or platform features
 
 **Template**: `assets/comprehensive-prd-template.md`
@@ -119,6 +119,17 @@ Regardless of template, great PRDs include these key elements:
 - Impact if not solved (business + customer cost)
 - Evidence (research, data, quotes)
 
+**Template**:
+
+```markdown
+## Problem Statement
+
+**Who**: [user segment, % affected]
+**Pain**: [describe from their perspective]
+**Impact**: [business + customer cost if unsolved]
+**Evidence**: [research, data, quotes]
+```
+
 **Good example**:
 "Small business owners spend 5+ hours per week manually creating invoices, leading to delayed payments and cash flow issues. 68% of survey respondents cited invoicing as their #1 time sink. Current tools require accounting expertise most small business owners lack."
 
@@ -137,6 +148,14 @@ Regardless of template, great PRDs include these key elements:
 - User goals (what users can newly accomplish)
 - Success metrics with baselines and targets
 - Timeline for measurement (30/60/90 days)
+
+```markdown
+## Success Criteria
+
+| Metric | Baseline | Target | Timeline |
+|--------|----------|--------|----------|
+| [metric] | [current] | [goal] | [30/60/90d] |
+```
 
 **Make metrics SMART**:
 
@@ -480,6 +499,16 @@ Templates are starting points, not rigid structures.
 - Skipping success metrics (always needed)
 - No out-of-scope (always needed)
 - Ignoring audience needs
+
+---
+
+## Troubleshooting
+
+**"My PRD is 20 pages and nobody reads it"**: You're writing a comprehensive PRD when you need a lean one. Match template to context: lean PRD for small features, comprehensive for cross-team initiatives. If in doubt, start lean and expand only the sections that need depth.
+
+**"Stakeholders keep adding scope after the PRD is approved"**: Your Out of Scope section is either missing or too vague. List specific things you are NOT building. Scope changes after approval require a PRD amendment with re-approval.
+
+**"I don't have data for the Evidence section"**: Skip it. The Evidence section is optional. A clear problem statement from user perspective is more valuable than fabricated metrics. Flag unknowns as assumptions to validate post-launch.
 
 ---
 

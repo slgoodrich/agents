@@ -1,6 +1,6 @@
 ---
 name: interview-frameworks
-description: Master user interviews including interview guide design, questioning techniques, active listening, probing, avoiding leading questions, and interview analysis. Use when conducting user interviews, designing interview guides, researching user needs, discovering problems, validating assumptions, or gathering qualitative insights. Covers interview best practices, question types, and interviewing techniques from Teresa Torres and Erika Hall.
+description: "Frameworks for user interviews, question design, and qualitative research. Use when conducting user interviews, designing interview guides, researching user needs, or gathering qualitative insights. Trigger on: 'create an interview guide', 'how do I interview users', 'customer discovery questions', 'user research plan', 'validate assumptions with interviews'."
 ---
 
 # Interview Frameworks
@@ -488,6 +488,16 @@ Key Rules:
 - Record everything
 - Debrief immediately
 ```
+
+---
+
+## Troubleshooting
+
+**"Participants give short, unhelpful answers"**: You're likely asking closed or hypothetical questions. Switch to past-behavior questions: "Tell me about the last time you..." and use silence -- wait 5-10 seconds after they finish before asking the next question.
+
+**"I keep getting socially desirable answers"**: Stop asking about future intent ("Would you use...?"). Apply the Mom Test: ask about what they actually did, not what they'd hypothetically do. Ask for specific examples.
+
+**"I don't know how many interviews to run"**: Start with 5. If you're still hearing new themes after 5, do 3 more. Stop when answers start repeating (saturation). For most discovery work, 8-12 is sufficient.
 
 ---
 

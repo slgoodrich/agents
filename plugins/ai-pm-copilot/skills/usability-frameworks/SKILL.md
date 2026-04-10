@@ -1,6 +1,6 @@
 ---
 name: usability-frameworks
-description: Usability testing methodology, Nielsen's heuristics, and usability metrics for evaluating user interfaces
+description: "Usability testing methodology, Nielsen's heuristics, and usability metrics. Use when planning usability tests, evaluating UI against heuristics, writing test scripts, or measuring task success rates. Trigger on: 'run a usability test', 'heuristic evaluation', 'usability test script', 'task success rate', 'think-aloud protocol'."
 ---
 
 # Usability Frameworks
@@ -462,4 +462,19 @@ We provide templates to accelerate your usability testing:
 
 ---
 
-This skill provides the foundation for conducting effective usability testing. Use the templates in `assets/` for quick starts and `references/` for deeper dives into specific techniques.
+## Troubleshooting
+
+**"Participants aren't finding real issues"**: Your tasks are too easy or too guided. Write tasks as goals ("Find a flight under $300 to Chicago"), not instructions ("Click the search button, then enter Chicago"). Let participants struggle -- that's where the insights are.
+
+**"Stakeholders dismiss usability findings"**: Quantify severity. Use Nielsen's severity scale (0-4) and pair each finding with task success rate data. "3 of 5 users failed to complete checkout" is harder to dismiss than "checkout is confusing."
+
+**"We only have 3 users available for testing"**: That's enough for a guerrilla test. Nielsen's research shows 5 users find ~85% of issues, but 3 users still find the majority. Run the test, fix the top issues, test again with 3 more.
+
+---
+
+## Related Skills
+
+- `interview-frameworks` - User interview techniques for deeper qualitative research
+- `synthesis-frameworks` - Synthesizing usability findings into actionable insights
+- `user-research-techniques` - Broader research methods beyond usability testing
+- `validation-frameworks` - Validating solutions after usability improvements

@@ -1,6 +1,6 @@
 ---
 name: prd-stress-test
-description: "Run a multi-agent PRD review to answer: Is this PRD ready to build?"
+description: "Parallel multi-reviewer PRD stress test for market fit, feasibility, and scope. Use when checking if a PRD is ready to build, stress-testing requirements, or getting multi-perspective PRD feedback. Trigger on: 'stress test this PRD', 'is this PRD ready to build', 'PRD quality check', 'review my PRD from multiple angles'."
 user-invocable: true
 disable-model-invocation: true
 argument-hint: "<path-to-prd.md>"
@@ -117,8 +117,7 @@ PRD CONTENT:
 Your job: Evaluate target user clarity, problem validation, value proposition,
 differentiation, and market context. Use your market-fit-reviewer expertise.
 
-Deliver your review in the standard market-fit-reviewer output format.
-Score 1-5 using the team-deliverables rubric."
+Score 1-5: (1) No problem validation or market context. (2) Weak problem statement, no evidence. (3) Problem defined but market fit unvalidated. (4) Clear problem with evidence, competitive awareness. (5) Strong validated problem, clear differentiation, compelling market opportunity."
 ```
 
 **Teammate 2: feasibility-reviewer**
@@ -133,8 +132,7 @@ Your job: Evaluate requirements clarity, acceptance criteria, technical
 feasibility, edge cases, and integration points. Flag every ambiguity.
 Use your feasibility-reviewer expertise.
 
-Deliver your review in the standard feasibility-reviewer output format.
-Score 1-5 using the team-deliverables rubric."
+Score 1-5: (1) Requirements are vague, no acceptance criteria. (2) Some requirements defined but major gaps. (3) Requirements present but ambiguous edge cases. (4) Clear requirements with acceptance criteria, minor gaps. (5) Precise requirements, complete acceptance criteria, all edge cases covered."
 ```
 
 **Teammate 3: scope-reviewer**
@@ -149,8 +147,7 @@ Your job: Assess total scope, classify every feature as MUST-HAVE / CUT FROM V1 
 DEFER TO V2, identify scope creep, and estimate effort reduction from cuts.
 Use your scope-reviewer expertise. Apply the 3-Feature MVP Rule.
 
-Deliver your review in the standard scope-reviewer output format.
-Score 1-5 using the team-deliverables rubric."
+Score 1-5: (1) Massive scope, no prioritization. (2) Overloaded scope with weak cuts. (3) Reasonable scope but unclear priorities. (4) Focused scope with clear MUST/CUT/DEFER. (5) Tight MVP scope, every feature justified, clear phasing."
 ```
 
 Wait for all three reviewers to complete their reviews.
@@ -223,9 +220,8 @@ As the lead agent, compile all findings into the PRD Review Report.
 
 1. Read all review reports and cross-reference responses.
 
-2. Invoke the `team-deliverables` skill for the PRD review report template.
+2. Compile the three reviewer scores into the consolidated report:
 
-3. Score each dimension using the rubrics from `team-deliverables`:
    - **Market Fit** (1-5): From market-fit-reviewer
    - **Feasibility** (1-5): From feasibility-reviewer
    - **Scope** (1-5): From scope-reviewer
@@ -267,6 +263,16 @@ Scores: Market Fit [X]/5 | Feasibility [X]/5 | Scope [X]/5
 Use the revision checklist above to address the findings,
 then run the stress test again to verify.
 ```
+
+---
+
+## Troubleshooting
+
+**"Every reviewer flagged the same issue"**: That's a strong signal, not redundancy. If 3+ reviewers independently flag the same gap, it's a critical fix. Prioritize it above issues flagged by only one reviewer.
+
+**"The PRD got a low score but I think it's fine"**: Check which dimensions scored low. If it's "engineering clarity" but you're a solo dev who understands the code, that matters less. If it's "problem definition" or "success metrics," those gaps will hurt regardless of team size.
+
+**"Reviewers gave contradictory feedback"**: Expected when reviewers have different lenses (user advocate vs. engineer vs. strategist). The synthesis report should surface conflicts, not resolve them. Use the contradictions to identify trade-offs you need to explicitly decide on.
 
 ---
 

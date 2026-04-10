@@ -1,6 +1,6 @@
 ---
 name: go-to-market-playbooks
-description: Master product launches, positioning, messaging, and GTM strategies. Use when planning launches, entering markets, or positioning products.
+description: "GTM strategies, product positioning, messaging, and launch planning. Use when planning a product launch, entering a new market, positioning a product, or developing go-to-market strategy. Trigger on: 'plan my launch', 'GTM strategy', 'how do I position this', 'market entry plan'."
 ---
 
 # Go-to-Market Playbooks
@@ -186,6 +186,16 @@ Key Success Factors:
 - Aligned team
 - Measured results
 ```
+
+---
+
+## Troubleshooting
+
+**"I don't know which GTM motion to pick"**: Start with PLG if your product has quick time-to-value and low price point. Default to sales-led for complex products with high contract values. Use the decision tree in the GTM Playbook Summary above.
+
+**"My positioning feels generic"**: You likely skipped step 1 (Competitive Alternatives). Start by listing what customers actually use today, then identify what you do that those alternatives cannot.
+
+**"Launch got no traction"**: Most common causes: wrong channel for audience, launched without a waitlist/audience, or messaging didn't communicate value clearly. Review launch tier -- you may have under-invested for the launch type.
 
 ---
 

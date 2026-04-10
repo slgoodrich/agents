@@ -1,6 +1,6 @@
 ---
 name: product-positioning
-description: Master product positioning and differentiation using April Dunford's framework for creating category-defining products. Use when launching new products, repositioning existing products, defining competitive strategy, developing messaging, entering new markets, or differentiating from competitors. Covers positioning statement frameworks, category design, value articulation, target market selection, and competitive alternatives analysis.
+description: "Product positioning and differentiation using April Dunford's framework. Use when positioning a product, defining competitive differentiation, developing messaging, or entering a new market. Trigger on: 'position my product', 'how do I differentiate', 'positioning statement', 'competitive alternatives', 'what category should I be in'."
 ---
 
 # Product Positioning
@@ -411,6 +411,16 @@ Key Tests:
 - Positioning canvas (aprildunford.com)
 - Value proposition canvas (Strategyzer)
 - Perceptual mapping tools
+
+---
+
+## Troubleshooting
+
+**"My positioning sounds like every competitor"**: You skipped Step 1 (Competitive Alternatives). List what customers actually use today -- not just direct competitors but workarounds, spreadsheets, doing nothing. Your differentiation must be relative to those specific alternatives, not generic.
+
+**"I can't pick a target customer -- everyone could use this"**: That means you haven't narrowed enough. Find who cares MOST about your unique attributes. The best positioning is tight: one segment that loves you beats five segments that think you're OK.
+
+**"My category doesn't exist yet"**: You may be creating a new category. This is high-risk, high-reward. You'll need to educate the market on why the category matters before you can sell. Consider positioning in an existing category first, then redefining it as you gain traction.
 
 ---
 

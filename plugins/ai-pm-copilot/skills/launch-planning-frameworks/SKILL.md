@@ -1,11 +1,11 @@
 ---
 name: launch-planning-frameworks
-description: Master product launch planning including launch types (soft, hard, tiered), launch strategies, launch timelines, cross-functional coordination, and launch execution. Use when planning product launches, coordinating cross-functional teams, creating launch plans, timing market entry, executing launches, or building launch playbooks. Covers launch tier frameworks, launch checklists, and launch management best practices.
+description: "Launch planning frameworks including tiered launches, timelines, checklists, and go/no-go decisions. Use when planning product launches, creating launch timelines, aligning launch execution, or building launch playbooks. Trigger on: 'plan my launch', 'launch checklist', 'go/no-go decision', 'launch timeline', 'when should I launch'."
 ---
 
 # Launch Planning Frameworks
 
-Frameworks for planning and executing successful product launches including launch strategy, cross-functional coordination, and launch measurement.
+Frameworks for planning and executing successful product launches including launch strategy, cross-functional alignment, and launch measurement.
 
 ## Why Launch Planning Matters
 
@@ -13,7 +13,7 @@ A great product poorly launched underperforms. A good product well-launched succ
 
 - Products reach target customers
 - Messaging resonates clearly
-- Teams execute in coordination
+- Teams execute in sync
 - Success is measurable
 - Issues are caught early
 
@@ -28,7 +28,7 @@ A great product poorly launched underperforms. A good product well-launched succ
 - Launching new products/features
 - Major releases or rebrands
 - Market entry or expansion
-- Coordinating cross-functional teams
+- Aligning cross-functional teams
 - Post-launch analysis
 - Creating launch timelines
 - Defining launch tiers (soft, hard, tiered)
@@ -185,13 +185,13 @@ Includes: Examples, audience-specific messaging, testing framework
 
 ---
 
-## Cross-Functional Coordination
+## Cross-Functional Alignment
 
-Successful launches require tight coordination across teams.
+Successful launches require tight alignment across teams.
 
 ### Launch Roles
 
-**Product (PM)**: Launch owner, strategy, coordination, go/no-go decisions
+**Product (PM)**: Launch owner, strategy, alignment, go/no-go decisions
 
 **Marketing**: Campaign strategy, content, PR, demand generation
 
@@ -205,7 +205,7 @@ Successful launches require tight coordination across teams.
 
 **Design**: Marketing assets, landing page, demo video
 
-### Coordination Patterns
+### Communication Cadence
 
 **Weekly Launch Sync** (6-8 weeks before launch):
 
@@ -225,7 +225,7 @@ Successful launches require tight coordination across teams.
 - Dedicated Slack + Zoom
 - All day with core team
 
-**Comprehensive guide**: `references/launch-coordination-guide.md`
+**Comprehensive guide**: `references/launch-alignment-guide.md`
 
 Includes: Full role descriptions, RACI matrix, meeting templates, escalation framework, solo operator adaptations
 
@@ -331,7 +331,7 @@ Includes: Complete metrics catalog, success criteria examples, dashboard templat
 
 - Start planning early (8-12 weeks for Tier 1)
 - Align on launch tier first
-- Coordinate cross-functionally (not PM alone)
+- Align cross-functionally (not PM alone)
 - Test messaging with customers
 - Set clear success metrics
 - Communicate internally before externally
@@ -392,9 +392,19 @@ Copy-paste these for immediate use:
 
 When you need comprehensive guidance:
 
-- `references/launch-coordination-guide.md` - Cross-functional roles, meetings, RACI, escalation
+- `references/launch-alignment-guide.md` - Cross-functional roles, meetings, RACI, escalation
 - `references/launch-channels-guide.md` - All channels with templates, timing, best practices
 - `references/launch-metrics-guide.md` - Complete metrics catalog, dashboards, success criteria
+
+---
+
+## Troubleshooting
+
+**"I don't know which launch tier to use"**: Default to Tier 2 (Feature Launch) unless you're launching a new product or doing a major pivot (Tier 1) or shipping a minor fix (Tier 3). Use the decision framework in `assets/launch-tier-decision-template.md`.
+
+**"My launch timeline keeps slipping"**: You're likely over-scoping. Cut the launch scope, not the timeline. A focused launch of core features beats a delayed launch of everything.
+
+**"Nobody showed up to our launch"**: Most likely an audience-building problem, not a launch problem. You need a waitlist, email list, or community before launch day. Start building 8+ weeks before.
 
 ---
 
@@ -428,4 +438,4 @@ When you need comprehensive guidance:
 
 ---
 
-**Key Principle**: Launch planning is about coordination and preparedness, not perfection. A well-coordinated launch of a good product beats a chaotic launch of a great product. Plan thoroughly, execute decisively, measure rigorously, iterate continuously.
+**Key Principle**: Launch planning is about preparation and readiness, not perfection. A well-prepared launch of a good product beats a chaotic launch of a great product. Plan thoroughly, execute decisively, measure rigorously, iterate continuously.

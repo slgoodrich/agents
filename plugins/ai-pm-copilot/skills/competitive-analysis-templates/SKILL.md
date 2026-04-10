@@ -142,7 +142,25 @@ Intelligence gathering, research techniques, analysis frameworks, organizing int
 - Discovery questions (uncover our advantages)
 - Proof points (customer stories, data)
 
-**Template**: `assets/battle-card-template.md`
+**Quick skeleton**:
+
+```markdown
+# [Competitor] Battle Card
+
+## Quick Stats
+- Founded: / HQ: / Funding: / Employees:
+
+## Where We Win
+- [Advantage 1]: [proof point]
+
+## Where They Win
+- [Their strength]: [our counter]
+
+## Top Objections
+- "[Objection]" → [Response with proof]
+```
+
+**Full template**: `assets/battle-card-template.md`
 
 Sales-ready format, specific talk tracks, objection handling, proof points
 
@@ -307,6 +325,13 @@ Work through in this order:
 
 **Example**:
 
+```markdown
+For [target customer] who need to [job to be done],
+[Product] is a [market category] that [key value proposition].
+Unlike [competitive alternative] which [competitor limitation],
+we [unique differentiation].
+```
+
 > For Series A B2B SaaS companies who need to scale pipeline without growing SDR headcount, [Product] is an AI-powered sales development platform that books 10x more qualified meetings. Unlike Salesforce which requires large SDR teams, we use AI to automate the entire top-of-funnel.
 
 **Complete framework**: `references/positioning-guide.md`
@@ -410,7 +435,7 @@ Monitoring strategies, intelligence distribution
 
 ---
 
-## Common Mistakes to Avoid
+## Troubleshooting
 
 **Feature parity obsession**:
 

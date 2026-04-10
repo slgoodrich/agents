@@ -1,6 +1,6 @@
 ---
 name: user-story-templates
-description: Master user story templates including As-a/I-want/So-that format, acceptance criteria (Given-When-Then), story splitting, and INVEST criteria. Use when writing user stories, defining acceptance criteria, splitting stories, refining backlogs, or communicating requirements to development teams. Covers user story best practices, story templates, and agile requirements techniques.
+description: "User story templates with acceptance criteria, story splitting, and INVEST criteria. Use when writing user stories, defining acceptance criteria, splitting large stories, or refining a backlog for sprint planning. Trigger on: 'write user stories for this feature', 'acceptance criteria', 'Given-When-Then', 'split this epic into stories', 'INVEST criteria'."
 ---
 
 # User Story Templates
@@ -212,7 +212,7 @@ Should: [Important but not critical]
 May: [Nice to have]
 ```
 
-**Comprehensive guide**: See `references/acceptance-criteria-guide.md` for deep dive on writing testable, specific criteria including error states, edge cases, and performance requirements.
+**Comprehensive guide**: See `references/invest-criteria-guide.md` for deep dive on writing testable, specific criteria including error states, edge cases, and performance requirements.
 
 ---
 
@@ -400,14 +400,6 @@ So that the trial days feature works
 
 ---
 
-## Related Skills
-
-- `prd-templates` - Product requirements documentation that feeds into user stories
-- `specification-techniques` - General specification writing best practices
-- `prioritization-methods` - Prioritizing stories for sprint planning
-
----
-
 ## Templates and References
 
 ### Assets (Ready-to-Use Templates)
@@ -426,7 +418,7 @@ Copy-paste these for immediate use:
 When you need comprehensive guidance:
 
 - `references/story-splitting-guide.md` - 10 splitting patterns with examples, anti-patterns, decision trees
-- `references/acceptance-criteria-guide.md` - Writing testable criteria, all three formats, common mistakes
+- `references/invest-criteria-guide.md` - Writing testable criteria, all three formats, common mistakes
 - `references/invest-criteria-guide.md` - Deep dive on each INVEST principle with examples and fixes
 
 ---
@@ -437,7 +429,7 @@ When you need comprehensive guidance:
 
 1. Start with `assets/feature-story-template.md`
 2. Fill in user type, goal, and benefit
-3. Add acceptance criteria (use `references/acceptance-criteria-guide.md` if needed)
+3. Add acceptance criteria (use `references/invest-criteria-guide.md` if needed)
 4. Verify INVEST criteria
 5. Estimate story points
 6. If >8 points, split using patterns from `references/story-splitting-guide.md`
@@ -457,6 +449,24 @@ When you need comprehensive guidance:
 3. Set time box (critical!)
 4. Specify deliverable
 5. Include next steps in acceptance criteria
+
+---
+
+## Troubleshooting
+
+**"My stories are too big to estimate"**: Apply the INVEST S (Small) test. If a story can't ship in one sprint, split it. Use the splitting patterns in `references/story-splitting-guide.md` -- split by workflow step, user type, data variation, or happy path vs. error handling.
+
+**"Developers say my acceptance criteria are unclear"**: Switch to Given-When-Then format. "Given [precondition], When [action], Then [outcome]" forces you to be specific. If you can't write the Given clause, you don't understand the starting state well enough.
+
+**"Every story feels like it depends on every other story"**: You're writing at the wrong level. Stories should be independently deliverable (the I in INVEST). If they can't be, you likely have an epic that needs decomposition, not a set of interdependent stories.
+
+---
+
+## Related Skills
+
+- `prd-templates` - PRD structure for the feature these stories belong to
+- `specification-techniques` - Broader spec writing including non-functional requirements
+- `prioritization-methods` - Prioritizing stories in the backlog
 
 ---
 

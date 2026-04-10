@@ -1,6 +1,6 @@
 ---
 name: team-deliverables
-description: Output templates and scoring rubrics for multi-agent team workflows. Includes validation verdict, PRD review report, and competitive synthesis templates with standardized scoring criteria. Use when generating final deliverables from agent team debates.
+description: "Output templates and scoring rubrics for multi-agent team workflows. Use when generating final deliverables from agent team debates, formatting validation verdicts, or scoring PRD reviews. Trigger on: 'format the team output', 'validation verdict template', 'PRD review report format', 'competitive synthesis template', 'scoring rubric'."
 ---
 
 # Team Deliverables
@@ -127,6 +127,25 @@ Templates and scoring rubrics for the final outputs of multi-agent team workflow
 - **validation-verdict-template.md**: Go/No-Go format with three perspectives for validation sprints
 - **prd-review-report-template.md**: Multi-dimensional review with conflicts section for PRD stress tests
 - **competitive-synthesis-template.md**: Positioning map and battle cards format for competitive war rooms
+
+---
+
+## Troubleshooting
+
+**"The template doesn't fit our findings"**: Adapt it. Drop sections that add nothing, expand sections where you have depth. A template that forces empty placeholder text is worse than no template. The structure is a starting point, not a constraint.
+
+**"Scores across reviewers aren't comparable"**: Check that all reviewers used the same rubric anchors. A 4/5 from one reviewer should mean the same thing as a 4/5 from another. If they're using different mental scales, re-calibrate by sharing the rubric definitions before the next run.
+
+**"The verdict is ambiguous (BUILD IF with too many conditions)"**: That usually means the idea needs more validation, not a conditional pass. If there are more than 3 conditions, downgrade to NEEDS MORE EVIDENCE and list what to validate next.
+
+---
+
+## Related
+
+- `/agent-teams:validation-sprint` - Produces validation verdicts using these templates
+- `/agent-teams:prd-stress-test` - Produces PRD review reports using these templates
+- `/agent-teams:competitive-war-room` - Produces competitive syntheses using these templates
+- `team-coordination` - Debate and synthesis protocols that feed into these deliverables
 
 ---
 
